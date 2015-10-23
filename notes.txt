@@ -1,0 +1,15 @@
+Hackathon 1
+
+Why did certain pores fail?
+2d basecalling
+instance id: 89738
+
+QC:
+a total of 528 single pores were detected, split into 4 groups:
+•	Group 1: 343
+•	Group 2: 147
+•	Group 4: 35
+•	Group 4: 4
+Groups are locations of the pores
+Actual run:
+Number of channels with reads is 284
