@@ -13,3 +13,5 @@ a total of 528 single pores were detected, split into 4 groups:
 Groups are locations of the pores
 Actual run:
 Number of channels with reads is 284
+
+http://nbviewer.ipython.org/github/arq5x/poretools/blob/master/poretools/ipynb/test_run_report.ipynb
