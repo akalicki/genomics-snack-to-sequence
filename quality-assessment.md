@@ -40,6 +40,34 @@ Cumulative "failed" nucleotides:
 ![cumulative failed nucleotides](quality-assessment/images/question3_fail.png)
 
 
+### Question 5
+
+As described in the assignment, we calculated the base-calling quality mean
+and standard deviation for 2D reads in both the "passed" and "failed"
+directories. We then compared using the student t-test to get the following:
+
+Passed Reads:
+ - Number of bases: 2876390
+ - Average base-calling quality: 4.17
+ - Base-calling median: 4.12
+ - Base-calling standard deviation: 0.51
+
+Failed Reads:
+ - Number of bases: 1375824
+ - Average base-calling quality: 3.73
+ - Base-calling median: 3.81
+ - Base-calling standard deviation: 0.60
+
+Our reads showed a disappointingly low quality score on a scale from 1-30. Based
+off previous successes in MinION sequencing read quality scores, we believe our
+poor result to come from a bad sample or experimental practice. However, we can
+see that the average base-calling quality in the failed reads is consistently
+below the average base-calling quality of the passed reads.
+
+The student t-test for these results yielded a value of 786, which allows us to
+reject the null-hypothesis with any reasonable confidence level.
+
+
 ### Question 9
 
 The pace of the strand sequencing (sequence length per duration in pore) is
