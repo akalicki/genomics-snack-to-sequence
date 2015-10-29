@@ -5,6 +5,7 @@ Group #3: The Minnows
  - Lilly Wang (lfw2114)
  - Mike Curry (mjc2260)
  - Tia Zhao (tz2191)
+ - Boyu Wang (bw2387)
 
 
 ### Question 1
@@ -38,7 +39,6 @@ Cumulative "passed" nucleotides:
 Cumulative "failed" nucleotides:
 
 ![cumulative failed nucleotides](quality-assessment/images/question3_fail.png)
-
 
 ### Question 5
 
@@ -77,6 +77,16 @@ The fact that the median base-quality values for the first and last hour match
 up so precisely is a good sign, as it suggests that the quality of the
 sequencing from the MinION Nanopores is not degrading over time running.
 
+### Question 8
+
+The obtained sequence length over time for 2D reads is plotted below for both "passed"
+and "failed" reads. 
+
+![seq length vs time](quality-assessment/images/q8_plot.png)
+
+The linear regression had a coefficient of 0.0204586222711, and intercept of -29574731.5726,
+and an R value of 0.0248264466451. There thus appears to be little correlation between 
+the two variables.
 
 ### Question 9
 
