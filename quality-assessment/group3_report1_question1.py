@@ -50,4 +50,3 @@ if __name__ == '__main__':
             num_1d_pass, 100.0 * num_2d_pass / (num_1d_pass+num_2d_pass)))
         print ("Failed: %d 2D reads; %d 1D reads; %.2f%% 2D" % (num_2d_fail,
             num_1d_fail, 100.0 * num_2d_fail / (num_1d_fail+num_2d_fail)))
-        print ("2D reads found in both: %d" % len(pass2d.intersection(fail2d)))
