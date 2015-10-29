@@ -37,3 +37,7 @@ Pacing for "passed" reads:
 Pacing for "failed" reads:
 
 ![failed read pacing](quality-assessment/images/question9_fail.png)
+
+### Question 11
+
+We performed linear regression of sequencing duration against sequence length for the passed 2D reads. We found a coefficient of 0.0090509, an intercept of -0.648579217199, and an R^2 of 0.678612172258.
