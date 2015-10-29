@@ -7,6 +7,24 @@ Group #3: The Minnows
  - Tia Zhao (tz2191)
 
 
+### Question 1
+
+As instructed, we calculated the number of 1D and 2D reads classified as
+"passed" versus the number classified as "failed". We also calculated the
+fraction of reads that were 2D called in both the "pass" and "fail" folders with
+the following results:
+
+Passed Reads:
+ - 3819 1D reads
+ - 3819 2D reads
+ - 50.00% of the "passed" reads were 2D
+
+Failed Reads:
+ - 10396 1D reads
+ - 2300 2D reads
+ - 18.12% of the "failed" reads were 2D
+
+
 ### Question 3
 
 The cumulative base pairs from "passed" and "failed" 2D reads are plotted below
