@@ -67,6 +67,16 @@ below the average base-calling quality of the passed reads.
 The student t-test for these results yielded a value of 786, which allows us to
 reject the null-hypothesis with any reasonable confidence level.
 
+After isolating the first and last hour reads from the rest of the data, we
+received the following results:
+
+First Hour "Passed" 2D read median base-quality: 4.12
+Last Hours "Passed" 2D read median base-quality: 4.12
+
+The fact that the median base-quality values for the first and last hour match
+up so precisely is a good sign, as it suggests that the quality of the
+sequencing from the MinION Nanopores is not degrading over time running.
+
 
 ### Question 9
 
