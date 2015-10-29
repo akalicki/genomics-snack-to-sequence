@@ -22,7 +22,7 @@ def grouper(iterable, n, fillvalue=None):
 
 
 def ascii_to_quality(c, maxscore):
-    return (ord(c) - 32)/97.0 * maxscore
+    return (maxscore-1)*1.0*(ord(c) - 33)/93 + 1
 
 
 if __name__ == '__main__':
@@ -32,7 +32,7 @@ if __name__ == '__main__':
     with open(sys.argv[1]) as f:
         for r in grouper(f, 4, ""):
             if re.search('twodirections', r[0]):
-                qualscores = [ascii_to_quality(c, 30) for c in r[3]]
+                qualscores = [ascii_to_quality(c, 30) for c in r[3].strip()]
                 all_values.extend(qualscores)
                 count += len(qualscores)
                 total += math.fsum(qualscores)
