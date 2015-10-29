@@ -37,14 +37,14 @@ if __name__ == '__main__':
                 count += len(qualscores)
                 total += math.fsum(qualscores)
     average = total / count
-    print "Number of bases: " + str(count)
-    print "Average base-calling quality: " + str(average)
+    print "Number of bases: %d" % count
+    print "Average base-calling quality: %.3f" % average
     t = math.fsum([math.pow(q - average, 2) for q in all_values])
     sd = math.sqrt(t / (count - 1))
-    print "Base-calling standard deviation: " + str(sd)
+    print "Base-calling standard deviation: %.3f" % sd
     ordered = sorted(all_values)
     if count % 2 == 0:
-        med = (ordered[(count - 1) / 2] + ordered[(count - 1) / 2 + 1])/2.0
+        med = (ordered[(count - 1) / 2] + ordered[(count - 1) / 2 + 1]) / 2.0
     else:
         med = ordered[(count - 1) / 2]
-    print "Median: " + str(med)
+    print "Median: %.3f" % med
