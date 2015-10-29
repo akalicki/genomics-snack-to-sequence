@@ -55,3 +55,6 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Annoying Mac OS File
+.DS_Store
