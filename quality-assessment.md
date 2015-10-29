@@ -1,4 +1,4 @@
-# Snack to Sequence
+## Ubiquitous Genomics Hackathon #1: Snack to Sequence
 
 Group #3: The Minnows
  - Alex Kalicki (avk2116)
@@ -14,7 +14,9 @@ a function of time. To find the cumulative nucleotides, multiply the y-value of
 the graph by 2 (as each base pair consists of 2 nucleotides).
 
 Cumulative passed nucleotides:
+
 ![cumulative passed nucleotides](quality-assessment/images/question3_pass.png)
 
 Cumulative failed nucleotides:
+
 ![cumulative failed nucleotides](quality-assessment/images/question3_fail.png)
