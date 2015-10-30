@@ -30,9 +30,11 @@ for line in f2lines[1:]:
 
 total_seconds = np.sum(np.asarray(duration))
 total_read_length = np.sum(np.asarray(read_length))
-print total_read_length
-human_genome_base_pairs = 3.0e9
-print "num days: " + str(((human_genome_base_pairs/total_read_length)*total_seconds)/3600/24)
+human_genome_base_pairs = 3e9
+num_hours = ((human_genome_base_pairs/total_read_length)*total_seconds)/3600
+num_days = num_hours/24
+print "num hours: " + str(num_hours)
+print "num days: " + str(num_days)
 #also consider the fact that it's diploid
 
 #result

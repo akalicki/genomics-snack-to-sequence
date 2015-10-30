@@ -40,6 +40,13 @@ Cumulative "failed" nucleotides:
 
 ![cumulative failed nucleotides](quality-assessment/images/question3_fail.png)
 
+### Question 4
+
+Since the entire human genome contains about 3 billion base pairs, it would take about
+284.382028771 days or 6825.16 hours to sequence it once using a minION. The rate of sequence
+reading that we used in the calculation was based on the total sequence length for 'passed' 2D
+reads and their total duration. 
+
 ### Question 5
 
 As described in the assignment, we calculated the base-calling quality mean
