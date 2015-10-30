@@ -35,9 +35,3 @@ num_hours = ((human_genome_base_pairs/total_read_length)*total_seconds)/3600
 num_days = num_hours/24
 print "num hours: " + str(num_hours)
 print "num days: " + str(num_days)
-#also consider the fact that it's diploid
-
-#result
-#23552
-#2875631
-#num days: 284.382028771
