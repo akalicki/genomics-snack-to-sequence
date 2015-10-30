@@ -111,6 +111,15 @@ Pacing for "failed" reads:
 
 ![failed read pacing](quality-assessment/images/question9_fail.png)
 
+### Question 10
+
+|   | Pass       | Fail       |
+|---|------------|------------|
+| A | 27.132035% | 25.866463% |
+| C | 22.518428% | 23.350443% |
+| T | 27.072690% | 26.145277% |
+| G | 23.276846% | 24.637817% |
+
 ### Question 11
 
 We performed linear regression of sequencing duration against sequence length
