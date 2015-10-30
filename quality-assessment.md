@@ -25,6 +25,11 @@ Failed Reads:
  - 2300 2D reads
  - 18.12% of the "failed" reads were 2D
 
+### Question 2
+
+Average reads per channel: 64
+Channel with most reads: 468
+Number of reads in Channel 468: 264
 
 ### Question 3
 
