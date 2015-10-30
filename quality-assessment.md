@@ -25,6 +25,12 @@ Failed Reads:
  - 2300 2D reads
  - 18.12% of the "failed" reads were 2D
 
+### Question 2
+
+- Average reads per channel: 64
+- Channel with most reads: 468
+- Number of reads in Channel 468: 264
+
 ### Question 3
 
 The cumulative base pairs from "passed" and "failed" 2D reads are plotted below
@@ -139,6 +145,15 @@ Pacing for "passed" reads:
 Pacing for "failed" reads:
 
 ![failed read pacing](quality-assessment/images/question9_fail.png)
+
+### Question 10
+
+|   | Pass       | Fail       |
+|---|------------|------------|
+| A | 27.132035% | 25.866463% |
+| C | 22.518428% | 23.350443% |
+| T | 27.072690% | 26.145277% |
+| G | 23.276846% | 24.637817% |
 
 ### Question 11
 
