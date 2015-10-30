@@ -97,11 +97,13 @@ The following histograms depict the length distributions of 1D and 2D reads in t
 
 ### Question 7
 
-| Type       | Longest Read (nucleotides) |   |   |   |
-|------------|----------------------------|---|---|---|
-| Template   | 5032                       |   |   |   |
-| Complement | 5167 bp                    |   |   |   |
-| 2D         | 6222                       |   |   |   |
+The following table shows the longest reads for each type of read in the passed folder.
+
+| Type       | Longest Read (nucleotides) |
+|------------|----------------------------|
+| Template   | 5032                       |
+| Complement | 5167 bp                    |
+| 2D         | 6222                       |
 
 ### Question 8
 
