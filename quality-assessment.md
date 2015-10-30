@@ -84,6 +84,27 @@ The fact that the median base-quality values for the first and last hour match
 up so precisely is a good sign, as it suggests that the quality of the
 sequencing from the MinION Nanopores is not degrading over time running.
 
+### Question 6
+The following histograms depict the length distributions of 1D and 2D reads in the failed and passed folders.
+
+1D Reads
+![seq length vs time](quality-assessment/images/1D-Pass.png)
+![seq length vs time](quality-assessment/images/1D-Fail.png)
+
+2D Reads
+![seq length vs time](quality-assessment/images/2D-Pass.png)
+![seq length vs time](quality-assessment/images/2D-Fail.png)
+
+### Question 7
+
+The following table shows the longest reads for each type of read in the passed folder.
+
+| Type       | Longest Read (nucleotides) |
+|------------|----------------------------|
+| Template   | 5032                       |
+| Complement | 5167                       |
+| 2D         | 6222                       |
+
 ### Question 8
 
 The obtained sequence length over time for 2D reads is plotted below for both
