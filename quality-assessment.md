@@ -93,11 +93,13 @@ the failed and passed folders.
 1D Reads
 
 ![seq length vs time](quality-assessment/images/1D-Pass.png)
+
 ![seq length vs time](quality-assessment/images/1D-Fail.png)
 
 2D Reads
 
 ![seq length vs time](quality-assessment/images/2D-Pass.png)
+
 ![seq length vs time](quality-assessment/images/2D-Fail.png)
 
 ### Question 7
