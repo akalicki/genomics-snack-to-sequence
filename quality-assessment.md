@@ -2,10 +2,10 @@
 
 Group #3: The Minnows
  - Alex Kalicki (avk2116)
+ - Boyu Wang (bw2387)
  - Lilly Wang (lfw2114)
  - Mike Curry (mjc2260)
  - Tia Zhao (tz2191)
- - Boyu Wang (bw2387)
 
 
 ### Question 1
