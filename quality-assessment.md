@@ -27,9 +27,9 @@ Failed Reads:
 
 ### Question 2
 
-Average reads per channel: 64
-Channel with most reads: 468
-Number of reads in Channel 468: 264
+- Average reads per channel: 64
+- Channel with most reads: 468
+- Number of reads in Channel 468: 264
 
 ### Question 3
 
