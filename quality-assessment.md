@@ -42,10 +42,10 @@ Cumulative "failed" nucleotides:
 
 ### Question 4
 
-Since the entire human genome contains about 3 billion base pairs, it would take about
-284.382028771 days or 6825.16 hours to sequence it once using a minION. The rate of sequence
-reading that we used in the calculation was based on the total sequence length for 'passed' 2D
-reads and their total duration. 
+Since the entire human genome contains about 3 billion base pairs, it would take
+about 284.38 days or 6825.16 hours to sequence it once using a MinION.
+The rate of sequence reading that we used in the calculation was based on the
+total sequence length for 'passed' 2D reads and their total duration. 
 
 ### Question 5
 
@@ -86,13 +86,13 @@ sequencing from the MinION Nanopores is not degrading over time running.
 
 ### Question 8
 
-The obtained sequence length over time for 2D reads is plotted below for both "passed"
-and "failed" reads. 
+The obtained sequence length over time for 2D reads is plotted below for both
+"passed" and "failed" reads. 
 
 ![seq length vs time](quality-assessment/images/q8_plot.png)
 
-The linear regression had a coefficient of 0.0204586222711, and intercept of -29574731.5726,
-and an R value of 0.0248264466451. There thus appears to be little correlation between 
+The linear regression had a coefficient of 0.02, an intercept of -29574731.57,
+and an R value of 0.025. There thus appears to be little correlation between 
 the two variables.
 
 ### Question 9
@@ -113,4 +113,6 @@ Pacing for "failed" reads:
 
 ### Question 11
 
-We performed linear regression of sequencing duration against sequence length for the passed 2D reads. We found a coefficient of 0.0090509, an intercept of -0.648579217199, and an R^2 of 0.678612172258.
+We performed linear regression of sequencing duration against sequence length
+for the passed 2D reads. We found a coefficient of 0.0091, an intercept of
+-0.649, and an R^2 of 0.679.
