@@ -1,3 +1,10 @@
+"""
+Usage: (python) group3_report1_question7.py <PASS FOLDER PATH>
+Finds the longest read for each category using poretools util. 
+Winner finds the longest read for forward (template), reverse
+(complement), and 2D (2D).
+"""
+
 import subprocess
 import sys
 

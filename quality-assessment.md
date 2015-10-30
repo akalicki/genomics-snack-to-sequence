@@ -102,7 +102,7 @@ The following table shows the longest reads for each type of read in the passed 
 | Type       | Longest Read (nucleotides) |
 |------------|----------------------------|
 | Template   | 5032                       |
-| Complement | 5167 bp                    |
+| Complement | 5167                       |
 | 2D         | 6222                       |
 
 ### Question 8

@@ -1,3 +1,11 @@
+"""
+Usage: (python) group3_report1_question7.py <PASS FOLDER PATH> <FAIL FOLDER PATH>
+Outputs four images of hisograms - 1D fail, 1D pass, 2D fail, 2D pass.
+This programs goes through the fail and pass folders and calculates the
+length of each read. After storing them in four lists, it generates a 
+histogram that it then saves in a png file.
+"""
+
 import subprocess
 import sys
 import matplotlib.pyplot as plt
