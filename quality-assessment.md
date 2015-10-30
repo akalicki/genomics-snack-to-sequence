@@ -25,7 +25,6 @@ Failed Reads:
  - 2300 2D reads
  - 18.12% of the "failed" reads were 2D
 
-
 ### Question 3
 
 The cumulative base pairs from "passed" and "failed" 2D reads are plotted below
@@ -84,20 +83,27 @@ The fact that the median base-quality values for the first and last hour match
 up so precisely is a good sign, as it suggests that the quality of the
 sequencing from the MinION Nanopores is not degrading over time running.
 
+
+
 ### Question 6
-The following histograms depict the length distributions of 1D and 2D reads in the failed and passed folders.
+
+The following histograms depict the length distributions of 1D and 2D reads in
+the failed and passed folders.
 
 1D Reads
+
 ![seq length vs time](quality-assessment/images/1D-Pass.png)
 ![seq length vs time](quality-assessment/images/1D-Fail.png)
 
 2D Reads
+
 ![seq length vs time](quality-assessment/images/2D-Pass.png)
 ![seq length vs time](quality-assessment/images/2D-Fail.png)
 
 ### Question 7
 
-The following table shows the longest reads for each type of read in the passed folder.
+The following table shows the longest reads for each type of read in the passed
+folder.
 
 | Type       | Longest Read (nucleotides) |
 |------------|----------------------------|
