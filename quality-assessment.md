@@ -60,15 +60,15 @@ directories. We then compared using the student t-test to get the following:
 
 Passed Reads:
  - Number of bases: 2876390
- - Average base-calling quality: 4.17
- - Base-calling median: 4.12
- - Base-calling standard deviation: 0.51
+ - Average base-calling quality: 10.17
+ - Base-calling median: 10.00
+ - Base-calling standard deviation: 1.62
 
 Failed Reads:
  - Number of bases: 1375824
- - Average base-calling quality: 3.73
- - Base-calling median: 3.81
- - Base-calling standard deviation: 0.60
+ - Average base-calling quality: 8.77
+ - Base-calling median: 9.00
+ - Base-calling standard deviation: 1.92
 
 Our reads showed a disappointingly low quality score on a scale from 1-30. Based
 off previous successes in MinION sequencing read quality scores, we believe our
