@@ -21,8 +21,8 @@ def grouper(iterable, n, fillvalue=None):
     return izip_longest(fillvalue=fillvalue, *args)
 
 
-def ascii_to_quality(c, maxscore):
-    return (maxscore-1)*1.0*(ord(c) - 33)/93 + 1
+def ascii_to_quality(c):
+    return ord(c) - 33.0
 
 
 if __name__ == '__main__':
@@ -32,7 +32,7 @@ if __name__ == '__main__':
     with open(sys.argv[1]) as f:
         for r in grouper(f, 4, ""):
             if re.search('twodirections', r[0]):
-                qualscores = [ascii_to_quality(c, 30) for c in r[3].strip()]
+                qualscores = [ascii_to_quality(c) for c in r[3].strip()]
                 all_values.extend(qualscores)
                 count += len(qualscores)
                 total += math.fsum(qualscores)
