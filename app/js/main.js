@@ -12,11 +12,10 @@ function handleFileSelect(e, is_dropzone) {
     e.stopPropagation();
     e.preventDefault();
 
-    var reader = new FileReader();
-    reader.onload = (e) => sendFastARequest(e.target.result);
-
     var files = is_dropzone ? e.dataTransfer.files : e.target.files;
     for (var i = 0, f; f = files[i]; i++) {
+        var reader = new FileReader();
+        reader.onload = (e) => sendFastARequest(e.target.result);
         reader.readAsText(f);
     }
 }
