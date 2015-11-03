@@ -2,10 +2,10 @@
 
 Group #3: The Minnows
  - Alex Kalicki (avk2116)
+ - Boyu Wang (bw2387)
  - Lilly Wang (lfw2114)
  - Mike Curry (mjc2260)
  - Tia Zhao (tz2191)
- - Boyu Wang (bw2387)
 
 
 ### Question 1
@@ -50,7 +50,7 @@ Cumulative "failed" nucleotides:
 Since the entire human genome contains about 3 billion base pairs, it would take
 about 284.38 days or 6825.16 hours to sequence it once using a MinION.
 The rate of sequence reading that we used in the calculation was based on the
-total sequence length for 'passed' 2D reads and their total duration. 
+total sequence length for 'passed' 2D reads and their total duration.
 
 ### Question 5
 
@@ -60,15 +60,15 @@ directories. We then compared using the student t-test to get the following:
 
 Passed Reads:
  - Number of bases: 2876390
- - Average base-calling quality: 4.17
- - Base-calling median: 4.12
- - Base-calling standard deviation: 0.51
+ - Average base-calling quality: 10.17
+ - Base-calling median: 10.00
+ - Base-calling standard deviation: 1.62
 
 Failed Reads:
  - Number of bases: 1375824
- - Average base-calling quality: 3.73
- - Base-calling median: 3.81
- - Base-calling standard deviation: 0.60
+ - Average base-calling quality: 8.77
+ - Base-calling median: 9.00
+ - Base-calling standard deviation: 1.92
 
 Our reads showed a disappointingly low quality score on a scale from 1-30. Based
 off previous successes in MinION sequencing read quality scores, we believe our
@@ -89,15 +89,45 @@ The fact that the median base-quality values for the first and last hour match
 up so precisely is a good sign, as it suggests that the quality of the
 sequencing from the MinION Nanopores is not degrading over time running.
 
+
+
+### Question 6
+
+The following histograms depict the length distributions of 1D and 2D reads in
+the failed and passed folders.
+
+1D Reads
+
+![seq length vs time](quality-assessment/images/1D-Pass.png)
+
+![seq length vs time](quality-assessment/images/1D-Fail.png)
+
+2D Reads
+
+![seq length vs time](quality-assessment/images/2D-Pass.png)
+
+![seq length vs time](quality-assessment/images/2D-Fail.png)
+
+### Question 7
+
+The following table shows the longest reads for each type of read in the passed
+folder.
+
+| Type       | Longest Read (nucleotides) |
+|------------|----------------------------|
+| Template   | 5032                       |
+| Complement | 5167                       |
+| 2D         | 6222                       |
+
 ### Question 8
 
 The obtained sequence length over time for 2D reads is plotted below for both
-"passed" and "failed" reads. 
+"passed" and "failed" reads.
 
 ![seq length vs time](quality-assessment/images/q8_plot.png)
 
 The linear regression had a coefficient of 0.02, an intercept of -29574731.57,
-and an R value of 0.025. There thus appears to be little correlation between 
+and an R value of 0.025. There thus appears to be little correlation between
 the two variables.
 
 ### Question 9
@@ -127,6 +157,11 @@ Pacing for "failed" reads:
 
 ### Question 11
 
-We performed linear regression of sequencing duration against sequence length
-for the passed 2D reads. We found a coefficient of 0.0091, an intercept of
--0.649, and an R^2 of 0.679.
+We performed linear regression of sequencing duration against sequence
+length for the passed 2D reads. We found a coefficient of 0.0091, an
+intercept of -0.649, and an R^2 of 0.679. Experiments with features
+consisting of frequency of nucleotides in the read only slightly
+improved the R^2 for a linear model (probably just a result of more
+degrees of freedom). Use of boosted trees brought the R^2 up to more
+than .80 on the training set, but this was likely just the result of
+overfitting.
