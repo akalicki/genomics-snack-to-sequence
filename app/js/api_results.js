@@ -40,7 +40,7 @@ function mergeMaps(from, into) {
     // note: mutates the second argument
     for (var name in from) {
         if (into[name]) {
-            into[name] = [into[name][0] + from[name][0], -1];
+            into[name] = [into[name][0] + from[name][0], into[name][1]];
         } else {
             into[name] = from[name];
         }
