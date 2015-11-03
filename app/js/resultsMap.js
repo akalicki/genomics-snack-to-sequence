@@ -19,9 +19,9 @@ var blastToMap = function(text) {
     for (ii = 0; ii < ind.length; ++ii) {
         name = extractName(lines[ind[ii]]);
         if (newMap[name]) {
-            newMap[name] = newMap[name] + 1;
+            newMap[name] = [newMap[name][0] + 1, -1];
         } else {
-            newMap[name] = 1;
+            newMap[name] = [1, -1];
         }
     }
     return newMap;
@@ -31,7 +31,7 @@ var mergeMaps = function(from, into) {
     // note: mutates the second argument
     for (var name in from) {
         if (into[name]) {
-            into[name] = into[name] + from[name];
+            into[name] = [into[name][0] + from[name][0], -1];
         } else {
             into[name] = from[name];
         }
