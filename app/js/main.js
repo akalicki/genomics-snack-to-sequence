@@ -1,7 +1,3 @@
-if (!window.File || !window.FileReader) {
-    throw new Error("The File APIs are not fully supported in this browser.")
-}
-
 function handleDragOver(e) {
     e.stopPropagation();
     e.preventDefault();
@@ -16,9 +12,19 @@ function handleFileSelect(e, is_dropzone) {
     for (var i = 0, f; f = files[i]; i++) {
         var reader = new FileReader();
         reader.onload = (e) => sendFastARequest(e.target.result);
-        reader.readAsText(f);
+        reader.readAsText(files[i]);
     }
+    //sendFileRequests(files, 0);
 }
+
+// function sendFileRequests(files, index) {
+//     if (index < files.length) {
+//         var reader = new FileReader();
+//         reader.onload = (e) => sendFastARequest(e.target.result);
+//         reader.readAsText(files[index]);
+//         sendFileRequests(files, index + 1);
+//     }
+// }
 
 function sendFastARequest(fasta) {
     // PARAM documentation: http://www.ncbi.nlm.nih.gov/blast/Doc/node68.html
@@ -41,6 +47,10 @@ function sendFastARequest(fasta) {
 }
 
 $(document).ready(function() {
+    if (!window.File || !window.FileReader) {
+        throw new Error("File APIs are not fully supported in this browser.")
+    }
+
     document.getElementById('files').addEventListener(
         'change',
         (e) => handleFileSelect(e, false),

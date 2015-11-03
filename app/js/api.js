@@ -17,7 +17,7 @@ function sendBlastRequest(post_params) {
         proxy_url.replace("{BLAST_URL}", encodeURIComponent(url)),
 		function (data) {
             if (data.results[0]) { // success
-                var data = filterBlastData(data.results[0]);
+                var data = filterBlastData(data.results[0], true);
                 var info = data.match(blastInfoRegEx)[0];
                 if (info.length > 0) {
     				var searchString1 = 'RID = ';
@@ -55,42 +55,45 @@ function getBlastResult(RID) {
         proxy_url.replace("{BLAST_URL}", encodeURIComponent(url)),
 		function (data) {
             if (data.results[0]) { // success
-		    var data = filterBlastData(data.results[0]);
+                var info_data = filterBlastData(data.results[0], true);
 		    
-            var info = data.match(blastInfoRegEx)[0];
-            if (info.length > 0) {
-        		var searchString1 = 'Status=';
-        		var searchString2 = 'QBlastInfoEnd';
-        		var status = info.substring(
-                    info.indexOf(searchString1) + searchString1.length,
-                    info.indexOf(searchString2)
-                );
+                var info = info_data.match(blastInfoRegEx)[0];
+                if (info.length > 0) {
+            		var searchString1 = 'Status=';
+            		var searchString2 = 'QBlastInfoEnd';
+            		var status = info.substring(
+                        info.indexOf(searchString1) + searchString1.length,
+                        info.indexOf(searchString2)
+                    );
 
-        		if (status.startsWith('READY')) {
-        			console.log(data);
-        		} else if (status.startsWith('WAITING')) {
-        			console.log("QBlast Query still processing, trying again.");
-        			setTimeout((_) => getBlastResult(RID), 10000);
-        		} else if (status.startsWith('FAILED')) {
-        			throw new Error("QBlast Query failed.");
-        		}
+            		if (status.startsWith('READY')) {
+                        data = filterBlastData(data.results[0], false);
+                        console.log(blastToMap(data));
+            		} else if (status.startsWith('WAITING')) {
+            			console.log("QBlast Query still processing, trying again in 10 seconds...");
+            			setTimeout((_) => getBlastResult(RID), 10000);
+            		} else if (status.startsWith('FAILED')) {
+            			throw new Error("QBlast Query failed.");
+            		}
+                } else {
+                	throw new Error("No QBlastInfo Sent");
+                }
             } else {
-            	throw new Error("No QBlastInfo Sent");
+                throw new Error('Uncaught exception.');
             }
-        } else {
-            throw new Error('Uncaught exception.');
-        }
     });
 }
 
 /*
  * Filter all the nasties out
  */
-function filterBlastData(data){
+function filterBlastData(data, remove_newlines){
     // no body tags
     data = data.replace(/<?\/body[^>]*>/g,'');
     // no linebreaks
-    data = data.replace(/[\r|\n]+/g,'');
+    if (remove_newlines) {
+        data = data.replace(/[\r|\n]+/g,'');
+    }
     // no comments
     data = data.replace(/<--[\S\s]*?-->/g,'');
     // no noscript blocks

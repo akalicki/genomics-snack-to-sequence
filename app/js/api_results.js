@@ -1,12 +1,19 @@
-// Utilities to convert a text-format blast response to a map of species name
-// to counts
-var extractName = function(line) {
+/*
+ * Utilities to convert a text-format blast response to a map of species name
+ * to counts
+ */
+
+function extractName(line) {
     // now we have two problems
     var names = line.match(/\|.*\|  (PREDICTED: )?\b(\w*)\b \b(\w*)\b/);
-    return names[2]+" "+names[3];
+    return names[2] + " " + names[3];
 };
 
-var blastToMap = function(text) {
+/*
+ * Take a stripped down BLAST result, and build a map:
+ *   filename -> [count, graph_index]
+ */
+function blastToMap(text) {
     var ind = [];
     var lines = text.split("\n");
     for (var ii = 0; ii < lines.length; ++ii) {
@@ -14,7 +21,8 @@ var blastToMap = function(text) {
             ind.push(ii+2);
         }
     }
-    var newMap = new Object();
+
+    var newMap = {};
     var name = "";
     for (ii = 0; ii < ind.length; ++ii) {
         name = extractName(lines[ind[ii]]);
@@ -24,10 +32,11 @@ var blastToMap = function(text) {
             newMap[name] = [1, -1];
         }
     }
+
     return newMap;
 };
 
-var mergeMaps = function(from, into) {
+function mergeMaps(from, into) {
     // note: mutates the second argument
     for (var name in from) {
         if (into[name]) {
