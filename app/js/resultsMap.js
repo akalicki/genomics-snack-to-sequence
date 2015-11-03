@@ -38,4 +38,4 @@ var mergeMaps = function(from, into) {
     }
 };
 
-/* {'Genus species': 2, 'Genus species': 4}
+/* {'Genus species': 2, 'Genus species': 4} */
