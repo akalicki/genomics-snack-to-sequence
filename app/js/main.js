@@ -21,15 +21,33 @@ function handleFileSelect(e, is_dropzone) {
 }
 
 function sendFastARequest(fasta) {
-    console.log(fasta);
+    // PARAM documentation: http://www.ncbi.nlm.nih.gov/blast/Doc/node68.html
+    var POST_PARAMS = {
+        'QUERY': fasta,
+        'DATABASE': 'nr',
+        'HITLIST_SIZE': 10,
+        'FILTER': 'L',
+        'EXPECT': 10,
+        'FORMAT_TYPE': 'Text',
+        'PROGRAM': 'blastn',
+        'CLIENT': 'Web',
+        'SERVICE': 'plain',
+        'NCBI_GI': 'on',
+        'PAGE': 'Nucleotides',
+        'CMD': 'Put'
+    }
+
+    sendBlastRequest(POST_PARAMS);
 }
 
-document.getElementById('files').addEventListener(
-    'change',
-    (e) => handleFileSelect(e, false),
-    false
-);
+$(document).ready(function() {
+    document.getElementById('files').addEventListener(
+        'change',
+        (e) => handleFileSelect(e, false),
+        false
+    );
 
-var dropzone = document.getElementById('dropzone');
-dropzone.addEventListener('dragover', handleDragOver, false);
-dropzone.addEventListener('drop', (e) => handleFileSelect(e, true), false);
+    var dropzone = document.getElementById('dropzone');
+    dropzone.addEventListener('dragover', handleDragOver, false);
+    dropzone.addEventListener('drop', (e) => handleFileSelect(e, true), false);
+});
