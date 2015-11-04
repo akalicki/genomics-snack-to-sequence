@@ -6,6 +6,10 @@
 function extractName(line) {
     // now we have two problems
     var names = line.match(/\|.*\|  (PREDICTED: )?\b(\w*)\b \b(\w*)\b/);
+    if (names === null) {
+        return null;
+    }
+
     return names[2] + " " + names[3];
 };
 
@@ -26,6 +30,10 @@ function blastToMap(text) {
     var name = "";
     for (ii = 0; ii < ind.length; ++ii) {
         name = extractName(lines[ind[ii]]);
+        if (name === null) {
+            continue;
+        }
+        
         if (newMap[name]) {
             newMap[name] = [newMap[name][0] + 1, -1];
         } else {

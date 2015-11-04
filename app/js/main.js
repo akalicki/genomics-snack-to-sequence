@@ -4,46 +4,36 @@ function handleDragOver(e) {
     e.dataTransfer.dropEffect = 'copy';
 }
 
-function handleFileSelect(e, is_dropzone) {
+function handleFileSelect(e, is_dropzone, chart) {
     e.stopPropagation();
     e.preventDefault();
 
     var files = is_dropzone ? e.dataTransfer.files : e.target.files;
     for (var i = 0, f; f = files[i]; i++) {
         var reader = new FileReader();
-        reader.onload = (e) => sendFastARequest(e.target.result);
+        reader.onload = (e) => sendFastARequest(e.target.result, chart);
         reader.readAsText(files[i]);
     }
-    //sendFileRequests(files, 0);
 }
 
-// function sendFileRequests(files, index) {
-//     if (index < files.length) {
-//         var reader = new FileReader();
-//         reader.onload = (e) => sendFastARequest(e.target.result);
-//         reader.readAsText(files[index]);
-//         sendFileRequests(files, index + 1);
-//     }
-// }
-
-function sendFastARequest(fasta) {
+function sendFastARequest(fasta, chart) {
     // PARAM documentation: http://www.ncbi.nlm.nih.gov/blast/Doc/node68.html
     var POST_PARAMS = {
         'QUERY': fasta,
         'DATABASE': 'nr',
         'HITLIST_SIZE': 10,
         'FILTER': 'L',
-        'EXPECT': 10,
+        'EXPECT': .0001,
         'FORMAT_TYPE': 'Text',
         'PROGRAM': 'blastn',
         'CLIENT': 'Web',
         'SERVICE': 'plain',
         'NCBI_GI': 'on',
         'PAGE': 'Nucleotides',
-        'CMD': 'Put'
+        'CMD': 'Put',
     }
 
-    sendBlastRequest(POST_PARAMS);
+    sendBlastRequest(POST_PARAMS, chart);
 }
 
 $(document).ready(function() {
@@ -51,13 +41,23 @@ $(document).ready(function() {
         throw new Error("File APIs are not fully supported in this browser.")
     }
 
+    // Take individual maps and make a master map to display the graph
+    var ctx = document.getElementById("donut").getContext("2d");
+
+    // start out with empty data, nothing in the chart
+    var chart = new Chart(ctx).Doughnut([], { responsive : true });
+
     document.getElementById('files').addEventListener(
         'change',
-        (e) => handleFileSelect(e, false),
+        (e) => handleFileSelect(e, false, chart),
         false
     );
 
     var dropzone = document.getElementById('dropzone');
     dropzone.addEventListener('dragover', handleDragOver, false);
-    dropzone.addEventListener('drop', (e) => handleFileSelect(e, true), false);
+    dropzone.addEventListener(
+        'drop',
+        (e) => handleFileSelect(e, true, chart),
+        false
+    );
 });

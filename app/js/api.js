@@ -11,7 +11,7 @@ var proxy_url = "http://query.yahooapis.com/v1/public/yql?" +
  * Makes a new API query, retrieves its RID, and sends a BLAST request
  *
  */
-function sendBlastRequest(post_params) {
+function sendBlastRequest(post_params, chart) {
     var url = base_url + jQuery.param(post_params);
 	$.getJSON(
         proxy_url.replace("{BLAST_URL}", encodeURIComponent(url)),
@@ -27,7 +27,7 @@ function sendBlastRequest(post_params) {
                         info.indexOf(searchString2)
                     ).replace(/ /g,'');
                     console.log("Sending FASTA sequence for matching...");
-                    getBlastResult(RID);
+                    getBlastResult(RID, chart);
                 } else {
 				    throw new Error("No QBlastInfo Sent.");
                 }
@@ -43,7 +43,7 @@ function sendBlastRequest(post_params) {
  * until the status is ready (the search results have been returned)
  *
  */
-function getBlastResult(RID) {
+function getBlastResult(RID, chart) {
 	var GET_PARAMS = {
         'RID': RID,
         'FORMAT_TYPE': 'Text',
@@ -68,10 +68,10 @@ function getBlastResult(RID) {
 
             		if (status.startsWith('READY')) {
                         data = filterBlastData(data.results[0], false);
-                        console.log(blastToMap(data));
+                        addMapToChart(blastToMap(data), chart);
             		} else if (status.startsWith('WAITING')) {
-            			console.log("QBlast Query still processing, trying again in 10 seconds...");
-            			setTimeout((_) => getBlastResult(RID), 10000);
+            			console.log("QBlast Query still processing, trying again in 3 seconds...");
+            			setTimeout((_) => getBlastResult(RID, chart), 3000);
             		} else if (status.startsWith('FAILED')) {
             			throw new Error("QBlast Query failed.");
             		}

@@ -3,27 +3,6 @@ var initialCount = 0;
 var chartMin = "";
 var MAX_BUCKETS = 5;
 
-$(document).ready(function() {
-
-    /* ALEX'S CODE HERE */
-    // Get file and extract the fasta sequence
-
-    /* BOYU'S CODE HERE */
-    // Make API call HERE
-
-    /* MIKE'S CODE HERE */
-    // Take data from call and create a map for each call
-
-    // Take individual maps and make a master map to display the graph
-    var ctx = document.getElementById("test").getContext("2d");
-
-    // start out with empty data, nothing in the chart
-    var chart = new Chart(ctx).Doughnut([],
-    {
-        responsive : true,
-    });
-});
-
 function addMapToChart(map, chart) {
     for (var name in map) {
         if (chartData[name]) {
