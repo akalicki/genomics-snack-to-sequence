@@ -12,6 +12,8 @@ function extractInfo(line) {
         return null;
     }
 
+    var rest = info[4].match(/[^ ]+/g);
+
     return [info[2] + " " + info[3], parseFloat(rest[rest.length - 2])];
 };
 

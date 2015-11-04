@@ -68,7 +68,6 @@ function getBlastResult(RID, chart) {
 
             		if (status.startsWith('READY')) {
                         data = filterBlastData(data.results[0], false);
-                        console.log(data);
                         addMapToChart(blastToMap(data), chart);
             		} else if (status.startsWith('WAITING')) {
             			console.log("QBlast Query still processing, trying again in 10 seconds...");

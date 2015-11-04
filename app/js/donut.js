@@ -5,6 +5,7 @@ var MAX_BUCKETS = 5;
 
 function addMapToChart(map, chart) {
     for (var name in map) {
+        console.log("Adding to chart: " + name + "(" + map[name][0] + ")");
         if (chartData[name]) {
             // Update the count for the genus with the new map
             chartData[name][0] += map[name][0];
