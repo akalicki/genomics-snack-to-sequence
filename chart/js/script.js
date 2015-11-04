@@ -52,11 +52,12 @@ function addMapToChart(map, chart) {
                     minName = name;
                 };
 
+                chartColor = color();
                 chart.addData({
                     value: chartData[name][0],
-                    color: "#B48EAD", // TODO: random color using rgba
-                    highlight: "#C69CBE", // TODO: modify opacity on ^^
-                    label: name // TODO: Genus name
+                    color: "rgba(" + chartColor + ", 1)",
+                    highlight: "rgba(" + chartColor + ", .7)",
+                    label: name
                 }, chartData[name][1]);
 
             } else {
@@ -73,13 +74,11 @@ function checkChartUpdates(name, chart) {
         chartData[name][1] = tempIndex;
     
         // Remove min name and add new name
-        r = Math.random() * 255;
-        g = Math.random() * 255;
-        b = Math.random() * 255;
+        chartColor = color();
         chart.addData({
             value: chartData[name][0],
-            color: rgba(r, g, b, 1),
-            highlight: rgba(r, g, b, .7),
+            color: "rgba(" + chartColor + ", 1)",
+            highlight: "rgba(" + chartColor + ", .7)",
             label: name
         }, chartData[name][1]);
         chart.removeData(chartData[name][1]+1);
@@ -98,4 +97,11 @@ function udpateChartMin(chart) {
             minCount = data.value;
         };
     }
+}
+
+function color() {
+    r = Math.floor(Math.random() * 255).toString();
+    g = Math.floor(Math.random() * 255).toString();
+    b = Math.floor(Math.random() * 255).toString();
+    return r+","+g+","+b
 }
