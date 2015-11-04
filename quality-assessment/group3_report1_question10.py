@@ -1,9 +1,12 @@
 """
 Problem 10
+
 places files in 'pass' folder in new folder called '2D' inside 'pass'
 places files in 'fail' folder in new folder called '2D' inside 'fail'
+
 runs poretools nucdist on each 2D folder using os module, saves result to nucdist.txt
 parses percent and prints
+
 ran into issue with interpreting the file 
 "2D2DMINION01_3_minnows_3015_1_ch275_file42_strand.fast5" in 'pass' and found 
 it to be corrupt; removed this file from the folder

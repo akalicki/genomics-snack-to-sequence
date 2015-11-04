@@ -1,9 +1,11 @@
 """
 Problem 2
+
 finds number of reads in each channel by parsing file names
 places channel numbers in dict associated with their number of reads
 divides total number of reads with total number of channels for average 
 reads per channel
+
 finds channel with greatest number of reads
 """
 
