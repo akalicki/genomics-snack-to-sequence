@@ -23,7 +23,7 @@ function sendFastARequest(fasta, chart) {
         'DATABASE': 'nr',
         'HITLIST_SIZE': 10,
         'FILTER': 'L',
-        'EXPECT': .0001,
+        'EXPECT': 10,
         'FORMAT_TYPE': 'Text',
         'PROGRAM': 'blastn',
         'CLIENT': 'Web',
