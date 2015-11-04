@@ -3,14 +3,16 @@
  * to counts
  */
 
-function extractName(line) {
-    // now we have two problems
-    var names = line.match(/\|.*\|  (PREDICTED: )?\b(\w*)\b \b(\w*)\b/);
-    if (names === null) {
+/*
+ * Take a response line and parse species name as well as bit score
+ */
+function extractInfo(line) {
+    var info = line.match(/\|.*\|  (PREDICTED: )?\b(\w*)\b \b(\w*)\b (.*)/);
+    if (info === null) {
         return null;
     }
 
-    return names[2] + " " + names[3];
+    return [info[2] + " " + info[3], parseFloat(rest[rest.length - 2])];
 };
 
 /*
@@ -26,22 +28,27 @@ function blastToMap(text) {
         }
     }
 
-    var newMap = {};
+    var map = {};
+    var info = [];
     var name = "";
+    var bit_score = 0.0;
     for (ii = 0; ii < ind.length; ++ii) {
-        name = extractName(lines[ind[ii]]);
-        if (name === null) {
+        info = extractInfo(lines[ind[ii]]);
+        if (info === null) {
             continue;
         }
+
+        name = info[0];
+        bit_score = info[1];
         
-        if (newMap[name]) {
-            newMap[name] = [newMap[name][0] + 1, -1];
+        if (map[name]) {
+            map[name] = [map[name][0] + bit_score, -1];
         } else {
-            newMap[name] = [1, -1];
+            map[name] = [bit_score, -1];
         }
     }
 
-    return newMap;
+    return map;
 };
 
 function mergeMaps(from, into) {
