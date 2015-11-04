@@ -70,8 +70,8 @@ function getBlastResult(RID, chart) {
                         data = filterBlastData(data.results[0], false);
                         addMapToChart(blastToMap(data), chart);
             		} else if (status.startsWith('WAITING')) {
-            			console.log("QBlast Query still processing, trying again in 3 seconds...");
-            			setTimeout((_) => getBlastResult(RID, chart), 3000);
+            			console.log("QBlast Query still processing, trying again in 10 seconds...");
+            			setTimeout((_) => getBlastResult(RID, chart), 10000);
             		} else if (status.startsWith('FAILED')) {
             			throw new Error("QBlast Query failed.");
             		}
