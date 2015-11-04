@@ -26,4 +26,4 @@ for fp in fast5Files:
     else:
         fsplit = fp.split('/')
     filename = fsplit[-1]
-    os.system("poretools fasta " + fp + " > " + fastadir + "/" + filename + ".txt")
+    os.system("poretools fasta --type 2D " + fp + " > " + fastadir + "/" + filename + ".txt")
