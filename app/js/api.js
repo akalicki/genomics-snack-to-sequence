@@ -7,41 +7,6 @@ var proxy_url = "http://query.yahooapis.com/v1/public/yql?" +
                 "{BLAST_URL}" +
                 "%22&format=application/x-www-form-urlencoded'&callback=?";
 
-var species_url = "http://api.gbif.org/v1/species?";
-
-/*
- * Makes a species API query, returns object with kingdom, class, and vernacularName (if present)
- */
-//http://api.gbif.org/v1//occurrence/search?year=1800,1899
-function getSpecies(species) {
-    var SPECIES_PARAMS =
-    {
-        'name': species,
-        'limit': 1
-    }
-    $.ajax({
-        type: 'GET',
-        url: species_url + jQuery.param(SPECIES_PARAMS),
-        data: {
-            format: 'json'
-        },
-        error: function () {
-            throw new Error('Species API error');
-        },
-        dataType: 'jsonp',
-        success: function(data) {
-            console.log('success');
-            console.log(data);
-            if(data.results.length>0) {
-                console.log(data.results[0].vernacularName);
-                return {'kingdom': data.results[0].kingdom, 'class': data.results[0].class, 'vernacularName': data.results[0].vernacularName};
-            } else {
-                return null;
-            }
-        }
-    });
-}
-
 /*
  * Makes a new API query, retrieves its RID, and sends a BLAST request
  *

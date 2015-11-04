@@ -60,4 +60,10 @@ $(document).ready(function() {
         (e) => handleFileSelect(e, true, chart),
         false
     );
+
+    // addMapToChart({
+    //     "Mus musculus": [1, -1],
+    //     "Alopias vulpinus": [2, -1],
+    //     "Roncador stearnsii": [1, -1]
+    // }, chart);
 });
