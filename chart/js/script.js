@@ -1,8 +1,9 @@
 var chartData = new Object();
 var initialCount = 0;
-var minName = "hello"; // minimum data in chart occurs at genus @name
+var chartMin = "";
+var MAX_BUCKETS = 5;
 
-window.onload = function() {
+$(document).ready(function() {
 
     /* ALEX'S CODE HERE */
     // Get file and extract the fasta sequence
@@ -21,7 +22,7 @@ window.onload = function() {
     {
         responsive : true,
     });
-};
+});
 
 function addMapToChart(map, chart) {
     for (var name in map) {
@@ -42,24 +43,9 @@ function addMapToChart(map, chart) {
             // Add the new data to the overall chartData
             chartData[name] = map[name];
 
-            // Fill chart up until we have 50 buckets
-            if (initialCount < 5) {
-                chartData[name][1] = initialCount;
-                initialCount++;
-
-                // Update minimum data point in chart
-                if (chartData[minName][0] >= chartData[name][0]) {
-                    minName = name;
-                };
-
-                chartColor = color();
-                chart.addData({
-                    value: chartData[name][0],
-                    color: "rgba(" + chartColor + ", 1)",
-                    highlight: "rgba(" + chartColor + ", .7)",
-                    label: name
-                }, chartData[name][1]);
-
+            // Fill data if chart is empty, otherwise add normally
+            if (initialCount < MAX_BUCKETS) {
+                fillInitialData(name, chart);
             } else {
                 checkChartUpdates(name, chart);
             }
@@ -67,10 +53,37 @@ function addMapToChart(map, chart) {
     }
 };
 
+function fillInitialData(name, chart) {
+    if (initialCount == 0) {
+        chartMin = name;
+    }
+
+    // Fill chart up until we have 5 buckets
+    chartData[name][1] = initialCount;
+    initialCount++;
+
+    // Update minimum data point in chart
+    if (chartData[chartMin][0] >= chartData[name][0]) {
+        chartMin = name;
+    };
+
+    chartColor = color();
+    chart.addData({
+        value: chartData[name][0],
+        color: "rgba(" + chartColor + ", 1)",
+        highlight: "rgba(" + chartColor + ", .7)",
+        label: name
+    }, chartData[name][1]);
+
+    if (initialCount == MAX_BUCKETS) {
+        // Add one more bucket to denote other
+    };
+}
+
 function checkChartUpdates(name, chart) {
-    if (chartData[minName][0] <= chartData[name][0]) {
-        tempIndex = chartData[minName][1];
-        chartData[minName][1] = -1;
+    if (chartData[chartMin][0] <= chartData[name][0]) {
+        tempIndex = chartData[chartMin][1];
+        chartData[chartMin][1] = -1;
         chartData[name][1] = tempIndex;
     
         // Remove min name and add new name
@@ -93,7 +106,7 @@ function udpateChartMin(chart) {
     for (var i = 0; i<chart.segments.length; i++) {
         data = chart.segments[i];
         if (minCount > data.value) {
-            minName = data.label;
+            chartMin = data.label;
             minCount = data.value;
         };
     }
