@@ -9,9 +9,12 @@ data.
 import sys
 import json
 from collections import defaultdict
+import matplotlib.pyplot as plt
+import numpy as np
 
 TOMATO_SCI_1 = "Solanum lycopersicum"
 TOMATO_SCI_2 = "Solanum pennellii"
+BASES = ['A', 'C', 'G', 'T']
 
 def file_to_seqs(filename):
     """Given BlastOutput json, return a list of all tomato (qseq, hseq) pairs"""
@@ -28,7 +31,7 @@ def file_to_seqs(filename):
     return seqs
 
 def seqs_to_confusion(seq_list):
-    """Takes a lit of (qseq, hseq) pairs, and returns a confusion matrix"""
+    """Takes a lit of (qseq, hseq) pairs, and returns a confusion array"""
     confusion = defaultdict(int)
     for pair in seq_list:
         qseq = pair[0]
@@ -39,6 +42,27 @@ def seqs_to_confusion(seq_list):
     return confusion
 
 bases = ['A','C','G','T','-']
+def confusion_to_nucleotides(confusion):
+    """Takes a confusion array, and prints histogram of nucleotide composition
+       for insertions and deletions"""
+    insertions = [ confusion[('-', c)] for c in BASES ]
+    deletions = [ confusion[(c, '-')] for c in BASES ]
+    create_barchart(BASES, insertions, "Nucleotide composition of insertions", 'g')
+    create_barchart(BASES, deletions, "Nucleotide composition of deletions", 'r')
+
+def create_barchart(values, counts, title, col):
+    """Create a pyplot barchart for given x and y values"""
+    ind = np.arange(len(values))
+    width = 0.8
+    fig, ax = plt.subplots()
+    ax.bar(ind, counts, width, color=col)
+    ax.set_xlabel("Bases")
+    ax.set_ylabel("Count")
+    ax.set_title(title)
+    ax.set_xticks(ind + width / 2)
+    ax.set_xticklabels(values)
+    plt.show()
+
 if __name__ == '__main__':
     seqs = []
     with open(sys.argv[1]) as f:
@@ -49,3 +73,5 @@ if __name__ == '__main__':
     for b1 in bases:
         for b2 in bases:
             print b1 + " " + b2 + " " + str(confusiondict[(b1, b2)])
+    confusion = seqs_to_confusion(seqs)
+    confusion_to_nucleotides(confusion)
