@@ -38,11 +38,14 @@ def seqs_to_confusion(seq_list):
             confusion[key] += 1
     return confusion
 
-
+bases = ['A','C','G','T','-']
 if __name__ == '__main__':
     seqs = []
     with open(sys.argv[1]) as f:
         files = json.loads(f.read())["BlastJSON"]
         for filename in files:
             seqs.extend(file_to_seqs(filename["File"]))
-    print seqs_to_confusion(seqs)
+    confusiondict = seqs_to_confusion(seqs)
+    for b1 in bases:
+        for b2 in bases:
+            print b1 + " " + b2 + " " + str(confusiondict[(b1, b2)])
