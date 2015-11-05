@@ -8,6 +8,7 @@ data.
 """
 import sys
 import json
+from collections import defaultdict
 
 TOMATO_SCI_1 = "Solanum lycopersicum"
 TOMATO_SCI_2 = "Solanum pennellii"
@@ -26,11 +27,22 @@ def file_to_seqs(filename):
                 seqs.append((hsp["qseq"], hsp["hseq"]))
     return seqs
 
+def seqs_to_confusion(seq_list):
+    """Takes a lit of (qseq, hseq) pairs, and returns a confusion matrix"""
+    confusion = defaultdict(int)
+    for pair in seq_list:
+        qseq = pair[0]
+        hseq = pair[1]
+        for i in range(len(qseq)):
+            key = (qseq[i], hseq[i])
+            confusion[key] += 1
+    return confusion
+
 
 if __name__ == '__main__':
+    seqs = []
     with open(sys.argv[1]) as f:
         files = json.loads(f.read())["BlastJSON"]
-        seqs = []
         for filename in files:
             seqs.extend(file_to_seqs(filename["File"]))
-    print seqs
+    print seqs_to_confusion(seqs)
