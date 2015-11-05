@@ -1,0 +1,1113 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastn",
+      "version": "BLASTN 2.2.32+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr"
+      },
+      "params": {
+        "expect": 10,
+        "sc_match": 2,
+        "sc_mismatch": -3,
+        "gap_open": 5,
+        "gap_extend": 2,
+        "filter": "L;m;",
+        "entrez_query": "txid3193 [ORGN]"
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_198554",
+          "query_title": "d1c4890e-b730-4fce-b5be-6e81fa491a73_Basecall_2D_000_template MINION01_3_minnows_3015_1_ch476_file41_strand_template fast5/pass/MINION01_3_minnows_3015_1_ch476_file41_strand.fast5",
+          "query_len": 5031,
+          "query_masking": [
+            {
+              "from": 1802,
+              "to": 1900
+            },
+            {
+              "from": 3248,
+              "to": 3410
+            },
+            {
+              "from": 4042,
+              "to": 4100
+            },
+            {
+              "from": 4269,
+              "to": 4344
+            }
+          ],
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gi|733577134|emb|LN713256.1|",
+                  "accession": "LN713256",
+                  "title": "Cucumis melo genomic chromosome, chr_2",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 26193771,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 68,
+                  "query_from": 1846,
+                  "query_to": 1937,
+                  "query_strand": "Plus",
+                  "hit_from": 26012121,
+                  "hit_to": 26012035,
+                  "hit_strand": "Minus",
+                  "align_len": 92,
+                  "gaps": 5,
+                  "qseq": "TTGTTGTTCTTCTTCTTCTTCTTTTCCTTCTTGGTCGTCTTCTTATTCTTATCTCTGATACTTATTGGTAACCTTAGTGTCTGAACGTAATT",
+                  "hseq": "TTCTTCTTCTTCTTCTTCTTCTTCTTCTTTTTATTGTTATTAGTATTATTATCTTTTA-AC--ATTACTA--CTTAGTGTCTGAATGGAATT",
+                  "midline": "|| || ||||||||||||||||| | ||| ||  |  | ||  |||| |||||| | | ||  |||  ||  ||||||||||||| | ||||"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gi|733591490|emb|LN681814.1|",
+                  "accession": "LN681814",
+                  "title": "Cucumis melo genomic scaffold, anchoredscaffold00089",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 921714,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 68,
+                  "query_from": 1846,
+                  "query_to": 1937,
+                  "query_strand": "Plus",
+                  "hit_from": 181651,
+                  "hit_to": 181737,
+                  "hit_strand": "Plus",
+                  "align_len": 92,
+                  "gaps": 5,
+                  "qseq": "TTGTTGTTCTTCTTCTTCTTCTTTTCCTTCTTGGTCGTCTTCTTATTCTTATCTCTGATACTTATTGGTAACCTTAGTGTCTGAACGTAATT",
+                  "hseq": "TTCTTCTTCTTCTTCTTCTTCTTCTTCTTTTTATTGTTATTAGTATTATTATCTTTTA-AC--ATTACTA--CTTAGTGTCTGAATGGAATT",
+                  "midline": "|| || ||||||||||||||||| | ||| ||  |  | ||  |||| |||||| | | ||  |||  ||  ||||||||||||| | ||||"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gi|663681407|emb|HG975524.1|",
+                  "accession": "HG975524",
+                  "title": "Solanum lycopersicum chromosome ch12, complete genome",
+                  "taxid": 4081,
+                  "sciname": "Solanum lycopersicum"
+                }
+              ],
+              "len": 65488263,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 61,
+                  "query_from": 1776,
+                  "query_to": 1852,
+                  "query_strand": "Plus",
+                  "hit_from": 53996134,
+                  "hit_to": 53996055,
+                  "hit_strand": "Minus",
+                  "align_len": 80,
+                  "gaps": 3,
+                  "qseq": "TAATGTTATTGTGGTGATCG-TATTT-TGcttcttgactgttgttgtatgtcgtggtgttggtgt-cttgttgttgttgt",
+                  "hseq": "TAATGTTATTGTTGTTATTGTTATTTGTTGTTGTTGTTTTTTGTTGTTGGTGTTGTTGTTGGTGTAGTTGTTATTGTTGT",
+                  "midline": "|||||||||||| || || | ||||| |  || |||  | |||||||  ||  || |||||||||  ||||| |||||||"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gi|937916895|dbj|AP014961.1|",
+                  "accession": "AP014961",
+                  "title": "Oryza sativa Japonica Group DNA, chromosome 5, cultivar: Nipponbare, complete sequence",
+                  "taxid": 39947,
+                  "sciname": "Oryza sativa Japonica Group"
+                }
+              ],
+              "len": 29958434,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 30,
+                  "query_from": 4176,
+                  "query_to": 4206,
+                  "query_strand": "Plus",
+                  "hit_from": 13799294,
+                  "hit_to": 13799325,
+                  "hit_strand": "Plus",
+                  "align_len": 32,
+                  "gaps": 1,
+                  "qseq": "GCCACAGCAC-AGCACCAGCACCGGCACCACT",
+                  "hseq": "GCCACAGCACCAGCACCAGCACCAGCACCACT",
+                  "midline": "|||||||||| |||||||||||| ||||||||"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gi|932282907|gb|CP012613.1|",
+                  "accession": "CP012613",
+                  "title": "Oryza sativa Indica Group cultivar RP Bio-226 chromosome 5 sequence",
+                  "taxid": 39946,
+                  "sciname": "Oryza sativa Indica Group"
+                }
+              ],
+              "len": 29396997,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 30,
+                  "query_from": 4176,
+                  "query_to": 4206,
+                  "query_strand": "Plus",
+                  "hit_from": 13673214,
+                  "hit_to": 13673245,
+                  "hit_strand": "Plus",
+                  "align_len": 32,
+                  "gaps": 1,
+                  "qseq": "GCCACAGCAC-AGCACCAGCACCGGCACCACT",
+                  "hseq": "GCCACAGCACCAGCACCAGCACCAGCACCACT",
+                  "midline": "|||||||||| |||||||||||| ||||||||"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gi|49328146|gb|AC136525.2|",
+                  "accession": "AC136525",
+                  "title": "Oryza sativa Japonica Group chromosome 5 clone P0585E02, complete sequence",
+                  "taxid": 39947,
+                  "sciname": "Oryza sativa Japonica Group"
+                }
+              ],
+              "len": 138677,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 30,
+                  "query_from": 4176,
+                  "query_to": 4206,
+                  "query_strand": "Plus",
+                  "hit_from": 94980,
+                  "hit_to": 95011,
+                  "hit_strand": "Plus",
+                  "align_len": 32,
+                  "gaps": 1,
+                  "qseq": "GCCACAGCAC-AGCACCAGCACCGGCACCACT",
+                  "hseq": "GCCACAGCACCAGCACCAGCACCAGCACCACT",
+                  "midline": "|||||||||| |||||||||||| ||||||||"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gi|47084433|gb|AC130724.2|",
+                  "accession": "AC130724",
+                  "title": "Oryza sativa Japonica Group chromosome 5 clone P0409G01, complete sequence",
+                  "taxid": 39947,
+                  "sciname": "Oryza sativa Japonica Group"
+                }
+              ],
+              "len": 143263,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 30,
+                  "query_from": 4176,
+                  "query_to": 4206,
+                  "query_strand": "Plus",
+                  "hit_from": 36898,
+                  "hit_to": 36929,
+                  "hit_strand": "Plus",
+                  "align_len": 32,
+                  "gaps": 1,
+                  "qseq": "GCCACAGCAC-AGCACCAGCACCGGCACCACT",
+                  "hseq": "GCCACAGCACCAGCACCAGCACCAGCACCACT",
+                  "midline": "|||||||||| |||||||||||| ||||||||"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gi|37654156|gb|AC145476.2|",
+                  "accession": "AC145476",
+                  "title": "Oryza sativa Japonica Group chromosome 5 clone B1023E01, complete sequence",
+                  "taxid": 39947,
+                  "sciname": "Oryza sativa Japonica Group"
+                }
+              ],
+              "len": 140322,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 30,
+                  "query_from": 4176,
+                  "query_to": 4206,
+                  "query_strand": "Plus",
+                  "hit_from": 121747,
+                  "hit_to": 121778,
+                  "hit_strand": "Plus",
+                  "align_len": 32,
+                  "gaps": 1,
+                  "qseq": "GCCACAGCAC-AGCACCAGCACCGGCACCACT",
+                  "hseq": "GCCACAGCACCAGCACCAGCACCAGCACCACT",
+                  "midline": "|||||||||| |||||||||||| ||||||||"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gi|672165502|ref|XM_008804435.1|",
+                  "accession": "XM_008804435",
+                  "title": "PREDICTED: Phoenix dactylifera molybdate transporter 1-like (LOC103716444), mRNA",
+                  "taxid": 42345,
+                  "sciname": "Phoenix dactylifera"
+                }
+              ],
+              "len": 1466,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 32,
+                  "query_from": 1009,
+                  "query_to": 1045,
+                  "query_strand": "Plus",
+                  "hit_from": 1167,
+                  "hit_to": 1131,
+                  "hit_strand": "Minus",
+                  "align_len": 37,
+                  "gaps": 0,
+                  "qseq": "CACAAGCACCCTCAGCCTCGGCCCCCCAAGCACGACT",
+                  "hseq": "CACTAGCACTCTCAGCATCGACCCCCCAAGCACCACT",
+                  "midline": "||| ||||| |||||| ||| |||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gi|330250293|gb|CP002685.1|",
+                  "accession": "CP002685",
+                  "title": "Arabidopsis thaliana chromosome 2, complete sequence",
+                  "taxid": 3702,
+                  "sciname": "Arabidopsis thaliana"
+                }
+              ],
+              "len": 19698289,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 30,
+                  "query_from": 1244,
+                  "query_to": 1277,
+                  "query_strand": "Plus",
+                  "hit_from": 14660645,
+                  "hit_to": 14660612,
+                  "hit_strand": "Minus",
+                  "align_len": 34,
+                  "gaps": 0,
+                  "qseq": "ATGATGATGATCATGATGCTTAGATGCTCGTGAA",
+                  "hseq": "ATGATGATGATAATGATGCTGAGGTGATCGTGAA",
+                  "midline": "||||||||||| |||||||| || || |||||||"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gi|186505356|ref|NM_179905.3|",
+                  "accession": "NM_179905",
+                  "title": "Arabidopsis thaliana RNA polymerase I specific transcription initiation factor RRN3 protein mRNA, complete cds",
+                  "taxid": 3702,
+                  "sciname": "Arabidopsis thaliana"
+                }
+              ],
+              "len": 2186,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 30,
+                  "query_from": 1244,
+                  "query_to": 1277,
+                  "query_strand": "Plus",
+                  "hit_from": 1840,
+                  "hit_to": 1873,
+                  "hit_strand": "Plus",
+                  "align_len": 34,
+                  "gaps": 0,
+                  "qseq": "ATGATGATGATCATGATGCTTAGATGCTCGTGAA",
+                  "hseq": "ATGATGATGATAATGATGCTGAGGTGATCGTGAA",
+                  "midline": "||||||||||| |||||||| || || |||||||"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gi|110739952|dbj|AK230060.1|",
+                  "accession": "AK230060",
+                  "title": "Arabidopsis thaliana mRNA for hypothetical protein, partial cds, clone: RAFL22-66-P11",
+                  "taxid": 3702,
+                  "sciname": "Arabidopsis thaliana"
+                }
+              ],
+              "len": 1344,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 30,
+                  "query_from": 1244,
+                  "query_to": 1277,
+                  "query_strand": "Plus",
+                  "hit_from": 1039,
+                  "hit_to": 1072,
+                  "hit_strand": "Plus",
+                  "align_len": 34,
+                  "gaps": 0,
+                  "qseq": "ATGATGATGATCATGATGCTTAGATGCTCGTGAA",
+                  "hseq": "ATGATGATGATAATGATGCTGAGGTGATCGTGAA",
+                  "midline": "||||||||||| |||||||| || || |||||||"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gi|23296956|gb|AY142672.1|",
+                  "accession": "AY142672",
+                  "title": "Arabidopsis thaliana unknown protein (At2g34750) mRNA, complete cds",
+                  "taxid": 3702,
+                  "sciname": "Arabidopsis thaliana"
+                }
+              ],
+              "len": 1873,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 30,
+                  "query_from": 1244,
+                  "query_to": 1277,
+                  "query_strand": "Plus",
+                  "hit_from": 1646,
+                  "hit_to": 1679,
+                  "hit_strand": "Plus",
+                  "align_len": 34,
+                  "gaps": 0,
+                  "qseq": "ATGATGATGATCATGATGCTTAGATGCTCGTGAA",
+                  "hseq": "ATGATGATGATAATGATGCTGAGGTGATCGTGAA",
+                  "midline": "||||||||||| |||||||| || || |||||||"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gi|20465616|gb|AY096642.1|",
+                  "accession": "AY096642",
+                  "title": "Arabidopsis thaliana unknown protein (At2g34750) mRNA, complete cds",
+                  "taxid": 3702,
+                  "sciname": "Arabidopsis thaliana"
+                }
+              ],
+              "len": 2165,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 30,
+                  "query_from": 1244,
+                  "query_to": 1277,
+                  "query_strand": "Plus",
+                  "hit_from": 1838,
+                  "hit_to": 1871,
+                  "hit_strand": "Plus",
+                  "align_len": 34,
+                  "gaps": 0,
+                  "qseq": "ATGATGATGATCATGATGCTTAGATGCTCGTGAA",
+                  "hseq": "ATGATGATGATAATGATGCTGAGGTGATCGTGAA",
+                  "midline": "||||||||||| |||||||| || || |||||||"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gi|20197018|gb|AC003096.3|",
+                  "accession": "AC003096",
+                  "title": "Arabidopsis thaliana chromosome 2 clone T29F13 map ve016, complete sequence",
+                  "taxid": 3702,
+                  "sciname": "Arabidopsis thaliana"
+                }
+              ],
+              "len": 69817,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 30,
+                  "query_from": 1244,
+                  "query_to": 1277,
+                  "query_strand": "Plus",
+                  "hit_from": 11886,
+                  "hit_to": 11919,
+                  "hit_strand": "Plus",
+                  "align_len": 34,
+                  "gaps": 0,
+                  "qseq": "ATGATGATGATCATGATGCTTAGATGCTCGTGAA",
+                  "hseq": "ATGATGATGATAATGATGCTGAGGTGATCGTGAA",
+                  "midline": "||||||||||| |||||||| || || |||||||"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gi|42470161|emb|BX820122.1|",
+                  "accession": "BX820122",
+                  "title": "Arabidopsis thaliana Full-length cDNA Complete sequence from clone GSLTLS76ZC12 of Adult vegetative tissue of strain col-0 of Arabidopsis thaliana (thale cress)",
+                  "taxid": 3702,
+                  "sciname": "Arabidopsis thaliana"
+                }
+              ],
+              "len": 2204,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 30,
+                  "query_from": 1244,
+                  "query_to": 1277,
+                  "query_strand": "Plus",
+                  "hit_from": 1935,
+                  "hit_to": 1968,
+                  "hit_strand": "Plus",
+                  "align_len": 34,
+                  "gaps": 0,
+                  "qseq": "ATGATGATGATCATGATGCTTAGATGCTCGTGAA",
+                  "hseq": "ATGATGATGATAATGATGCTGAGGTGATCGTGAA",
+                  "midline": "||||||||||| |||||||| || || |||||||"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "gi|821595208|emb|LN846352.1|",
+                  "accession": "LN846352",
+                  "title": "Trifolium pratense genome assembly redclover, chromosome : chr4",
+                  "taxid": 57577,
+                  "sciname": "Trifolium pratense"
+                }
+              ],
+              "len": 28907061,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 28,
+                  "query_from": 4180,
+                  "query_to": 4208,
+                  "query_strand": "Plus",
+                  "hit_from": 28362256,
+                  "hit_to": 28362227,
+                  "hit_strand": "Minus",
+                  "align_len": 30,
+                  "gaps": 1,
+                  "qseq": "CAGCAC-AGCACCAGCACCGGCACCACTAG",
+                  "hseq": "CAGCACCAGCACCAGCACCGGCACCACCAG",
+                  "midline": "|||||| |||||||||||||||||||| ||"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gi|821594483|emb|LN846351.1|",
+                  "accession": "LN846351",
+                  "title": "Trifolium pratense genome assembly redclover, chromosome : chr3",
+                  "taxid": 57577,
+                  "sciname": "Trifolium pratense"
+                }
+              ],
+              "len": 31061273,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 34,
+                  "query_from": 1226,
+                  "query_to": 1266,
+                  "query_strand": "Plus",
+                  "hit_from": 4358222,
+                  "hit_to": 4358262,
+                  "hit_strand": "Plus",
+                  "align_len": 41,
+                  "gaps": 0,
+                  "qseq": "TATGATCACTGTAACCTTATGATGATGATCATGATGCTTAG",
+                  "hseq": "TAAGATGATTGGAAACTTATGATGATGATGATGATGATTAG",
+                  "midline": "|| ||| | || || |||||||||||||| |||||| ||||"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "gi|802717042|ref|XM_012229826.1|",
+                  "accession": "XM_012229826",
+                  "title": "PREDICTED: Jatropha curcas subtilisin-like protease SBT1.2 (LOC105644468), mRNA",
+                  "taxid": 180498,
+                  "sciname": "Jatropha curcas"
+                }
+              ],
+              "len": 3065,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 29,
+                  "query_from": 105,
+                  "query_to": 137,
+                  "query_strand": "Plus",
+                  "hit_from": 214,
+                  "hit_to": 182,
+                  "hit_strand": "Minus",
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "GGAAAAGCATAATGAAGGAAGAACCGAGAGAGA",
+                  "hseq": "GGAAAAGAAGAATGAAGGAAGAAGCAAGAGAGA",
+                  "midline": "||||||| | ||||||||||||| | |||||||"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "gi|727591894|ref|XM_010470697.1|",
+                  "accession": "XM_010470697",
+                  "title": "PREDICTED: Camelina sativa B3 domain-containing transcription factor NGA2-like (LOC104749121), mRNA",
+                  "taxid": 90675,
+                  "sciname": "Camelina sativa"
+                }
+              ],
+              "len": 1535,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 37,
+                  "query_from": 1244,
+                  "query_to": 1288,
+                  "query_strand": "Plus",
+                  "hit_from": 897,
+                  "hit_to": 855,
+                  "hit_strand": "Minus",
+                  "align_len": 45,
+                  "gaps": 2,
+                  "qseq": "ATGATGATGATCATGATGCTTAGATGCTCGTGAACCTTGGGTCGT",
+                  "hseq": "ATGATGATGATGATGATGAT--GATGATCGGGAATCTTAGGTCGT",
+                  "midline": "||||||||||| |||||| |  |||| ||| ||| ||| ||||||"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "gi|727475045|ref|XM_010415021.1|",
+                  "accession": "XM_010415021",
+                  "title": "PREDICTED: Camelina sativa B3 domain-containing transcription factor NGA2-like (LOC104699681), mRNA",
+                  "taxid": 90675,
+                  "sciname": "Camelina sativa"
+                }
+              ],
+              "len": 1522,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 37,
+                  "query_from": 1244,
+                  "query_to": 1288,
+                  "query_strand": "Plus",
+                  "hit_from": 880,
+                  "hit_to": 838,
+                  "hit_strand": "Minus",
+                  "align_len": 45,
+                  "gaps": 2,
+                  "qseq": "ATGATGATGATCATGATGCTTAGATGCTCGTGAACCTTGGGTCGT",
+                  "hseq": "ATGATGATGATGATGATGAT--GATGATCGGGAATCTTAGGTCGT",
+                  "midline": "||||||||||| |||||| |  |||| ||| ||| ||| ||||||"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "gi|669026884|emb|HG670306.1|",
+                  "accession": "HG670306",
+                  "title": "Triticum aestivum chromosome 3B, genomic scaffold, cultivar Chinese Spring",
+                  "taxid": 4565,
+                  "sciname": "Triticum aestivum"
+                }
+              ],
+              "len": 774434471,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 26,
+                  "query_from": 1472,
+                  "query_to": 1499,
+                  "query_strand": "Plus",
+                  "hit_from": 734880500,
+                  "hit_to": 734880527,
+                  "hit_strand": "Plus",
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "CGTAACATGATACTTAACTTGTGTCTAT",
+                  "hseq": "CGTAACATGAAACTTATCTTGTGTCTAT",
+                  "midline": "|||||||||| ||||| |||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "gi|663681072|emb|HG975518.1|",
+                  "accession": "HG975518",
+                  "title": "Solanum lycopersicum chromosome ch06, complete genome",
+                  "taxid": 4081,
+                  "sciname": "Solanum lycopersicum"
+                }
+              ],
+              "len": 46045610,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 23,
+                  "query_from": 1243,
+                  "query_to": 1265,
+                  "query_strand": "Plus",
+                  "hit_from": 14565009,
+                  "hit_to": 14565031,
+                  "hit_strand": "Plus",
+                  "align_len": 23,
+                  "gaps": 0,
+                  "qseq": "TATGATGATGATCATGATGCTTA",
+                  "hseq": "TATGATGATGATCATGATGCTTA",
+                  "midline": "|||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "gi|663673455|emb|HG975449.1|",
+                  "accession": "HG975449",
+                  "title": "Solanum pennellii chromosome ch10, complete genome",
+                  "taxid": 28526,
+                  "sciname": "Solanum pennellii"
+                }
+              ],
+              "len": 82529941,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 29,
+                  "query_from": 33,
+                  "query_to": 65,
+                  "query_strand": "Plus",
+                  "hit_from": 63698282,
+                  "hit_to": 63698250,
+                  "hit_strand": "Minus",
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "GAGATTTCGAGCAAAGCATCGAGGGAGGGGGGT",
+                  "hseq": "GAGATTTCGAGCATAGCTTGGAGGGGGGGGGGT",
+                  "midline": "||||||||||||| ||| | ||||| |||||||"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "gi|663673443|emb|HG975444.1|",
+                  "accession": "HG975444",
+                  "title": "Solanum pennellii chromosome ch05, complete genome",
+                  "taxid": 28526,
+                  "sciname": "Solanum pennellii"
+                }
+              ],
+              "len": 77991103,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 32,
+                  "query_from": 543,
+                  "query_to": 576,
+                  "query_strand": "Plus",
+                  "hit_from": 62193166,
+                  "hit_to": 62193133,
+                  "hit_strand": "Minus",
+                  "align_len": 35,
+                  "gaps": 2,
+                  "qseq": "CATTAT-TACTTGTGGTACTGCTTAATTTACATTA",
+                  "hseq": "CATTATGTCCTTG-GGTACTGCTTAATTTACATTA",
+                  "midline": "|||||| | |||| |||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "gi|567204087|ref|XM_006408371.1|",
+                  "accession": "XM_006408371",
+                  "title": "Eutrema salsugineum hypothetical protein (EUTSA_v10021265mg) mRNA, complete cds",
+                  "taxid": 72664,
+                  "sciname": "Eutrema salsugineum"
+                }
+              ],
+              "len": 1110,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 33,
+                  "query_from": 1244,
+                  "query_to": 1280,
+                  "query_strand": "Plus",
+                  "hit_from": 755,
+                  "hit_to": 792,
+                  "hit_strand": "Plus",
+                  "align_len": 38,
+                  "gaps": 1,
+                  "qseq": "ATGATGATGATCATGATGCTTA-GATGCTCGTGAACCT",
+                  "hseq": "ATGATGATGATGATGATGATGATGATGCTAGTGAACCT",
+                  "midline": "||||||||||| |||||| | | |||||| ||||||||"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "gi|270135094|gb|BT102046.1|",
+                  "accession": "BT102046",
+                  "title": "Picea glauca clone GQ0165_A21 mRNA sequence",
+                  "taxid": 3330,
+                  "sciname": "Picea glauca"
+                }
+              ],
+              "len": 1253,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 35,
+                  "query_from": 4171,
+                  "query_to": 4208,
+                  "query_strand": "Plus",
+                  "hit_from": 982,
+                  "hit_to": 943,
+                  "hit_strand": "Minus",
+                  "align_len": 40,
+                  "gaps": 2,
+                  "qseq": "CCTCGGCCAC-AGCAC-AGCACCAGCACCGGCACCACTAG",
+                  "hseq": "CCTCGACCACCAGCACCAGCACCAGCACCAGCACCACCAG",
+                  "midline": "||||| |||| ||||| |||||||||||| ||||||| ||"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "gi|242093355|ref|XM_002437123.1|",
+                  "accession": "XM_002437123",
+                  "title": "Sorghum bicolor hypothetical protein, mRNA",
+                  "taxid": 4558,
+                  "sciname": "Sorghum bicolor"
+                }
+              ],
+              "len": 2040,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 36,
+                  "query_from": 4180,
+                  "query_to": 4220,
+                  "query_strand": "Plus",
+                  "hit_from": 1971,
+                  "hit_to": 2010,
+                  "hit_strand": "Plus",
+                  "align_len": 42,
+                  "gaps": 3,
+                  "qseq": "CAGCA-CAGCACCAGCACCGGCACCACTAGGCCCCGAGCACG",
+                  "hseq": "CAGCAGCAGCACCGGCACCGGCACCACTCGGTCC--AGCACG",
+                  "midline": "||||| ||||||| |||||||||||||| || ||  ||||||"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "gi|242086041|ref|XM_002443401.1|",
+                  "accession": "XM_002443401",
+                  "title": "Sorghum bicolor hypothetical protein, mRNA",
+                  "taxid": 4558,
+                  "sciname": "Sorghum bicolor"
+                }
+              ],
+              "len": 1989,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 30,
+                  "query_from": 4174,
+                  "query_to": 4205,
+                  "query_strand": "Plus",
+                  "hit_from": 59,
+                  "hit_to": 91,
+                  "hit_strand": "Plus",
+                  "align_len": 33,
+                  "gaps": 1,
+                  "qseq": "CGGCCACAGCA-CAGCACCAGCACCGGCACCAC",
+                  "hseq": "CGGCCGCAGCAGCAGCACCGGCACCGGCACCAC",
+                  "midline": "||||| ||||| ||||||| |||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "gi|168002282|ref|XM_001753791.1|",
+                  "accession": "XM_001753791",
+                  "title": "Physcomitrella patens subsp. patens predicted protein (PHYPADRAFT_159248) mRNA, complete cds",
+                  "taxid": 3218,
+                  "sciname": "Physcomitrella patens"
+                }
+              ],
+              "len": 6009,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 29,
+                  "query_from": 1087,
+                  "query_to": 1119,
+                  "query_strand": "Plus",
+                  "hit_from": 3456,
+                  "hit_to": 3424,
+                  "hit_strand": "Minus",
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "TGATGCATCCTTACCTCCATCCTCAATCTTAGT",
+                  "hseq": "TGATGAATCCTTCCCTCCATCCTCATTCTCAGT",
+                  "midline": "||||| |||||| |||||||||||| ||| |||"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "gi|116778509|gb|EF081489.1|",
+                  "accession": "EF081489",
+                  "title": "Picea sitchensis clone WS02811_H03 unknown mRNA",
+                  "taxid": 3332,
+                  "sciname": "Picea sitchensis"
+                }
+              ],
+              "len": 567,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 35,
+                  "query_from": 4171,
+                  "query_to": 4208,
+                  "query_strand": "Plus",
+                  "hit_from": 275,
+                  "hit_to": 236,
+                  "hit_strand": "Minus",
+                  "align_len": 40,
+                  "gaps": 2,
+                  "qseq": "CCTCGGCCAC-AGCAC-AGCACCAGCACCGGCACCACTAG",
+                  "hseq": "CCTCGACCACCAGCACCAGCACCAGCACCAGCACCACCAG",
+                  "midline": "||||| |||| ||||| |||||||||||| ||||||| ||"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "gi|123654329|emb|AM429435.1|",
+                  "accession": "AM429435",
+                  "title": "Vitis vinifera, whole genome shotgun sequence, contig VV78X154826.4, clone ENTAV 115",
+                  "taxid": 29760,
+                  "sciname": "Vitis vinifera"
+                }
+              ],
+              "len": 7609,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 25,
+                  "query_from": 102,
+                  "query_to": 127,
+                  "query_strand": "Plus",
+                  "hit_from": 3818,
+                  "hit_to": 3843,
+                  "hit_strand": "Plus",
+                  "align_len": 26,
+                  "gaps": 0,
+                  "qseq": "ATTGGAAAAGCATAATGAAGGAAGAA",
+                  "hseq": "ATTGGAAAAGTATAATGAAGGAAGAA",
+                  "midline": "|||||||||| |||||||||||||||"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 33214894,
+            "db_len": 106427473057,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.41,
+            "lambda": 0.625,
+            "entropy": 0.78
+          }
+        }
+      }
+    }
+  }
+}
