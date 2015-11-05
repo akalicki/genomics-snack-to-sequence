@@ -34,7 +34,7 @@ def seqs_to_confusion(seq_list):
         qseq = pair[0]
         hseq = pair[1]
         for i in range(len(qseq)):
-            key = (qseq[i], hseq[i])
+            key = (qseq[i].upper(), hseq[i].upper())
             confusion[key] += 1
     return confusion
 
