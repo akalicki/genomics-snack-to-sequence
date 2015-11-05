@@ -1,0 +1,4420 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastn",
+      "version": "BLASTN 2.2.32+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr"
+      },
+      "params": {
+        "expect": 10,
+        "sc_match": 2,
+        "sc_mismatch": -3,
+        "gap_open": 5,
+        "gap_extend": 2,
+        "filter": "L;m;",
+        "entrez_query": "txid3193 [ORGN]"
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_198555",
+          "query_title": "e186b253-c058-4aa2-85e9-fdf564870d15_Basecall_2D_000_2d MINION01_3_minnows_3015_1_ch52_file18_strand_twodirections fast5/pass/MINION01_3_minnows_3015_1_ch52_file18_strand.fast5",
+          "query_len": 4643,
+          "query_masking": [
+            {
+              "from": 181,
+              "to": 271
+            },
+            {
+              "from": 498,
+              "to": 662
+            },
+            {
+              "from": 775,
+              "to": 846
+            },
+            {
+              "from": 1440,
+              "to": 1512
+            },
+            {
+              "from": 1667,
+              "to": 1703
+            },
+            {
+              "from": 2719,
+              "to": 2747
+            },
+            {
+              "from": 3565,
+              "to": 3592
+            }
+          ],
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gi|720096741|ref|XM_010248783.1|",
+                  "accession": "XM_010248783",
+                  "title": "PREDICTED: Nelumbo nucifera serine/threonine-protein kinase PBS1-like (LOC104590211), transcript variant X3, mRNA",
+                  "taxid": 4432,
+                  "sciname": "Nelumbo nucifera"
+                }
+              ],
+              "len": 1976,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.0151356,
+                  "identity": 56,
+                  "query_from": 394,
+                  "query_to": 460,
+                  "query_strand": "Plus",
+                  "hit_from": 494,
+                  "hit_to": 422,
+                  "hit_strand": "Minus",
+                  "align_len": 73,
+                  "gaps": 6,
+                  "qseq": "AACAAGAGAAACAATGAAATAAA--CAGAGAGACAGAGAGATAAGAA----GACGAAATAATAAGTACACGCA",
+                  "hseq": "AACCAAAGAAACAATGAAAAAAATCCAGAGAGAGAGAGAGAGAGTAACTTGGACAAAACAATAAGAACACCCA",
+                  "midline": "||| | ||||||||||||| |||  |||||||| ||||||| |  ||    ||| ||| |||||| |||| ||"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gi|720096736|ref|XR_734087.1|",
+                  "accession": "XR_734087",
+                  "title": "PREDICTED: Nelumbo nucifera serine/threonine-protein kinase PBS1-like (LOC104590211), transcript variant X1, misc_RNA",
+                  "taxid": 4432,
+                  "sciname": "Nelumbo nucifera"
+                }
+              ],
+              "len": 2260,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.0151356,
+                  "identity": 56,
+                  "query_from": 394,
+                  "query_to": 460,
+                  "query_strand": "Plus",
+                  "hit_from": 493,
+                  "hit_to": 421,
+                  "hit_strand": "Minus",
+                  "align_len": 73,
+                  "gaps": 6,
+                  "qseq": "AACAAGAGAAACAATGAAATAAA--CAGAGAGACAGAGAGATAAGAA----GACGAAATAATAAGTACACGCA",
+                  "hseq": "AACCAAAGAAACAATGAAAAAAATCCAGAGAGAGAGAGAGAGAGTAACTTGGACAAAACAATAAGAACACCCA",
+                  "midline": "||| | ||||||||||||| |||  |||||||| ||||||| |  ||    ||| ||| |||||| |||| ||"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gi|307065432|gb|GQ872629.1|",
+                  "accession": "GQ872629",
+                  "title": "Cyperus rotundus clone Cyr_114 SSR marker genomic sequence",
+                  "taxid": 512623,
+                  "sciname": "Cyperus rotundus"
+                }
+              ],
+              "len": 431,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.0151356,
+                  "identity": 52,
+                  "query_from": 1812,
+                  "query_to": 1873,
+                  "query_strand": "Plus",
+                  "hit_from": 210,
+                  "hit_to": 149,
+                  "hit_strand": "Minus",
+                  "align_len": 65,
+                  "gaps": 6,
+                  "qseq": "GTTAGTTACGTTGGTTAGGGTAGGTTAGGTTGAGT--GCGCT-GTGAGTTAGGTTATCTAGTTAG",
+                  "hseq": "GTTAGTTAGGTTAGTTAGGTTAGGTTAGGTTAGGTTAGCGTTAGTTAGTTAGGTTA---AGTTAG",
+                  "midline": "|||||||| ||| |||||| |||||||||||  ||  ||| | || ||||||||||   ||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 49,
+                  "query_from": 1275,
+                  "query_to": 1334,
+                  "query_strand": "Plus",
+                  "hit_from": 277,
+                  "hit_to": 219,
+                  "hit_strand": "Minus",
+                  "align_len": 61,
+                  "gaps": 3,
+                  "qseq": "GTTAGGTTGAGTCATTTACGATTAGGTTAGTTACGT-AGAGTGGGTTAGGTTAGGTTAGGT",
+                  "hseq": "GTTAGGTTAGGTTAGTT--GGTTAGGTTAGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGT",
+                  "midline": "||||||||  || | ||  | |||||||||||| || ||  | ||||||||||||||||||"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 36,
+                  "query_from": 1296,
+                  "query_to": 1334,
+                  "query_strand": "Plus",
+                  "hit_from": 302,
+                  "hit_to": 266,
+                  "hit_strand": "Minus",
+                  "align_len": 39,
+                  "gaps": 2,
+                  "qseq": "TTAGGTTAGTTACGTAGAGTGGGTTAGGTTAGGTTAGGT",
+                  "hseq": "TTAGGTTAGTTA-GTAG-GTTGGTTAGGTTAGGTTAGGT",
+                  "midline": "|||||||||||| |||| || ||||||||||||||||||"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 35,
+                  "query_from": 1296,
+                  "query_to": 1334,
+                  "query_strand": "Plus",
+                  "hit_from": 421,
+                  "hit_to": 384,
+                  "hit_strand": "Minus",
+                  "align_len": 39,
+                  "gaps": 1,
+                  "qseq": "TTAGGTTAGTTACGTAGAGTGGGTTAGGTTAGGTTAGGT",
+                  "hseq": "TTAGGTTAGTTAGGTT-AGTGAGTTAGGTTAGGTTAGGT",
+                  "midline": "|||||||||||| ||  |||| |||||||||||||||||"
+                },
+                {
+                  "num": 5,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 47,
+                  "query_from": 2492,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 279,
+                  "hit_to": 223,
+                  "hit_strand": "Minus",
+                  "align_len": 59,
+                  "gaps": 4,
+                  "qseq": "AGTTTAGGTTAGGTTACAGTTGGATCGGGT--TGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "AGGTTAGGTTAGGTT--AGTTGGTTAGGTTAGTTAGGTTAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "|| ||||||||||||  |||||| | || |  | || | ||||||| ||||||||||||"
+                },
+                {
+                  "num": 6,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 57,
+                  "query_from": 1804,
+                  "query_to": 1874,
+                  "query_strand": "Plus",
+                  "hit_from": 357,
+                  "hit_to": 289,
+                  "hit_strand": "Minus",
+                  "align_len": 72,
+                  "gaps": 4,
+                  "qseq": "AGGTCTATGTTAGTTACGTTGGTTAGGGTAGGTTAGGTTGAGTGCGCTGTGAGTTAGGTTA-TCTAGTTAGT",
+                  "hseq": "AGGT-TAGGTTAGTTAGGTTTGTTAGGTTAGGTTAGGTT-AGTTAGGT-TAGGTTAGGTTAGGTTAGTTAGT",
+                  "midline": "|||| || |||||||| ||| |||||| ||||||||||| |||  | | |  |||||||||   ||||||||"
+                },
+                {
+                  "num": 7,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 48,
+                  "query_from": 1275,
+                  "query_to": 1334,
+                  "query_strand": "Plus",
+                  "hit_from": 67,
+                  "hit_to": 8,
+                  "hit_strand": "Minus",
+                  "align_len": 61,
+                  "gaps": 2,
+                  "qseq": "GTTAGGTTGAGTCATTTACGATTAGGTTAGTTACGT-AGAGTGGGTTAGGTTAGGTTAGGT",
+                  "hseq": "GTTAGGTTAGGTCAGTTAGG-TTAGTTTAGTTTAGTTAGGYTAGGTCAGGTTAGGTTAGGT",
+                  "midline": "||||||||  |||| ||| | |||| ||||||  || ||  | ||| ||||||||||||||"
+                },
+                {
+                  "num": 8,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 45,
+                  "query_from": 1812,
+                  "query_to": 1864,
+                  "query_strand": "Plus",
+                  "hit_from": 294,
+                  "hit_to": 242,
+                  "hit_strand": "Minus",
+                  "align_len": 55,
+                  "gaps": 4,
+                  "qseq": "GTTAGTTACGTTGGTTAGGGTAGGTTAGGTTGAGTGCGCT--GTGAGTTAGGTTA",
+                  "hseq": "GTTAGT-AGGTTGGTTAGGTTAGGTTAGGTT-AGTTGGTTAGGTTAGTTAGGTTA",
+                  "midline": "|||||| | |||||||||| ||||||||||| |||  | |  || ||||||||||"
+                },
+                {
+                  "num": 9,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 47,
+                  "query_from": 1275,
+                  "query_to": 1335,
+                  "query_strand": "Plus",
+                  "hit_from": 374,
+                  "hit_to": 315,
+                  "hit_strand": "Minus",
+                  "align_len": 61,
+                  "gaps": 1,
+                  "qseq": "GTTAGGTTGAGTCATTTACGATTAGGTTAGTTACGTAGAGTGGGTTAGGTTAGGTTAGGTA",
+                  "hseq": "GTTAGGTT-AGTTAGGTTAGGTTAGGTTAGTTAGGTTTGTTAGGTTAGGTTAGGTTAGTTA",
+                  "midline": "|||||||| ||| |  |  | |||||||||||| ||    | |||||||||||||||| ||"
+                },
+                {
+                  "num": 10,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 69,
+                  "query_from": 1970,
+                  "query_to": 2060,
+                  "query_strand": "Plus",
+                  "hit_from": 285,
+                  "hit_to": 195,
+                  "hit_strand": "Minus",
+                  "align_len": 96,
+                  "gaps": 10,
+                  "qseq": "TTGGGGACGTTAGGTTAGGTTACGAGTTCATTGCGGGTTAGTT-GCTTA-ATTAGTTGAGTT---GTTAGGTTAGATGCCGTGAGTTAGGTTAGTT",
+                  "hseq": "TTGGTTAGGTTAGGTTAGGTT---AGTTGGTT--AGGTTAGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTKAGGWGTGGTTAGTTAGGTTAGTT",
+                  "midline": "||||  | |||||||||||||   ||||  ||   |||||||| | |||  |||| | || |   ||||||| ||  |  || |||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gi|733578671|emb|LN713266.1|",
+                  "accession": "LN713266",
+                  "title": "Cucumis melo genomic chromosome, chr_12",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 26400393,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 51,
+                  "query_from": 394,
+                  "query_to": 453,
+                  "query_strand": "Plus",
+                  "hit_from": 21104732,
+                  "hit_to": 21104793,
+                  "hit_strand": "Plus",
+                  "align_len": 63,
+                  "gaps": 4,
+                  "qseq": "AACAAGAGAAACAATGAAATAAACAGAGAGAC--AGAGAGATAAGAAGACGAA-ATAATAAGT",
+                  "hseq": "AAGAAGAGAAACAGAGGAA-AAACAGAGAGACAGAGAGAGAGAAGAAGAAGAAGAAAATGAGT",
+                  "midline": "|| ||||||||||  | || ||||||||||||  ||||||| ||||||| ||| | ||| |||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 27,
+                  "query_from": 416,
+                  "query_to": 444,
+                  "query_strand": "Plus",
+                  "hit_from": 24149472,
+                  "hit_to": 24149444,
+                  "hit_strand": "Minus",
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "ACAGAGAGACAGAGAGATAAGAAGACGAA",
+                  "hseq": "ACAGAGAGACAGAGAGAGAAGAAGAAGAA",
+                  "midline": "||||||||||||||||| ||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gi|733601800|emb|LN681932.1|",
+                  "accession": "LN681932",
+                  "title": "Cucumis melo genomic scaffold, anchoredscaffold00001",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 8357022,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 51,
+                  "query_from": 394,
+                  "query_to": 453,
+                  "query_strand": "Plus",
+                  "hit_from": 5295662,
+                  "hit_to": 5295601,
+                  "hit_strand": "Minus",
+                  "align_len": 63,
+                  "gaps": 4,
+                  "qseq": "AACAAGAGAAACAATGAAATAAACAGAGAGAC--AGAGAGATAAGAAGACGAA-ATAATAAGT",
+                  "hseq": "AAGAAGAGAAACAGAGGAA-AAACAGAGAGACAGAGAGAGAGAAGAAGAAGAAGAAAATGAGT",
+                  "midline": "|| ||||||||||  | || ||||||||||||  ||||||| ||||||| ||| | ||| |||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 27,
+                  "query_from": 416,
+                  "query_to": 444,
+                  "query_strand": "Plus",
+                  "hit_from": 2250922,
+                  "hit_to": 2250950,
+                  "hit_strand": "Plus",
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "ACAGAGAGACAGAGAGATAAGAAGACGAA",
+                  "hseq": "ACAGAGAGACAGAGAGAGAAGAAGAAGAA",
+                  "midline": "||||||||||||||||| ||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gi|659068216|ref|XM_008445136.1|",
+                  "accession": "XM_008445136",
+                  "title": "PREDICTED: Cucumis melo CBL-interacting serine/threonine-protein kinase 20-like (LOC103486963), mRNA",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 1781,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 51,
+                  "query_from": 394,
+                  "query_to": 453,
+                  "query_strand": "Plus",
+                  "hit_from": 288,
+                  "hit_to": 227,
+                  "hit_strand": "Minus",
+                  "align_len": 63,
+                  "gaps": 4,
+                  "qseq": "AACAAGAGAAACAATGAAATAAACAGAGAGAC--AGAGAGATAAGAAGACGAA-ATAATAAGT",
+                  "hseq": "AAGAAGAGAAACAGAGGAA-AAACAGAGAGACAGAGAGAGAGAAGAAGAAGAAGAAAATGAGT",
+                  "midline": "|| ||||||||||  | || ||||||||||||  ||||||| ||||||| ||| | ||| |||"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gi|147819313|emb|AM425334.2|",
+                  "accession": "AM425334",
+                  "title": "Vitis vinifera contig VV78X013989.3, whole genome shotgun sequence",
+                  "taxid": 29760,
+                  "sciname": "Vitis vinifera"
+                }
+              ],
+              "len": 1782,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 45,
+                  "query_from": 2492,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 1507,
+                  "hit_to": 1563,
+                  "hit_strand": "Plus",
+                  "align_len": 57,
+                  "gaps": 0,
+                  "qseq": "AGTTTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "AGGTTAGGTTAGGTTTAGGTTAGGTTAGGTTWAGGTTAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "|| ||||||||||||   ||| | |  |||| || | ||||||| ||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 45,
+                  "query_from": 2492,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 1523,
+                  "hit_to": 1578,
+                  "hit_strand": "Plus",
+                  "align_len": 57,
+                  "gaps": 1,
+                  "qseq": "AGTTTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "AGGTTAGGTTAGGTTWAGGTTAGGTTAGGTT-AGGTTAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "|| ||||||||||||   ||| | |  |||| || | ||||||| ||||||||||||"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 44,
+                  "query_from": 2493,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 1519,
+                  "hit_to": 1573,
+                  "hit_strand": "Plus",
+                  "align_len": 56,
+                  "gaps": 1,
+                  "qseq": "GTTTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "GTTTAGGTTAGGTTAGGTTWAGGTTAGGTT-AGGTTAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "|||||||||||||||   |  | |  |||| || | ||||||| ||||||||||||"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 45,
+                  "query_from": 2492,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 1554,
+                  "hit_to": 1609,
+                  "hit_strand": "Plus",
+                  "align_len": 57,
+                  "gaps": 1,
+                  "qseq": "AGTTTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "AGGTTAGGTTAGGTTAG-GTTAGGTTAGGTTAGGKTTAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "|| |||||||||||||  ||| | |  ||||  | | ||||||| ||||||||||||"
+                },
+                {
+                  "num": 5,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 43,
+                  "query_from": 2492,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 1502,
+                  "hit_to": 1558,
+                  "hit_strand": "Plus",
+                  "align_len": 57,
+                  "gaps": 0,
+                  "qseq": "AGTTTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "AGKTWAGGTTAGGTTAGGTTTAGGTTAGGTTAGGTTWAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "|| | |||||||||||   || | |  ||||  | | ||||||| ||||||||||||"
+                },
+                {
+                  "num": 6,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 45,
+                  "query_from": 2492,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 1595,
+                  "hit_to": 1652,
+                  "hit_strand": "Plus",
+                  "align_len": 58,
+                  "gaps": 1,
+                  "qseq": "AGTTTAGGTTAGGTTACAGTT-GGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "AGGTTAGGTTAGGTTAGGTTTWRGGTTAGGTTWAGGTTAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "|| |||||||||||||   ||  | |  |||| || | ||||||| ||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gi|727611011|ref|XM_010480344.1|",
+                  "accession": "XM_010480344",
+                  "title": "PREDICTED: Camelina sativa inactive poly [ADP-ribose] polymerase RCD1 (LOC104757594), transcript variant X2, mRNA",
+                  "taxid": 90675,
+                  "sciname": "Camelina sativa"
+                }
+              ],
+              "len": 2592,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 43,
+                  "query_from": 392,
+                  "query_to": 444,
+                  "query_strand": "Plus",
+                  "hit_from": 245,
+                  "hit_to": 195,
+                  "hit_strand": "Minus",
+                  "align_len": 53,
+                  "gaps": 2,
+                  "qseq": "GCAACAAGAGAAACAATGAAATAAACAGAGAGACAGAGAGATAAGAAGACGAA",
+                  "hseq": "GCAAAAAGCTAAACAAGAAAATTAACAGAGAGGGAGAGAGA--AGAAGACGAA",
+                  "midline": "|||| |||  ||||||  |||| |||||||||  |||||||  ||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gi|727611009|ref|XM_010480343.1|",
+                  "accession": "XM_010480343",
+                  "title": "PREDICTED: Camelina sativa inactive poly [ADP-ribose] polymerase RCD1 (LOC104757594), transcript variant X1, mRNA",
+                  "taxid": 90675,
+                  "sciname": "Camelina sativa"
+                }
+              ],
+              "len": 2596,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 43,
+                  "query_from": 392,
+                  "query_to": 444,
+                  "query_strand": "Plus",
+                  "hit_from": 246,
+                  "hit_to": 196,
+                  "hit_strand": "Minus",
+                  "align_len": 53,
+                  "gaps": 2,
+                  "qseq": "GCAACAAGAGAAACAATGAAATAAACAGAGAGACAGAGAGATAAGAAGACGAA",
+                  "hseq": "GCAAAAAGCTAAACAAGAAAATTAACAGAGAGGGAGAGAGA--AGAAGACGAA",
+                  "midline": "|||| |||  ||||||  |||| |||||||||  |||||||  ||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gi|697963345|gb|KJ618064.1|",
+                  "accession": "KJ618064",
+                  "title": "Forsythia suspensa clone Fs657 microsatellite sequence",
+                  "taxid": 126418,
+                  "sciname": "Forsythia suspensa"
+                }
+              ],
+              "len": 109,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 46,
+                  "query_from": 2491,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 35,
+                  "hit_to": 91,
+                  "hit_strand": "Plus",
+                  "align_len": 58,
+                  "gaps": 1,
+                  "qseq": "AAGTTTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "AAGGTTAGGTTAGGTTAG-GTTAGGTTAGGTTAAGGTTAAGTTAGGTTAGGTTAGGTT",
+                  "midline": "||| |||||||||||||  ||| | |  |||| || | | ||||| ||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 45,
+                  "query_from": 2492,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 5,
+                  "hit_to": 60,
+                  "hit_strand": "Plus",
+                  "align_len": 57,
+                  "gaps": 1,
+                  "qseq": "AGTTTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "AGGTTAGGTTAAGTTAG-GTTAGGTTAGGTTAAGGTTAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "|| |||||||| ||||  ||| | |  |||| || | ||||||| ||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gi|519762088|gb|JX622226.1|",
+                  "accession": "JX622226",
+                  "title": "Gossypium hirsutum clone NBRI_GE68905 microsatellite sequence",
+                  "taxid": 3635,
+                  "sciname": "Gossypium hirsutum"
+                }
+              ],
+              "len": 378,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 48,
+                  "query_from": 2492,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 178,
+                  "hit_to": 237,
+                  "hit_strand": "Plus",
+                  "align_len": 61,
+                  "gaps": 5,
+                  "qseq": "AGTTTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTG----AGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "AGGTTAGGTAAGGTTAG-GTTGGGTTGGGTTGGGTTGGGTTAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "|| |||||| ||||||  ||||| | |||||| | ||    ||||||| ||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 47,
+                  "query_from": 2491,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 187,
+                  "hit_to": 242,
+                  "hit_strand": "Plus",
+                  "align_len": 58,
+                  "gaps": 2,
+                  "qseq": "AAGTTTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "AAGGTTAGGTTGGGTTGG-GTTGGGTTGGGTT-AGGTTAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "||| ||||||| ||||   ||||| | ||||| || | ||||||| ||||||||||||"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 47,
+                  "query_from": 2492,
+                  "query_to": 2549,
+                  "query_strand": "Plus",
+                  "hit_from": 258,
+                  "hit_to": 313,
+                  "hit_strand": "Plus",
+                  "align_len": 58,
+                  "gaps": 2,
+                  "qseq": "AGTTTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTTG",
+                  "hseq": "AGGTTAGGTTAGGTTAG-GTTAGGTTAGGTT-AGGTTAGGTTAGGTTAGGTTAGGTTG",
+                  "midline": "|| |||||||||||||  ||| | |  |||| || | ||||||| |||||||||||||"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 44,
+                  "query_from": 2495,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 216,
+                  "hit_to": 267,
+                  "hit_strand": "Plus",
+                  "align_len": 54,
+                  "gaps": 2,
+                  "qseq": "TTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "TTAGGTTAGGTTAG-GTTAGGTTAGGTT-AGGTTAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "|||||||||||||  ||| | |  |||| || | ||||||| ||||||||||||"
+                },
+                {
+                  "num": 5,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 46,
+                  "query_from": 2492,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 218,
+                  "hit_to": 272,
+                  "hit_strand": "Plus",
+                  "align_len": 57,
+                  "gaps": 2,
+                  "qseq": "AGTTTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "AGGTTAGGTTAGGTTAG-GTTAGGTTAGGTT-AGGTTAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "|| |||||||||||||  ||| | |  |||| || | ||||||| ||||||||||||"
+                },
+                {
+                  "num": 6,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 48,
+                  "query_from": 1275,
+                  "query_to": 1334,
+                  "query_strand": "Plus",
+                  "hit_from": 205,
+                  "hit_to": 266,
+                  "hit_strand": "Plus",
+                  "align_len": 62,
+                  "gaps": 2,
+                  "qseq": "GTTAGGTTGAGTCATTTACGATTAGGTTAG-TTACGT-AGAGTGGGTTAGGTTAGGTTAGGT",
+                  "hseq": "GTTGGGTTGGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGT",
+                  "midline": "||| ||||| || |  |  | ||||||||| ||| || ||  | ||||||||||||||||||"
+                },
+                {
+                  "num": 7,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 48,
+                  "query_from": 1275,
+                  "query_to": 1334,
+                  "query_strand": "Plus",
+                  "hit_from": 215,
+                  "hit_to": 276,
+                  "hit_strand": "Plus",
+                  "align_len": 62,
+                  "gaps": 2,
+                  "qseq": "GTTAGGTTGAGTCATTTACGATTAGGTTAG-TTACGT-AGAGTGGGTTAGGTTAGGTTAGGT",
+                  "hseq": "GTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGT",
+                  "midline": "||||||||  || |  |  | ||||||||| ||| || ||  | ||||||||||||||||||"
+                },
+                {
+                  "num": 8,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 48,
+                  "query_from": 1275,
+                  "query_to": 1334,
+                  "query_strand": "Plus",
+                  "hit_from": 220,
+                  "hit_to": 281,
+                  "hit_strand": "Plus",
+                  "align_len": 62,
+                  "gaps": 2,
+                  "qseq": "GTTAGGTTGAGTCATTTACGATTAGGTTAG-TTACGT-AGAGTGGGTTAGGTTAGGTTAGGT",
+                  "hseq": "GTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGT",
+                  "midline": "||||||||  || |  |  | ||||||||| ||| || ||  | ||||||||||||||||||"
+                },
+                {
+                  "num": 9,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 48,
+                  "query_from": 1275,
+                  "query_to": 1334,
+                  "query_strand": "Plus",
+                  "hit_from": 225,
+                  "hit_to": 286,
+                  "hit_strand": "Plus",
+                  "align_len": 62,
+                  "gaps": 2,
+                  "qseq": "GTTAGGTTGAGTCATTTACGATTAGGTTAG-TTACGT-AGAGTGGGTTAGGTTAGGTTAGGT",
+                  "hseq": "GTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGT",
+                  "midline": "||||||||  || |  |  | ||||||||| ||| || ||  | ||||||||||||||||||"
+                },
+                {
+                  "num": 10,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 48,
+                  "query_from": 1275,
+                  "query_to": 1334,
+                  "query_strand": "Plus",
+                  "hit_from": 230,
+                  "hit_to": 291,
+                  "hit_strand": "Plus",
+                  "align_len": 62,
+                  "gaps": 2,
+                  "qseq": "GTTAGGTTGAGTCATTTACGATTAGGTTAG-TTACGT-AGAGTGGGTTAGGTTAGGTTAGGT",
+                  "hseq": "GTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGT",
+                  "midline": "||||||||  || |  |  | ||||||||| ||| || ||  | ||||||||||||||||||"
+                },
+                {
+                  "num": 11,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 48,
+                  "query_from": 1275,
+                  "query_to": 1334,
+                  "query_strand": "Plus",
+                  "hit_from": 235,
+                  "hit_to": 296,
+                  "hit_strand": "Plus",
+                  "align_len": 62,
+                  "gaps": 2,
+                  "qseq": "GTTAGGTTGAGTCATTTACGATTAGGTTAG-TTACGT-AGAGTGGGTTAGGTTAGGTTAGGT",
+                  "hseq": "GTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGT",
+                  "midline": "||||||||  || |  |  | ||||||||| ||| || ||  | ||||||||||||||||||"
+                },
+                {
+                  "num": 12,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 48,
+                  "query_from": 1275,
+                  "query_to": 1334,
+                  "query_strand": "Plus",
+                  "hit_from": 240,
+                  "hit_to": 301,
+                  "hit_strand": "Plus",
+                  "align_len": 62,
+                  "gaps": 2,
+                  "qseq": "GTTAGGTTGAGTCATTTACGATTAGGTTAG-TTACGT-AGAGTGGGTTAGGTTAGGTTAGGT",
+                  "hseq": "GTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGT",
+                  "midline": "||||||||  || |  |  | ||||||||| ||| || ||  | ||||||||||||||||||"
+                },
+                {
+                  "num": 13,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 48,
+                  "query_from": 1275,
+                  "query_to": 1334,
+                  "query_strand": "Plus",
+                  "hit_from": 245,
+                  "hit_to": 306,
+                  "hit_strand": "Plus",
+                  "align_len": 62,
+                  "gaps": 2,
+                  "qseq": "GTTAGGTTGAGTCATTTACGATTAGGTTAG-TTACGT-AGAGTGGGTTAGGTTAGGTTAGGT",
+                  "hseq": "GTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGT",
+                  "midline": "||||||||  || |  |  | ||||||||| ||| || ||  | ||||||||||||||||||"
+                },
+                {
+                  "num": 14,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 48,
+                  "query_from": 1275,
+                  "query_to": 1334,
+                  "query_strand": "Plus",
+                  "hit_from": 250,
+                  "hit_to": 311,
+                  "hit_strand": "Plus",
+                  "align_len": 62,
+                  "gaps": 2,
+                  "qseq": "GTTAGGTTGAGTCATTTACGATTAGGTTAG-TTACGT-AGAGTGGGTTAGGTTAGGTTAGGT",
+                  "hseq": "GTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGT",
+                  "midline": "||||||||  || |  |  | ||||||||| ||| || ||  | ||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gi|519762002|gb|JX622191.1|",
+                  "accession": "JX622191",
+                  "title": "Gossypium hirsutum clone NBRI_GE68863 microsatellite sequence",
+                  "taxid": 3635,
+                  "sciname": "Gossypium hirsutum"
+                }
+              ],
+              "len": 291,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 48,
+                  "query_from": 2492,
+                  "query_to": 2551,
+                  "query_strand": "Plus",
+                  "hit_from": 167,
+                  "hit_to": 110,
+                  "hit_strand": "Minus",
+                  "align_len": 60,
+                  "gaps": 2,
+                  "qseq": "AGTTTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTTGCG",
+                  "hseq": "AGGTTAGGTTAGGTTAG-GTTAGGTTAGGTT-AGGTTAGGTTAGGTTAGGTTAGGTTACG",
+                  "midline": "|| |||||||||||||  ||| | |  |||| || | ||||||| |||||||||||| ||"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gi|923797945|ref|XM_013830949.1|",
+                  "accession": "XM_013830949",
+                  "title": "PREDICTED: Brassica napus ABC transporter C family member 3-like (LOC106390481), mRNA",
+                  "taxid": 3708,
+                  "sciname": "Brassica napus"
+                }
+              ],
+              "len": 4893,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 33,
+                  "query_from": 402,
+                  "query_to": 437,
+                  "query_strand": "Plus",
+                  "hit_from": 170,
+                  "hit_to": 206,
+                  "hit_strand": "Plus",
+                  "align_len": 37,
+                  "gaps": 1,
+                  "qseq": "AAACA-ATGAAATAAACAGAGAGACAGAGAGATAAGA",
+                  "hseq": "AAACAGAGGAAATAAACAGAGAGAGAGAGAGAGAAGA",
+                  "midline": "||||| | |||||||||||||||| ||||||| ||||"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gi|922413151|ref|XM_013728968.1|",
+                  "accession": "XM_013728968",
+                  "title": "PREDICTED: Brassica oleracea var. oleracea protein IQ-DOMAIN 14-like (LOC106293302), mRNA",
+                  "taxid": 109376,
+                  "sciname": "Brassica oleracea var. oleracea"
+                }
+              ],
+              "len": 1567,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 35,
+                  "query_from": 400,
+                  "query_to": 438,
+                  "query_strand": "Plus",
+                  "hit_from": 73,
+                  "hit_to": 34,
+                  "hit_strand": "Minus",
+                  "align_len": 40,
+                  "gaps": 1,
+                  "qseq": "AGAAACAATG-AAATAAACAGAGAGACAGAGAGATAAGAA",
+                  "hseq": "AGAAGCACTGTAAATAAAAAGAGAGAGAGAGAGATAAGAA",
+                  "midline": "|||| || || ||||||| ||||||| |||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gi|685288669|ref|XM_009137038.1|",
+                  "accession": "XM_009137038",
+                  "title": "PREDICTED: Brassica rapa ABC transporter C family member 3 (LOC103859499), transcript variant X2, mRNA",
+                  "taxid": 3711,
+                  "sciname": "Brassica rapa"
+                }
+              ],
+              "len": 3598,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 33,
+                  "query_from": 402,
+                  "query_to": 437,
+                  "query_strand": "Plus",
+                  "hit_from": 204,
+                  "hit_to": 240,
+                  "hit_strand": "Plus",
+                  "align_len": 37,
+                  "gaps": 1,
+                  "qseq": "AAACA-ATGAAATAAACAGAGAGACAGAGAGATAAGA",
+                  "hseq": "AAACAGAGGAAATAAACAGAGAGAGAGAGAGAGAAGA",
+                  "midline": "||||| | |||||||||||||||| ||||||| ||||"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gi|685288667|ref|XM_009137037.1|",
+                  "accession": "XM_009137037",
+                  "title": "PREDICTED: Brassica rapa ABC transporter C family member 3 (LOC103859499), transcript variant X1, mRNA",
+                  "taxid": 3711,
+                  "sciname": "Brassica rapa"
+                }
+              ],
+              "len": 4832,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 33,
+                  "query_from": 402,
+                  "query_to": 437,
+                  "query_strand": "Plus",
+                  "hit_from": 197,
+                  "hit_to": 233,
+                  "hit_strand": "Plus",
+                  "align_len": 37,
+                  "gaps": 1,
+                  "qseq": "AAACA-ATGAAATAAACAGAGAGACAGAGAGATAAGA",
+                  "hseq": "AAACAGAGGAAATAAACAGAGAGAGAGAGAGAGAAGA",
+                  "midline": "||||| | |||||||||||||||| ||||||| ||||"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "gi|519762240|gb|JX622288.1|",
+                  "accession": "JX622288",
+                  "title": "Gossypium hirsutum clone NBRI_GE68973 microsatellite sequence",
+                  "taxid": 3635,
+                  "sciname": "Gossypium hirsutum"
+                }
+              ],
+              "len": 389,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 43,
+                  "query_from": 2497,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 240,
+                  "hit_to": 191,
+                  "hit_strand": "Minus",
+                  "align_len": 52,
+                  "gaps": 2,
+                  "qseq": "AGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "AGGTTAGGTTA-AGTTAGGTAAGGTT-AGGTAAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "||||||||||| |||| | |  |||| || | ||||||| ||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 48,
+                  "query_from": 1275,
+                  "query_to": 1334,
+                  "query_strand": "Plus",
+                  "hit_from": 258,
+                  "hit_to": 197,
+                  "hit_strand": "Minus",
+                  "align_len": 62,
+                  "gaps": 2,
+                  "qseq": "GTTAGGTTGAGTCATTTACGATTAGGTTA-GTTACGTAGAGTG-GGTTAGGTTAGGTTAGGT",
+                  "hseq": "GTTAGGTTAGGTTAGGTAAGGTTAGGTTAAGTTAGGTAAGGTTAGGTAAGGTTAGGTTAGGT",
+                  "midline": "||||||||  || |  || | |||||||| |||| |||  ||  ||| ||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gi|519762230|gb|JX622280.1|",
+                  "accession": "JX622280",
+                  "title": "Gossypium hirsutum clone NBRI_GE68965 microsatellite sequence",
+                  "taxid": 3635,
+                  "sciname": "Gossypium hirsutum"
+                }
+              ],
+              "len": 168,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 44,
+                  "query_from": 2495,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 48,
+                  "hit_to": 99,
+                  "hit_strand": "Plus",
+                  "align_len": 54,
+                  "gaps": 2,
+                  "qseq": "TTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "TTAGGTTAGGTTAG-GTTAGGTTAGGTT-AGGTTAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "|||||||||||||  ||| | |  |||| || | ||||||| ||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 46,
+                  "query_from": 2492,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 50,
+                  "hit_to": 104,
+                  "hit_strand": "Plus",
+                  "align_len": 57,
+                  "gaps": 2,
+                  "qseq": "AGTTTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "AGGTTAGGTTAGGTTAG-GTTAGGTTAGGTT-AGGTTAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "|| |||||||||||||  ||| | |  |||| || | ||||||| ||||||||||||"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 46,
+                  "query_from": 2492,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 55,
+                  "hit_to": 109,
+                  "hit_strand": "Plus",
+                  "align_len": 57,
+                  "gaps": 2,
+                  "qseq": "AGTTTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "AGGTTAGGTTAGGTTAG-GTTAGGTTAGGTT-AGGTTAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "|| |||||||||||||  ||| | |  |||| || | ||||||| ||||||||||||"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 48,
+                  "query_from": 1275,
+                  "query_to": 1334,
+                  "query_strand": "Plus",
+                  "hit_from": 47,
+                  "hit_to": 108,
+                  "hit_strand": "Plus",
+                  "align_len": 62,
+                  "gaps": 2,
+                  "qseq": "GTTAGGTTGAGTCATTTACGATTAGGTTAG-TTACGT-AGAGTGGGTTAGGTTAGGTTAGGT",
+                  "hseq": "GTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGT",
+                  "midline": "||||||||  || |  |  | ||||||||| ||| || ||  | ||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "gi|519762109|gb|JX622234.1|",
+                  "accession": "JX622234",
+                  "title": "Gossypium hirsutum clone NBRI_GE68915 microsatellite sequence",
+                  "taxid": 3635,
+                  "sciname": "Gossypium hirsutum"
+                }
+              ],
+              "len": 411,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 46,
+                  "query_from": 2492,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 288,
+                  "hit_to": 234,
+                  "hit_strand": "Minus",
+                  "align_len": 57,
+                  "gaps": 2,
+                  "qseq": "AGTTTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "AGGTTAGGTTAGGTTAG-GTTAGGTTAGGTT-AGGTTAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "|| |||||||||||||  ||| | |  |||| || | ||||||| ||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 45,
+                  "query_from": 2493,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 327,
+                  "hit_to": 274,
+                  "hit_strand": "Minus",
+                  "align_len": 56,
+                  "gaps": 2,
+                  "qseq": "GTTTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "GTCTAGGTTAGGTTAG-GTTAGGTTAGGTT-AGGTTAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "|| ||||||||||||  ||| | |  |||| || | ||||||| ||||||||||||"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 45,
+                  "query_from": 2492,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 268,
+                  "hit_to": 214,
+                  "hit_strand": "Minus",
+                  "align_len": 57,
+                  "gaps": 2,
+                  "qseq": "AGTTTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "AGGTTAGGTTAGGTTAG-GTTAGGTTAGGTT-AGGTTAGGCTAGGTTAGGTTAGGTT",
+                  "midline": "|| |||||||||||||  ||| | |  |||| || | ||| ||| ||||||||||||"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 48,
+                  "query_from": 1275,
+                  "query_to": 1334,
+                  "query_strand": "Plus",
+                  "hit_from": 296,
+                  "hit_to": 235,
+                  "hit_strand": "Minus",
+                  "align_len": 62,
+                  "gaps": 2,
+                  "qseq": "GTTAGGTTGAGTCATTTACGATTAGGTTAG-TTACGT-AGAGTGGGTTAGGTTAGGTTAGGT",
+                  "hseq": "GTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGT",
+                  "midline": "||||||||  || |  |  | ||||||||| ||| || ||  | ||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "gi|147861701|emb|AM456997.2|",
+                  "accession": "AM456997",
+                  "title": "Vitis vinifera contig VV78X008628.6, whole genome shotgun sequence",
+                  "taxid": 29760,
+                  "sciname": "Vitis vinifera"
+                }
+              ],
+              "len": 30594,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 30,
+                  "query_from": 406,
+                  "query_to": 438,
+                  "query_strand": "Plus",
+                  "hit_from": 9348,
+                  "hit_to": 9316,
+                  "hit_strand": "Minus",
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "AATGAAATAAACAGAGAGACAGAGAGATAAGAA",
+                  "hseq": "AATGAGATAAACAGAGAAACAGAGAGATAACAA",
+                  "midline": "||||| ||||||||||| |||||||||||| ||"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "gi|147845192|emb|AM476109.2|",
+                  "accession": "AM476109",
+                  "title": "Vitis vinifera contig VV78X254905.6, whole genome shotgun sequence",
+                  "taxid": 29760,
+                  "sciname": "Vitis vinifera"
+                }
+              ],
+              "len": 1305,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 44,
+                  "query_from": 2495,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 918,
+                  "hit_to": 969,
+                  "hit_strand": "Plus",
+                  "align_len": 54,
+                  "gaps": 2,
+                  "qseq": "TTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "TTAGGTTAGGTTAG-GTTAGGTTAGGTT-AGGTTAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "|||||||||||||  ||| | |  |||| || | ||||||| ||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 46,
+                  "query_from": 2492,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 920,
+                  "hit_to": 974,
+                  "hit_strand": "Plus",
+                  "align_len": 57,
+                  "gaps": 2,
+                  "qseq": "AGTTTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "AGGTTAGGTTAGGTTAG-GTTAGGTTAGGTT-AGGTTAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "|| |||||||||||||  ||| | |  |||| || | ||||||| ||||||||||||"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 46,
+                  "query_from": 2492,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 925,
+                  "hit_to": 979,
+                  "hit_strand": "Plus",
+                  "align_len": 57,
+                  "gaps": 2,
+                  "qseq": "AGTTTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "AGGTTAGGTTAGGTTAG-GTTAGGTTAGGTT-AGGTTAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "|| |||||||||||||  ||| | |  |||| || | ||||||| ||||||||||||"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 46,
+                  "query_from": 2492,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 930,
+                  "hit_to": 984,
+                  "hit_strand": "Plus",
+                  "align_len": 57,
+                  "gaps": 2,
+                  "qseq": "AGTTTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "AGGTTAGGTTAGGTTAG-GTTAGGTTAGGTT-AGGTTAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "|| |||||||||||||  ||| | |  |||| || | ||||||| ||||||||||||"
+                },
+                {
+                  "num": 5,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 49,
+                  "query_from": 1275,
+                  "query_to": 1335,
+                  "query_strand": "Plus",
+                  "hit_from": 957,
+                  "hit_to": 1020,
+                  "hit_strand": "Plus",
+                  "align_len": 64,
+                  "gaps": 3,
+                  "qseq": "GTTAGGTTGAGTCATTTACGATTAGGTTAGTTACGTAGA---GTGGGTTAGGTTAGGTTAGGTA",
+                  "hseq": "GTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTAGGTAGGTAGGTAGGTTAGGTTAGGTTAGGTA",
+                  "midline": "||||||||  || |  |  | ||||||||| || ||||    || |||||||||||||||||||"
+                },
+                {
+                  "num": 6,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 40,
+                  "query_from": 1289,
+                  "query_to": 1334,
+                  "query_strand": "Plus",
+                  "hit_from": 911,
+                  "hit_to": 958,
+                  "hit_strand": "Plus",
+                  "align_len": 48,
+                  "gaps": 2,
+                  "qseq": "TTTACGATTAGGTTAG-TTACGT-AGAGTGGGTTAGGTTAGGTTAGGT",
+                  "hseq": "TTTAGGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGT",
+                  "midline": "|||| | ||||||||| ||| || ||  | ||||||||||||||||||"
+                },
+                {
+                  "num": 7,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 45,
+                  "query_from": 2492,
+                  "query_to": 2547,
+                  "query_strand": "Plus",
+                  "hit_from": 935,
+                  "hit_to": 988,
+                  "hit_strand": "Plus",
+                  "align_len": 56,
+                  "gaps": 2,
+                  "qseq": "AGTTTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGT",
+                  "hseq": "AGGTTAGGTTAGGTTAG-GTTAGGTTAGGTT-AGGTTAGGTTAGGTTAGGTTAGGT",
+                  "midline": "|| |||||||||||||  ||| | |  |||| || | ||||||| |||||||||||"
+                },
+                {
+                  "num": 8,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 34,
+                  "query_from": 1296,
+                  "query_to": 1332,
+                  "query_strand": "Plus",
+                  "hit_from": 1004,
+                  "hit_to": 1040,
+                  "hit_strand": "Plus",
+                  "align_len": 38,
+                  "gaps": 2,
+                  "qseq": "TTAGGTTAG-TTACGTAGAGTGGGTTAGGTTAGGTTAG",
+                  "hseq": "TTAGGTTAGGTTAGGTAG-GTAGGTTAGGTTAGGTTAG",
+                  "midline": "||||||||| ||| |||| || ||||||||||||||||"
+                },
+                {
+                  "num": 9,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 44,
+                  "query_from": 2492,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 1101,
+                  "hit_to": 1156,
+                  "hit_strand": "Plus",
+                  "align_len": 57,
+                  "gaps": 1,
+                  "qseq": "AGTTTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "AGKTTAGGTTAGGTTAGGTTAGGTTTAGGTTARGTT-AGGTTAGGTTAGGTTAGGTT",
+                  "midline": "|| |||||||||||||   | || |  ||||  | | ||||||| ||||||||||||"
+                },
+                {
+                  "num": 10,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 46,
+                  "query_from": 2493,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 910,
+                  "hit_to": 964,
+                  "hit_strand": "Plus",
+                  "align_len": 57,
+                  "gaps": 3,
+                  "qseq": "GTTTAGG-TTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "GTTTAGGGTTAGGTTAG-GTTAGGTTAGGTT-AGGTTAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "||||||| ||||||||  ||| | |  |||| || | ||||||| ||||||||||||"
+                },
+                {
+                  "num": 11,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 32,
+                  "query_from": 1296,
+                  "query_to": 1334,
+                  "query_strand": "Plus",
+                  "hit_from": 1009,
+                  "hit_to": 1047,
+                  "hit_strand": "Plus",
+                  "align_len": 39,
+                  "gaps": 0,
+                  "qseq": "TTAGGTTAGTTACGTAGAGTGGGTTAGGTTAGGTTAGGT",
+                  "hseq": "TTAGGTTAGGTAGGTAGGTTAGGTTAGGTTAGKKTAGGT",
+                  "midline": "||||||||| || ||||  | |||||||||||  |||||"
+                },
+                {
+                  "num": 12,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 41,
+                  "query_from": 2496,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 1100,
+                  "hit_to": 1151,
+                  "hit_strand": "Plus",
+                  "align_len": 53,
+                  "gaps": 1,
+                  "qseq": "TAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "TAGKTTAGGTTAG-GTTAGGTTAGGTTTAGGTTARGTTAGGTTAGGTTAGGTT",
+                  "midline": "||| ||||||||  ||| | |  |||| || | | ||||| ||||||||||||"
+                },
+                {
+                  "num": 13,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 49,
+                  "query_from": 1276,
+                  "query_to": 1334,
+                  "query_strand": "Plus",
+                  "hit_from": 1104,
+                  "hit_to": 1165,
+                  "hit_strand": "Plus",
+                  "align_len": 62,
+                  "gaps": 3,
+                  "qseq": "TTAGGTTGAGTCAT-TTACGATTAGGTTA-GTTACGT-AGAGTGGGTTAGGTTAGGTTAGGT",
+                  "hseq": "TTAGGTTAGGTTAGGTTAGGTTTAGGTTARGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGT",
+                  "midline": "|||||||  || |  ||| | |||||||| |||| || ||  | ||||||||||||||||||"
+                },
+                {
+                  "num": 14,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 46,
+                  "query_from": 2492,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 1116,
+                  "hit_to": 1171,
+                  "hit_strand": "Plus",
+                  "align_len": 58,
+                  "gaps": 3,
+                  "qseq": "AGTTTAGGTT-AGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "AGGTTAGGTTTAGGTTA-RGTTAGGTTAGGTT-AGGTTAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "|| ||||||| ||||||  ||| | |  |||| || | ||||||| ||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "gi|778713677|ref|XM_004150705.2|",
+                  "accession": "XM_004150705",
+                  "title": "PREDICTED: Cucumis sativus probable transcription factor KAN4 (LOC101205384), transcript variant X2, mRNA",
+                  "taxid": 3659,
+                  "sciname": "Cucumis sativus"
+                }
+              ],
+              "len": 1406,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 35,
+                  "query_from": 408,
+                  "query_to": 448,
+                  "query_strand": "Plus",
+                  "hit_from": 83,
+                  "hit_to": 122,
+                  "hit_strand": "Plus",
+                  "align_len": 41,
+                  "gaps": 1,
+                  "qseq": "TGAAATAAACAGAGAGACAGAGAGATAAGAAGACGAAATAA",
+                  "hseq": "TGGAATAAATAGAGAGACAGAGAGA-AGGAAGAAAAAATAA",
+                  "midline": "|| |||||| ||||||||||||||| | |||||  ||||||"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "gi|778672183|ref|XM_004138723.2|",
+                  "accession": "XM_004138723",
+                  "title": "PREDICTED: Cucumis sativus exocyst complex component EXO70A1 (LOC101207478), mRNA",
+                  "taxid": 3659,
+                  "sciname": "Cucumis sativus"
+                }
+              ],
+              "len": 3198,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 51,
+                  "query_from": 394,
+                  "query_to": 453,
+                  "query_strand": "Plus",
+                  "hit_from": 292,
+                  "hit_to": 227,
+                  "hit_strand": "Minus",
+                  "align_len": 66,
+                  "gaps": 6,
+                  "qseq": "AACAAGAGAAACAATGAAATAAACAGAGAGA----CAGAGAGATAA-GAAGACGA-AATAATAAGT",
+                  "hseq": "AAAAAGGGAAACAAGGTGATAAACAAAGAGAAAAACAGAGAGATAAGGAAGAAGAGAACAACAAGT",
+                  "midline": "|| ||| ||||||| |  ||||||| |||||    ||||||||||| ||||| || || || ||||"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "gi|764616073|ref|XM_004304288.2|",
+                  "accession": "XM_004304288",
+                  "title": "PREDICTED: Fragaria vesca subsp. vesca exocyst complex component SEC6 (LOC101306360), mRNA",
+                  "taxid": 101020,
+                  "sciname": "Fragaria vesca subsp. vesca"
+                }
+              ],
+              "len": 2513,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 30,
+                  "query_from": 414,
+                  "query_to": 447,
+                  "query_strand": "Plus",
+                  "hit_from": 100,
+                  "hit_to": 133,
+                  "hit_strand": "Plus",
+                  "align_len": 34,
+                  "gaps": 0,
+                  "qseq": "AAACAGAGAGACAGAGAGATAAGAAGACGAAATA",
+                  "hseq": "AATCAGAGAGAGAGAGAGAGAAGAAGACGAAGTA",
+                  "midline": "|| |||||||| ||||||| ||||||||||| ||"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "gi|727609292|ref|XM_010479491.1|",
+                  "accession": "XM_010479491",
+                  "title": "PREDICTED: Camelina sativa F-box/kelch-repeat protein At1g26930-like (LOC104756840), transcript variant X3, mRNA",
+                  "taxid": 90675,
+                  "sciname": "Camelina sativa"
+                }
+              ],
+              "len": 1672,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 37,
+                  "query_from": 398,
+                  "query_to": 437,
+                  "query_strand": "Plus",
+                  "hit_from": 2,
+                  "hit_to": 44,
+                  "hit_strand": "Plus",
+                  "align_len": 43,
+                  "gaps": 3,
+                  "qseq": "AGAGAAA--CAA-TGAAATAAACAGAGAGACAGAGAGATAAGA",
+                  "hseq": "AGAGAAAGACAAGTGTAATAAAGAGAGAGAGAGAGAGATAAGA",
+                  "midline": "|||||||  ||| || |||||| ||||||| ||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "gi|727609290|ref|XM_010479490.1|",
+                  "accession": "XM_010479490",
+                  "title": "PREDICTED: Camelina sativa F-box/kelch-repeat protein At1g26930-like (LOC104756840), transcript variant X2, mRNA",
+                  "taxid": 90675,
+                  "sciname": "Camelina sativa"
+                }
+              ],
+              "len": 1747,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 37,
+                  "query_from": 398,
+                  "query_to": 437,
+                  "query_strand": "Plus",
+                  "hit_from": 2,
+                  "hit_to": 44,
+                  "hit_strand": "Plus",
+                  "align_len": 43,
+                  "gaps": 3,
+                  "qseq": "AGAGAAA--CAA-TGAAATAAACAGAGAGACAGAGAGATAAGA",
+                  "hseq": "AGAGAAAGACAAGTGTAATAAAGAGAGAGAGAGAGAGATAAGA",
+                  "midline": "|||||||  ||| || |||||| ||||||| ||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "gi|663681259|emb|HG975520.1|",
+                  "accession": "HG975520",
+                  "title": "Solanum lycopersicum chromosome ch08, complete genome",
+                  "taxid": 4081,
+                  "sciname": "Solanum lycopersicum"
+                }
+              ],
+              "len": 63035830,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 27,
+                  "query_from": 3638,
+                  "query_to": 3666,
+                  "query_strand": "Plus",
+                  "hit_from": 40048927,
+                  "hit_to": 40048899,
+                  "hit_strand": "Minus",
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "AAATTTCCCTTGTTTTCTCACATAAACTT",
+                  "hseq": "AAATTTACCTAGTTTTCTCACATAAACTT",
+                  "midline": "|||||| ||| ||||||||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 31,
+                  "query_from": 401,
+                  "query_to": 436,
+                  "query_strand": "Plus",
+                  "hit_from": 3650180,
+                  "hit_to": 3650215,
+                  "hit_strand": "Plus",
+                  "align_len": 36,
+                  "gaps": 0,
+                  "qseq": "GAAACAATGAAATAAACAGAGAGACAGAGAGATAAG",
+                  "hseq": "GAAACAATGAAATATAGAGAAAGAGAGAGAGAAAAG",
+                  "midline": "|||||||||||||| | ||| ||| ||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "gi|663673457|emb|HG975451.1|",
+                  "accession": "HG975451",
+                  "title": "Solanum pennellii chromosome ch12, complete genome",
+                  "taxid": 28526,
+                  "sciname": "Solanum pennellii"
+                }
+              ],
+              "len": 83305730,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 37,
+                  "query_from": 309,
+                  "query_to": 351,
+                  "query_strand": "Plus",
+                  "hit_from": 81450091,
+                  "hit_to": 81450134,
+                  "hit_strand": "Plus",
+                  "align_len": 44,
+                  "gaps": 1,
+                  "qseq": "ATATGATTATTGAAT-AGATTTGAAAATAGAATAAGACGAAAAT",
+                  "hseq": "ATATGATTATTGAATAAGAAATAAACATAAAATAAGAAGAAAAT",
+                  "midline": "||||||||||||||| |||  | || ||| ||||||| ||||||"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "gi|663673441|emb|HG975442.1|",
+                  "accession": "HG975442",
+                  "title": "Solanum pennellii chromosome ch03, complete genome",
+                  "taxid": 28526,
+                  "sciname": "Solanum pennellii"
+                }
+              ],
+              "len": 75414019,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 34,
+                  "query_from": 2022,
+                  "query_to": 2059,
+                  "query_strand": "Plus",
+                  "hit_from": 38227122,
+                  "hit_to": 38227160,
+                  "hit_strand": "Plus",
+                  "align_len": 39,
+                  "gaps": 1,
+                  "qseq": "GTTGAGTTGTTAGGTTAGATG-CCGTGAGTTAGGTTAGT",
+                  "hseq": "GTTGAGTTGTTAGTTTTGATGTTCATGAGTTAGGTTAGT",
+                  "midline": "||||||||||||| || ||||  | ||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "gi|659067214|ref|XM_008440038.1|",
+                  "accession": "XM_008440038",
+                  "title": "PREDICTED: Cucumis melo putative RING-H2 finger protein ATL61 (LOC103483421), mRNA",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 806,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 27,
+                  "query_from": 416,
+                  "query_to": 444,
+                  "query_strand": "Plus",
+                  "hit_from": 47,
+                  "hit_to": 19,
+                  "hit_strand": "Minus",
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "ACAGAGAGACAGAGAGATAAGAAGACGAA",
+                  "hseq": "ACAGAGAGACAGAGAGAGAAGAAGAAGAA",
+                  "midline": "||||||||||||||||| ||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "gi|595848830|ref|XM_007209544.1|",
+                  "accession": "XM_007209544",
+                  "title": "Prunus persica hypothetical protein (PRUPE_ppa011508mg) mRNA, complete cds",
+                  "taxid": 3760,
+                  "sciname": "Prunus persica"
+                }
+              ],
+              "len": 787,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 32,
+                  "query_from": 396,
+                  "query_to": 432,
+                  "query_strand": "Plus",
+                  "hit_from": 706,
+                  "hit_to": 670,
+                  "hit_strand": "Minus",
+                  "align_len": 37,
+                  "gaps": 0,
+                  "qseq": "CAAGAGAAACAATGAAATAAACAGAGAGACAGAGAGA",
+                  "hseq": "CAAGAGAAACAGAGACAGAGACAGAGAGACAGAGAGA",
+                  "midline": "|||||||||||  || | | |||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "gi|593799193|ref|XM_007162573.1|",
+                  "accession": "XM_007162573",
+                  "title": "Phaseolus vulgaris hypothetical protein (PHAVU_001G1674000g) mRNA, partial cds",
+                  "taxid": 3885,
+                  "sciname": "Phaseolus vulgaris"
+                },
+                {
+                  "id": "gi|593799195|ref|XM_007162574.1|",
+                  "accession": "XM_007162574",
+                  "title": "Phaseolus vulgaris hypothetical protein (PHAVU_001G1674000g) mRNA, partial cds",
+                  "taxid": 3885,
+                  "sciname": "Phaseolus vulgaris"
+                }
+              ],
+              "len": 2335,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 38,
+                  "query_from": 398,
+                  "query_to": 444,
+                  "query_strand": "Plus",
+                  "hit_from": 69,
+                  "hit_to": 115,
+                  "hit_strand": "Plus",
+                  "align_len": 47,
+                  "gaps": 0,
+                  "qseq": "AGAGAAACAATGAAATAAACAGAGAGACAGAGAGATAAGAAGACGAA",
+                  "hseq": "AGAGAAAGAGAGAAAGAGAGAAAGAGAAAGAGAGAGAAGAAGACGAA",
+                  "midline": "||||||| |  |||| | | | ||||| ||||||| |||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "gi|593799191|ref|XM_007162572.1|",
+                  "accession": "XM_007162572",
+                  "title": "Phaseolus vulgaris hypothetical protein (PHAVU_001G1674000g) mRNA, partial cds",
+                  "taxid": 3885,
+                  "sciname": "Phaseolus vulgaris"
+                }
+              ],
+              "len": 2444,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 38,
+                  "query_from": 398,
+                  "query_to": 444,
+                  "query_strand": "Plus",
+                  "hit_from": 69,
+                  "hit_to": 115,
+                  "hit_strand": "Plus",
+                  "align_len": 47,
+                  "gaps": 0,
+                  "qseq": "AGAGAAACAATGAAATAAACAGAGAGACAGAGAGATAAGAAGACGAA",
+                  "hseq": "AGAGAAAGAGAGAAAGAGAGAAAGAGAAAGAGAGAGAAGAAGACGAA",
+                  "midline": "||||||| |  |||| | | | ||||| ||||||| |||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "gi|590647775|ref|XM_007031932.1|",
+                  "accession": "XM_007031932",
+                  "title": "Theobroma cacao Vacuolar ATP synthase subunit C (VATC) / V-ATPase C subunit / vacuolar proton pump C subunit (DET3) (TCM_017322) mRNA, complete cds",
+                  "taxid": 3641,
+                  "sciname": "Theobroma cacao"
+                }
+              ],
+              "len": 1782,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 34,
+                  "query_from": 403,
+                  "query_to": 441,
+                  "query_strand": "Plus",
+                  "hit_from": 245,
+                  "hit_to": 208,
+                  "hit_strand": "Minus",
+                  "align_len": 39,
+                  "gaps": 1,
+                  "qseq": "AACAATGAAATAAACAGAGAGACAGAGAGATAAGAAGAC",
+                  "hseq": "AACAAAGAAAAACACAGAGAAACAGAGAGAT-AGAAGAC",
+                  "midline": "||||| |||| | ||||||| |||||||||| |||||||"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "gi|514735876|ref|XM_004958211.1|",
+                  "accession": "XM_004958211",
+                  "title": "PREDICTED: Setaria italica flavonol sulfotransferase-like (LOC101783982), mRNA",
+                  "taxid": 4555,
+                  "sciname": "Setaria italica"
+                }
+              ],
+              "len": 1323,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 33,
+                  "query_from": 34,
+                  "query_to": 72,
+                  "query_strand": "Plus",
+                  "hit_from": 11,
+                  "hit_to": 49,
+                  "hit_strand": "Plus",
+                  "align_len": 39,
+                  "gaps": 0,
+                  "qseq": "TTGCTTCGTTTCTCGTCCTTCACCCGCGCCCTCTGCTTC",
+                  "hseq": "TTGCTTCGCTTCTCTGCCAGCACGCGCGCCCTCTGCTTC",
+                  "midline": "|||||||| |||||  ||  ||| |||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "gi|342365827|gb|HQ637178.1|",
+                  "accession": "HQ637178",
+                  "title": "Arachis hypogaea clone AHF-205D04 NBS-LRR gene cluster, complete sequence",
+                  "taxid": 3818,
+                  "sciname": "Arachis hypogaea"
+                }
+              ],
+              "len": 103534,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 34,
+                  "query_from": 386,
+                  "query_to": 422,
+                  "query_strand": "Plus",
+                  "hit_from": 37688,
+                  "hit_to": 37649,
+                  "hit_strand": "Minus",
+                  "align_len": 40,
+                  "gaps": 3,
+                  "qseq": "AAGATGGCA---ACAAGAGAAACAATGAAATAAACAGAGA",
+                  "hseq": "AAGATGGCACAAACAAGAGAAAAAATGAAAAAAATAGAGA",
+                  "midline": "|||||||||   |||||||||| ||||||| ||| |||||"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "gi|332640072|gb|CP002686.1|",
+                  "accession": "CP002686",
+                  "title": "Arabidopsis thaliana chromosome 3, complete sequence",
+                  "taxid": 3702,
+                  "sciname": "Arabidopsis thaliana"
+                }
+              ],
+              "len": 23459830,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 34,
+                  "query_from": 400,
+                  "query_to": 437,
+                  "query_strand": "Plus",
+                  "hit_from": 2998007,
+                  "hit_to": 2998045,
+                  "hit_strand": "Plus",
+                  "align_len": 39,
+                  "gaps": 1,
+                  "qseq": "AGAAACAATGAAA-TAAACAGAGAGACAGAGAGATAAGA",
+                  "hseq": "AGAAAGAAAGAAAATAAAAAGAGAGAGAGAGAGATAAGA",
+                  "midline": "||||| || |||| |||| ||||||| ||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "gi|312032520|gb|AC243087.1|",
+                  "accession": "AC243087",
+                  "title": "Gossypioides kirkii clone GKH014G14-jma, complete sequence",
+                  "taxid": 47615,
+                  "sciname": "Gossypioides kirkii"
+                }
+              ],
+              "len": 149572,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 26,
+                  "query_from": 70,
+                  "query_to": 96,
+                  "query_strand": "Plus",
+                  "hit_from": 108384,
+                  "hit_to": 108358,
+                  "hit_strand": "Minus",
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "TTCACCCCGATTTCCTTCCTCTTCGGT",
+                  "hseq": "TTCACCCCGATTTCCTTCCTCTTAGGT",
+                  "midline": "||||||||||||||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "gi|147799021|emb|AM466536.2|",
+                  "accession": "AM466536",
+                  "title": "Vitis vinifera contig VV78X254327.10, whole genome shotgun sequence",
+                  "taxid": 29760,
+                  "sciname": "Vitis vinifera"
+                }
+              ],
+              "len": 6674,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 46,
+                  "query_from": 2493,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 913,
+                  "hit_to": 969,
+                  "hit_strand": "Plus",
+                  "align_len": 58,
+                  "gaps": 3,
+                  "qseq": "GTTTAGG--TTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "GTTTAGGGTTTAGGTTAGGGTTAGGTTAGGTT-AGGTTAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "|||||||  ||||||||  ||| | |  |||| || | ||||||| ||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 44,
+                  "query_from": 2493,
+                  "query_to": 2548,
+                  "query_strand": "Plus",
+                  "hit_from": 920,
+                  "hit_to": 974,
+                  "hit_strand": "Plus",
+                  "align_len": 56,
+                  "gaps": 1,
+                  "qseq": "GTTTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGTT",
+                  "hseq": "GTTTAGGTTAGGGTTAGGTTAGGTTAGGTT-AGGTTAGGTTAGGTTAGGTTAGGTT",
+                  "midline": "|||||||||||| |   ||| | |  |||| || | ||||||| ||||||||||||"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 43,
+                  "query_from": 2495,
+                  "query_to": 2547,
+                  "query_strand": "Plus",
+                  "hit_from": 933,
+                  "hit_to": 983,
+                  "hit_strand": "Plus",
+                  "align_len": 53,
+                  "gaps": 2,
+                  "qseq": "TTAGGTTAGGTTACAGTTGGATCGGGTTGAGCTGAGGTTAGTTTAGGTTAGGT",
+                  "hseq": "TTAGGTTAGGTTAG-GTTAGGTTAGGTT-AGGTTAGGTTAGGTTAGGTTAGGT",
+                  "midline": "|||||||||||||  ||| | |  |||| || | ||||||| |||||||||||"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 39,
+                  "query_from": 1290,
+                  "query_to": 1334,
+                  "query_strand": "Plus",
+                  "hit_from": 927,
+                  "hit_to": 973,
+                  "hit_strand": "Plus",
+                  "align_len": 47,
+                  "gaps": 2,
+                  "qseq": "TTACGATTAGGTTAG-TTACGT-AGAGTGGGTTAGGTTAGGTTAGGT",
+                  "hseq": "TTAGGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGTTAGGT",
+                  "midline": "||| | ||||||||| ||| || ||  | ||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "gi|145338312|ref|NM_111812.3|",
+                  "accession": "NM_111812",
+                  "title": "Arabidopsis thaliana probable E3 ubiquitin-protein ligase LOG2 mRNA, complete cds",
+                  "taxid": 3702,
+                  "sciname": "Arabidopsis thaliana"
+                }
+              ],
+              "len": 1655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 34,
+                  "query_from": 400,
+                  "query_to": 437,
+                  "query_strand": "Plus",
+                  "hit_from": 184,
+                  "hit_to": 146,
+                  "hit_strand": "Minus",
+                  "align_len": 39,
+                  "gaps": 1,
+                  "qseq": "AGAAACAATGAAA-TAAACAGAGAGACAGAGAGATAAGA",
+                  "hseq": "AGAAAGAAAGAAAATAAAAAGAGAGAGAGAGAGATAAGA",
+                  "midline": "||||| || |||| |||| ||||||| ||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "gi|30681002|ref|NM_180216.1|",
+                  "accession": "NM_180216",
+                  "title": "Arabidopsis thaliana probable E3 ubiquitin-protein ligase LOG2 mRNA, complete cds",
+                  "taxid": 3702,
+                  "sciname": "Arabidopsis thaliana"
+                }
+              ],
+              "len": 1732,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 34,
+                  "query_from": 400,
+                  "query_to": 437,
+                  "query_strand": "Plus",
+                  "hit_from": 184,
+                  "hit_to": 146,
+                  "hit_strand": "Minus",
+                  "align_len": 39,
+                  "gaps": 1,
+                  "qseq": "AGAAACAATGAAA-TAAACAGAGAGACAGAGAGATAAGA",
+                  "hseq": "AGAAAGAAAGAAAATAAAAAGAGAGAGAGAGAGATAAGA",
+                  "midline": "||||| || |||| |||| ||||||| ||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "gi|12408741|gb|AC015985.10|ATAC015985",
+                  "accession": "AC015985",
+                  "title": "Arabidopsis thaliana chromosome III BAC F8A24 genomic sequence, complete sequence",
+                  "taxid": 3702,
+                  "sciname": "Arabidopsis thaliana"
+                }
+              ],
+              "len": 72902,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 34,
+                  "query_from": 400,
+                  "query_to": 437,
+                  "query_strand": "Plus",
+                  "hit_from": 68715,
+                  "hit_to": 68677,
+                  "hit_strand": "Minus",
+                  "align_len": 39,
+                  "gaps": 1,
+                  "qseq": "AGAAACAATGAAA-TAAACAGAGAGACAGAGAGATAAGA",
+                  "hseq": "AGAAAGAAAGAAAATAAAAAGAGAGAGAGAGAGATAAGA",
+                  "midline": "||||| || |||| |||| ||||||| ||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "gi|18377643|gb|AY074275.1|",
+                  "accession": "AY074275",
+                  "title": "Arabidopsis thaliana putative RING zinc finger protein (At3g09770) mRNA, complete cds",
+                  "taxid": 3702,
+                  "sciname": "Arabidopsis thaliana"
+                }
+              ],
+              "len": 1657,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 34,
+                  "query_from": 400,
+                  "query_to": 437,
+                  "query_strand": "Plus",
+                  "hit_from": 184,
+                  "hit_to": 146,
+                  "hit_strand": "Minus",
+                  "align_len": 39,
+                  "gaps": 1,
+                  "qseq": "AGAAACAATGAAA-TAAACAGAGAGACAGAGAGATAAGA",
+                  "hseq": "AGAAAGAAAGAAAATAAAAAGAGAGAGAGAGAGATAAGA",
+                  "midline": "||||| || |||| |||| ||||||| ||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "gi|62701972|gb|AC160012.1|",
+                  "accession": "AC160012",
+                  "title": "Medicago truncatula chromosome 2 clone mth2-168l8, complete sequence",
+                  "taxid": 3880,
+                  "sciname": "Medicago truncatula"
+                }
+              ],
+              "len": 145061,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 26,
+                  "query_from": 2016,
+                  "query_to": 2042,
+                  "query_strand": "Plus",
+                  "hit_from": 128229,
+                  "hit_to": 128255,
+                  "hit_strand": "Plus",
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "TAATTAGTTGAGTTGTTAGGTTAGATG",
+                  "hseq": "TAATTAGTTGAGTTGTTAGATTAGATG",
+                  "midline": "||||||||||||||||||| |||||||"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "gi|12484383|gb|AC016661.7|AC016661",
+                  "accession": "AC016661",
+                  "title": "Arabidopsis thaliana chromosome 3 BAC F11F8 genomic sequence, complete sequence",
+                  "taxid": 3702,
+                  "sciname": "Arabidopsis thaliana"
+                }
+              ],
+              "len": 107603,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 34,
+                  "query_from": 400,
+                  "query_to": 437,
+                  "query_strand": "Plus",
+                  "hit_from": 96380,
+                  "hit_to": 96418,
+                  "hit_strand": "Plus",
+                  "align_len": 39,
+                  "gaps": 1,
+                  "qseq": "AGAAACAATGAAA-TAAACAGAGAGACAGAGAGATAAGA",
+                  "hseq": "AGAAAGAAAGAAAATAAAAAGAGAGAGAGAGAGATAAGA",
+                  "midline": "||||| || |||| |||| ||||||| ||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "gi|61675758|gb|AC127170.11|",
+                  "accession": "AC127170",
+                  "title": "Medicago truncatula clone mth2-35d10, complete sequence",
+                  "taxid": 3880,
+                  "sciname": "Medicago truncatula"
+                }
+              ],
+              "len": 114143,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 26,
+                  "query_from": 2016,
+                  "query_to": 2042,
+                  "query_strand": "Plus",
+                  "hit_from": 75403,
+                  "hit_to": 75429,
+                  "hit_strand": "Plus",
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "TAATTAGTTGAGTTGTTAGGTTAGATG",
+                  "hseq": "TAATTAGTTGAGTTGTTAGATTAGATG",
+                  "midline": "||||||||||||||||||| |||||||"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "gi|937831927|gb|CP010988.1|",
+                  "accession": "CP010988",
+                  "title": "Carica papaya chromosome Y sequence",
+                  "taxid": 3649,
+                  "sciname": "Carica papaya"
+                }
+              ],
+              "len": 8077450,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 23,
+                  "query_from": 418,
+                  "query_to": 440,
+                  "query_strand": "Plus",
+                  "hit_from": 1138871,
+                  "hit_to": 1138849,
+                  "hit_strand": "Minus",
+                  "align_len": 23,
+                  "gaps": 0,
+                  "qseq": "AGAGAGACAGAGAGATAAGAAGA",
+                  "hseq": "AGAGAGACAGAGAGATAAGAAGA",
+                  "midline": "|||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "gi|923830906|ref|XM_013842067.1|",
+                  "accession": "XM_013842067",
+                  "title": "PREDICTED: Brassica napus uncharacterized LOC106401529 (LOC106401529), transcript variant X2, mRNA",
+                  "taxid": 3708,
+                  "sciname": "Brassica napus"
+                }
+              ],
+              "len": 1548,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 26,
+                  "query_from": 417,
+                  "query_to": 444,
+                  "query_strand": "Plus",
+                  "hit_from": 54,
+                  "hit_to": 81,
+                  "hit_strand": "Plus",
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "CAGAGAGACAGAGAGATAAGAAGACGAA",
+                  "hseq": "CAGAGAGAGAGAGAGAGAAGAAGACGAA",
+                  "midline": "|||||||| ||||||| |||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "gi|923830903|ref|XM_013842066.1|",
+                  "accession": "XM_013842066",
+                  "title": "PREDICTED: Brassica napus uncharacterized LOC106401529 (LOC106401529), transcript variant X1, mRNA",
+                  "taxid": 3708,
+                  "sciname": "Brassica napus"
+                }
+              ],
+              "len": 1558,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 26,
+                  "query_from": 417,
+                  "query_to": 444,
+                  "query_strand": "Plus",
+                  "hit_from": 54,
+                  "hit_to": 81,
+                  "hit_strand": "Plus",
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "CAGAGAGACAGAGAGATAAGAAGACGAA",
+                  "hseq": "CAGAGAGAGAGAGAGAGAAGAAGACGAA",
+                  "midline": "|||||||| ||||||| |||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "gi|923828441|ref|XM_013841223.1|",
+                  "accession": "XM_013841223",
+                  "title": "PREDICTED: Brassica napus ABC transporter C family member 3-like (LOC106400833), mRNA",
+                  "taxid": 3708,
+                  "sciname": "Brassica napus"
+                }
+              ],
+              "len": 4753,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 38,
+                  "query_from": 398,
+                  "query_to": 445,
+                  "query_strand": "Plus",
+                  "hit_from": 60,
+                  "hit_to": 107,
+                  "hit_strand": "Plus",
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "AGAGAAACAATGAAATAAACAGAGAGACAGAGAGATAAGAAGACGAAA",
+                  "hseq": "AGCGAAACAGAGAGAGAAACAGAGAGAAACAGAGAGAAAAAGAGGAAA",
+                  "midline": "|| ||||||  || | ||||||||||| | ||||| || |||| ||||"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "gi|923517128|ref|XM_013795993.1|",
+                  "accession": "XM_013795993",
+                  "title": "PREDICTED: Brassica napus transcription factor MYB48-like (LOC106356188), mRNA",
+                  "taxid": 3708,
+                  "sciname": "Brassica napus"
+                }
+              ],
+              "len": 819,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 39,
+                  "query_from": 400,
+                  "query_to": 445,
+                  "query_strand": "Plus",
+                  "hit_from": 92,
+                  "hit_to": 136,
+                  "hit_strand": "Plus",
+                  "align_len": 47,
+                  "gaps": 3,
+                  "qseq": "AGAAACAAT-GAAATAAACAGAGAGACAGAGAGATAAGAAGACGAAA",
+                  "hseq": "AGTAACATTAGAGATAAA--GAGAGACAGAGAGAGAAGAAGAAGAAA",
+                  "midline": "|| |||| | || |||||  |||||||||||||| ||||||| ||||"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "gi|922452695|ref|XM_013773581.1|",
+                  "accession": "XM_013773581",
+                  "title": "PREDICTED: Brassica oleracea var. oleracea ABC transporter C family member 3-like (LOC106335143), mRNA",
+                  "taxid": 109376,
+                  "sciname": "Brassica oleracea var. oleracea"
+                }
+              ],
+              "len": 4776,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 38,
+                  "query_from": 398,
+                  "query_to": 445,
+                  "query_strand": "Plus",
+                  "hit_from": 74,
+                  "hit_to": 121,
+                  "hit_strand": "Plus",
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "AGAGAAACAATGAAATAAACAGAGAGACAGAGAGATAAGAAGACGAAA",
+                  "hseq": "AGCGAAACAGAGAGAGAAACAGAGAGAAACAGAGAGAAAAAGAGGAAA",
+                  "midline": "|| ||||||  || | ||||||||||| | ||||| || |||| ||||"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "gi|922440539|ref|XM_013769850.1|",
+                  "accession": "XM_013769850",
+                  "title": "PREDICTED: Brassica oleracea var. oleracea transcription factor MYB48 (LOC106331478), mRNA",
+                  "taxid": 109376,
+                  "sciname": "Brassica oleracea var. oleracea"
+                }
+              ],
+              "len": 1144,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 39,
+                  "query_from": 400,
+                  "query_to": 445,
+                  "query_strand": "Plus",
+                  "hit_from": 69,
+                  "hit_to": 113,
+                  "hit_strand": "Plus",
+                  "align_len": 47,
+                  "gaps": 3,
+                  "qseq": "AGAAACAAT-GAAATAAACAGAGAGACAGAGAGATAAGAAGACGAAA",
+                  "hseq": "AGTAACATTAGAGATAAA--GAGAGACAGAGAGAGAAGAAGAAGAAA",
+                  "midline": "|| |||| | || |||||  |||||||||||||| ||||||| ||||"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "gi|922399088|ref|XM_013611243.1|",
+                  "accession": "XM_013611243",
+                  "title": "Medicago truncatula hypothetical protein partial mRNA",
+                  "taxid": 3880,
+                  "sciname": "Medicago truncatula"
+                }
+              ],
+              "len": 291,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 28,
+                  "query_from": 414,
+                  "query_to": 444,
+                  "query_strand": "Plus",
+                  "hit_from": 216,
+                  "hit_to": 186,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "AAACAGAGAGACAGAGAGATAAGAAGACGAA",
+                  "hseq": "AAACAGAGAGAGAGAGAGAGAAGAAGAAGAA",
+                  "midline": "||||||||||| ||||||| ||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "gi|811572000|gb|KM665415.1|",
+                  "accession": "KM665415",
+                  "title": "Ananas bracteatus clone 50546 microsatellite sequence",
+                  "taxid": 296719,
+                  "sciname": "Ananas bracteatus"
+                }
+              ],
+              "len": 591,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 25,
+                  "query_from": 418,
+                  "query_to": 443,
+                  "query_strand": "Plus",
+                  "hit_from": 555,
+                  "hit_to": 580,
+                  "hit_strand": "Plus",
+                  "align_len": 26,
+                  "gaps": 0,
+                  "qseq": "AGAGAGACAGAGAGATAAGAAGACGA",
+                  "hseq": "AGAGAGACAGAGAGATAAGAAGAAGA",
+                  "midline": "||||||||||||||||||||||| ||"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "gi|778713678|ref|XM_011658789.1|",
+                  "accession": "XM_011658789",
+                  "title": "PREDICTED: Cucumis sativus probable transcription factor KAN4 (LOC101205384), transcript variant X3, mRNA",
+                  "taxid": 3659,
+                  "sciname": "Cucumis sativus"
+                }
+              ],
+              "len": 808,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 33,
+                  "query_from": 411,
+                  "query_to": 448,
+                  "query_strand": "Plus",
+                  "hit_from": 143,
+                  "hit_to": 179,
+                  "hit_strand": "Plus",
+                  "align_len": 38,
+                  "gaps": 1,
+                  "qseq": "AATAAACAGAGAGACAGAGAGATAAGAAGACGAAATAA",
+                  "hseq": "AATAAATAGAGAGACAGAGAGA-AGGAAGAAAAAATAA",
+                  "midline": "|||||| ||||||||||||||| | |||||  ||||||"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "gi|778713675|ref|XM_011658788.1|",
+                  "accession": "XM_011658788",
+                  "title": "PREDICTED: Cucumis sativus probable transcription factor KAN4 (LOC101205384), transcript variant X1, mRNA",
+                  "taxid": 3659,
+                  "sciname": "Cucumis sativus"
+                }
+              ],
+              "len": 1463,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 33,
+                  "query_from": 411,
+                  "query_to": 448,
+                  "query_strand": "Plus",
+                  "hit_from": 143,
+                  "hit_to": 179,
+                  "hit_strand": "Plus",
+                  "align_len": 38,
+                  "gaps": 1,
+                  "qseq": "AATAAACAGAGAGACAGAGAGATAAGAAGACGAAATAA",
+                  "hseq": "AATAAATAGAGAGACAGAGAGA-AGGAAGAAAAAATAA",
+                  "midline": "|||||| ||||||||||||||| | |||||  ||||||"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "gi|778685786|ref|XM_004141036.2|",
+                  "accession": "XM_004141036",
+                  "title": "PREDICTED: Cucumis sativus peptidyl-prolyl cis-trans isomerase CYP38, chloroplastic (LOC101212384), mRNA",
+                  "taxid": 3659,
+                  "sciname": "Cucumis sativus"
+                }
+              ],
+              "len": 1802,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 41,
+                  "query_from": 406,
+                  "query_to": 455,
+                  "query_strand": "Plus",
+                  "hit_from": 1679,
+                  "hit_to": 1628,
+                  "hit_strand": "Minus",
+                  "align_len": 52,
+                  "gaps": 2,
+                  "qseq": "AATGAAATAAACAGAGAGACAGAGAGATAAGAA--GACGAAATAATAAGTAC",
+                  "hseq": "AAGGAAAAAAAGAAAGAGAGAGAGAGATAAGAAATGAAGAAAGACTAAGAAC",
+                  "midline": "|| |||| ||| | ||||| |||||||||||||  || |||| | |||| ||"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "gi|747064548|ref|XM_011080559.1|",
+                  "accession": "XM_011080559",
+                  "title": "PREDICTED: Sesamum indicum protein cornichon homolog 1 (LOC105162519), transcript variant X2, mRNA",
+                  "taxid": 4182,
+                  "sciname": "Sesamum indicum"
+                }
+              ],
+              "len": 929,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 26,
+                  "query_from": 417,
+                  "query_to": 444,
+                  "query_strand": "Plus",
+                  "hit_from": 177,
+                  "hit_to": 204,
+                  "hit_strand": "Plus",
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "CAGAGAGACAGAGAGATAAGAAGACGAA",
+                  "hseq": "CAGAGAGACAGAGAGAGAAGAAGAAGAA",
+                  "midline": "|||||||||||||||| ||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "gi|747064546|ref|XM_011080558.1|",
+                  "accession": "XM_011080558",
+                  "title": "PREDICTED: Sesamum indicum protein cornichon homolog 1 (LOC105162519), transcript variant X1, mRNA",
+                  "taxid": 4182,
+                  "sciname": "Sesamum indicum"
+                }
+              ],
+              "len": 996,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 26,
+                  "query_from": 417,
+                  "query_to": 444,
+                  "query_strand": "Plus",
+                  "hit_from": 177,
+                  "hit_to": 204,
+                  "hit_strand": "Plus",
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "CAGAGAGACAGAGAGATAAGAAGACGAA",
+                  "hseq": "CAGAGAGACAGAGAGAGAAGAAGAAGAA",
+                  "midline": "|||||||||||||||| ||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "gi|743919538|ref|XM_011005492.1|",
+                  "accession": "XM_011005492",
+                  "title": "PREDICTED: Populus euphratica serine/threonine-protein kinase EDR1-like (LOC105110448), transcript variant X3, mRNA",
+                  "taxid": 75702,
+                  "sciname": "Populus euphratica"
+                }
+              ],
+              "len": 3242,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 31,
+                  "query_from": 398,
+                  "query_to": 432,
+                  "query_strand": "Plus",
+                  "hit_from": 172,
+                  "hit_to": 205,
+                  "hit_strand": "Plus",
+                  "align_len": 35,
+                  "gaps": 1,
+                  "qseq": "AGAGAAACAATGAAATAAACAGAGAGACAGAGAGA",
+                  "hseq": "AGAAAAAAAATAAAA-AAACAGAGAGACAGAGAGA",
+                  "midline": "||| ||| ||| ||| |||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "gi|743919536|ref|XM_011005491.1|",
+                  "accession": "XM_011005491",
+                  "title": "PREDICTED: Populus euphratica serine/threonine-protein kinase EDR1-like (LOC105110448), transcript variant X2, mRNA",
+                  "taxid": 75702,
+                  "sciname": "Populus euphratica"
+                }
+              ],
+              "len": 3275,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 31,
+                  "query_from": 398,
+                  "query_to": 432,
+                  "query_strand": "Plus",
+                  "hit_from": 172,
+                  "hit_to": 205,
+                  "hit_strand": "Plus",
+                  "align_len": 35,
+                  "gaps": 1,
+                  "qseq": "AGAGAAACAATGAAATAAACAGAGAGACAGAGAGA",
+                  "hseq": "AGAAAAAAAATAAAA-AAACAGAGAGACAGAGAGA",
+                  "midline": "||| ||| ||| ||| |||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "gi|743919534|ref|XM_011005490.1|",
+                  "accession": "XM_011005490",
+                  "title": "PREDICTED: Populus euphratica serine/threonine-protein kinase EDR1-like (LOC105110448), transcript variant X1, mRNA",
+                  "taxid": 75702,
+                  "sciname": "Populus euphratica"
+                }
+              ],
+              "len": 3425,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 31,
+                  "query_from": 398,
+                  "query_to": 432,
+                  "query_strand": "Plus",
+                  "hit_from": 172,
+                  "hit_to": 205,
+                  "hit_strand": "Plus",
+                  "align_len": 35,
+                  "gaps": 1,
+                  "qseq": "AGAGAAACAATGAAATAAACAGAGAGACAGAGAGA",
+                  "hseq": "AGAAAAAAAATAAAA-AAACAGAGAGACAGAGAGA",
+                  "midline": "||| ||| ||| ||| |||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "gi|733577135|emb|LN713257.1|",
+                  "accession": "LN713257",
+                  "title": "Cucumis melo genomic chromosome, chr_3",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 29387469,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 34,
+                  "query_from": 393,
+                  "query_to": 431,
+                  "query_strand": "Plus",
+                  "hit_from": 26164404,
+                  "hit_to": 26164365,
+                  "hit_strand": "Minus",
+                  "align_len": 40,
+                  "gaps": 1,
+                  "qseq": "CAACAAGAGA-AACAATGAAATAAACAGAGAGACAGAGAG",
+                  "hseq": "CAAAAAGAAATAACAAAGAAACAAACAGAGAGAGAGAGAG",
+                  "midline": "||| |||| | ||||| |||| ||||||||||| ||||||"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "gi|733593821|emb|LN681823.1|",
+                  "accession": "LN681823",
+                  "title": "Cucumis melo genomic scaffold, anchoredscaffold00014",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 6104675,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 34,
+                  "query_from": 393,
+                  "query_to": 431,
+                  "query_strand": "Plus",
+                  "hit_from": 3223066,
+                  "hit_to": 3223105,
+                  "hit_strand": "Plus",
+                  "align_len": 40,
+                  "gaps": 1,
+                  "qseq": "CAACAAGAGA-AACAATGAAATAAACAGAGAGACAGAGAG",
+                  "hseq": "CAAAAAGAAATAACAAAGAAACAAACAGAGAGAGAGAGAG",
+                  "midline": "||| |||| | ||||| |||| ||||||||||| ||||||"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "gi|731366354|ref|XM_010696722.1|",
+                  "accession": "XM_010696722",
+                  "title": "PREDICTED: Beta vulgaris subsp. vulgaris plant intracellular Ras-group-related LRR protein 6 (LOC104907745), mRNA",
+                  "taxid": 3555,
+                  "sciname": "Beta vulgaris subsp. vulgaris"
+                }
+              ],
+              "len": 2369,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 28,
+                  "query_from": 402,
+                  "query_to": 432,
+                  "query_strand": "Plus",
+                  "hit_from": 76,
+                  "hit_to": 46,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "AAACAATGAAATAAACAGAGAGACAGAGAGA",
+                  "hseq": "AAACAATGAATCAAACAGAGAGAGAGAGAGA",
+                  "midline": "||||||||||  ||||||||||| |||||||"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "gi|731332980|ref|XM_010679190.1|",
+                  "accession": "XM_010679190",
+                  "title": "PREDICTED: Beta vulgaris subsp. vulgaris probable polyamine transporter At1g31830 (LOC104893112), transcript variant X3, mRNA",
+                  "taxid": 3555,
+                  "sciname": "Beta vulgaris subsp. vulgaris"
+                }
+              ],
+              "len": 2403,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 35,
+                  "query_from": 410,
+                  "query_to": 448,
+                  "query_strand": "Plus",
+                  "hit_from": 161,
+                  "hit_to": 120,
+                  "hit_strand": "Minus",
+                  "align_len": 42,
+                  "gaps": 3,
+                  "qseq": "AAATAAACAGAGAGACAGAGAGATA---AGAAGACGAAATAA",
+                  "hseq": "AAATTAAGAGAGAGAGAGAGAGAGAGGAAGAAGACGAAATAA",
+                  "midline": "|||| || ||||||| ||||||| |   ||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "gi|729302088|ref|XM_010525193.1|",
+                  "accession": "XM_010525193",
+                  "title": "PREDICTED: Tarenaya hassleriana auxin response factor 2 (LOC104801816), transcript variant X2, mRNA",
+                  "taxid": 28532,
+                  "sciname": "Cleome hassleriana"
+                }
+              ],
+              "len": 3431,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 31,
+                  "query_from": 414,
+                  "query_to": 448,
+                  "query_strand": "Plus",
+                  "hit_from": 32,
+                  "hit_to": 65,
+                  "hit_strand": "Plus",
+                  "align_len": 35,
+                  "gaps": 1,
+                  "qseq": "AAACAGAGAGACAGAGAGATAAGAAGACGAAATAA",
+                  "hseq": "AAACAGAGAGAGAGAGAG-GAAGAAGAAGAAATAA",
+                  "midline": "||||||||||| ||||||  ||||||| |||||||"
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "gi|729302085|ref|XM_010525185.1|",
+                  "accession": "XM_010525185",
+                  "title": "PREDICTED: Tarenaya hassleriana auxin response factor 2 (LOC104801816), transcript variant X1, mRNA",
+                  "taxid": 28532,
+                  "sciname": "Cleome hassleriana"
+                }
+              ],
+              "len": 3408,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 31,
+                  "query_from": 414,
+                  "query_to": 448,
+                  "query_strand": "Plus",
+                  "hit_from": 31,
+                  "hit_to": 64,
+                  "hit_strand": "Plus",
+                  "align_len": 35,
+                  "gaps": 1,
+                  "qseq": "AAACAGAGAGACAGAGAGATAAGAAGACGAAATAA",
+                  "hseq": "AAACAGAGAGAGAGAGAG-GAAGAAGAAGAAATAA",
+                  "midline": "||||||||||| ||||||  ||||||| |||||||"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "gi|727553481|ref|XM_010450768.1|",
+                  "accession": "XM_010450768",
+                  "title": "PREDICTED: Camelina sativa uncharacterized LOC104731398 (LOC104731398), mRNA",
+                  "taxid": 90675,
+                  "sciname": "Camelina sativa"
+                }
+              ],
+              "len": 3303,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 36,
+                  "query_from": 63,
+                  "query_to": 104,
+                  "query_strand": "Plus",
+                  "hit_from": 569,
+                  "hit_to": 527,
+                  "hit_strand": "Minus",
+                  "align_len": 43,
+                  "gaps": 1,
+                  "qseq": "CCTCTGCTTCACCCCGATTTC-CTTCCTCTTCGGTTTCCCAAA",
+                  "hseq": "CCTCTGCTTCACCCATAACTCGCTTCCTCTTCGATTTCCCCAA",
+                  "midline": "||||||||||||||  |  || ||||||||||| |||||| ||"
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "gi|694388413|ref|XM_009371641.1|",
+                  "accession": "XM_009371641",
+                  "title": "PREDICTED: Pyrus x bretschneideri phosphoribosylglycinamide formyltransferase, chloroplastic-like (LOC103959287), transcript variant X2, mRNA",
+                  "taxid": 225117,
+                  "sciname": "Pyrus x bretschneideri"
+                }
+              ],
+              "len": 1372,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 33,
+                  "query_from": 395,
+                  "query_to": 432,
+                  "query_strand": "Plus",
+                  "hit_from": 1072,
+                  "hit_to": 1108,
+                  "hit_strand": "Plus",
+                  "align_len": 38,
+                  "gaps": 1,
+                  "qseq": "ACAAGAGAAACAATGAAATAAACAGAGAGACAGAGAGA",
+                  "hseq": "ACAA-AGAAAAAAAAAAATAAAAAGAGAGACAGAGAGA",
+                  "midline": "|||| ||||| ||  ||||||| |||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "gi|694388411|ref|XM_009371640.1|",
+                  "accession": "XM_009371640",
+                  "title": "PREDICTED: Pyrus x bretschneideri phosphoribosylglycinamide formyltransferase, chloroplastic-like (LOC103959287), transcript variant X1, mRNA",
+                  "taxid": 225117,
+                  "sciname": "Pyrus x bretschneideri"
+                }
+              ],
+              "len": 1367,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 33,
+                  "query_from": 395,
+                  "query_to": 432,
+                  "query_strand": "Plus",
+                  "hit_from": 1067,
+                  "hit_to": 1103,
+                  "hit_strand": "Plus",
+                  "align_len": 38,
+                  "gaps": 1,
+                  "qseq": "ACAAGAGAAACAATGAAATAAACAGAGAGACAGAGAGA",
+                  "hseq": "ACAA-AGAAAAAAAAAAATAAAAAGAGAGACAGAGAGA",
+                  "midline": "|||| ||||| ||  ||||||| |||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "gi|670404570|ref|XM_008645724.1|",
+                  "accession": "XM_008645724",
+                  "title": "PREDICTED: Zea mays uncharacterized LOC100381630 (LOC100381630), transcript variant X4, mRNA",
+                  "taxid": 4577,
+                  "sciname": "Zea mays"
+                }
+              ],
+              "len": 3533,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 29,
+                  "query_from": 273,
+                  "query_to": 305,
+                  "query_strand": "Plus",
+                  "hit_from": 2942,
+                  "hit_to": 2910,
+                  "hit_strand": "Minus",
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "ACCATCAGGCGAATATGAAATAAATATCCTTAC",
+                  "hseq": "ACCACCAGTCGAATATGAAATAGATATCGTTAC",
+                  "midline": "|||| ||| ||||||||||||| ||||| ||||"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "gi|670404568|ref|XM_008645723.1|",
+                  "accession": "XM_008645723",
+                  "title": "PREDICTED: Zea mays uncharacterized LOC100381630 (LOC100381630), transcript variant X3, mRNA",
+                  "taxid": 4577,
+                  "sciname": "Zea mays"
+                }
+              ],
+              "len": 3650,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 29,
+                  "query_from": 273,
+                  "query_to": 305,
+                  "query_strand": "Plus",
+                  "hit_from": 2942,
+                  "hit_to": 2910,
+                  "hit_strand": "Minus",
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "ACCATCAGGCGAATATGAAATAAATATCCTTAC",
+                  "hseq": "ACCACCAGTCGAATATGAAATAGATATCGTTAC",
+                  "midline": "|||| ||| ||||||||||||| ||||| ||||"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "gi|670404566|ref|XM_008645722.1|",
+                  "accession": "XM_008645722",
+                  "title": "PREDICTED: Zea mays uncharacterized LOC100381630 (LOC100381630), transcript variant X2, mRNA",
+                  "taxid": 4577,
+                  "sciname": "Zea mays"
+                }
+              ],
+              "len": 3660,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 29,
+                  "query_from": 273,
+                  "query_to": 305,
+                  "query_strand": "Plus",
+                  "hit_from": 2942,
+                  "hit_to": 2910,
+                  "hit_strand": "Minus",
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "ACCATCAGGCGAATATGAAATAAATATCCTTAC",
+                  "hseq": "ACCACCAGTCGAATATGAAATAGATATCGTTAC",
+                  "midline": "|||| ||| ||||||||||||| ||||| ||||"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "gi|670404564|ref|XM_008645721.1|",
+                  "accession": "XM_008645721",
+                  "title": "PREDICTED: Zea mays uncharacterized LOC100381630 (LOC100381630), transcript variant X1, mRNA",
+                  "taxid": 4577,
+                  "sciname": "Zea mays"
+                }
+              ],
+              "len": 3543,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 29,
+                  "query_from": 273,
+                  "query_to": 305,
+                  "query_strand": "Plus",
+                  "hit_from": 2942,
+                  "hit_to": 2910,
+                  "hit_strand": "Minus",
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "ACCATCAGGCGAATATGAAATAAATATCCTTAC",
+                  "hseq": "ACCACCAGTCGAATATGAAATAGATATCGTTAC",
+                  "midline": "|||| ||| ||||||||||||| ||||| ||||"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "gi|669026884|emb|HG670306.1|",
+                  "accession": "HG670306",
+                  "title": "Triticum aestivum chromosome 3B, genomic scaffold, cultivar Chinese Spring",
+                  "taxid": 4565,
+                  "sciname": "Triticum aestivum"
+                }
+              ],
+              "len": 774434471,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 39,
+                  "query_from": 398,
+                  "query_to": 442,
+                  "query_strand": "Plus",
+                  "hit_from": 149016277,
+                  "hit_to": 149016323,
+                  "hit_strand": "Plus",
+                  "align_len": 47,
+                  "gaps": 2,
+                  "qseq": "AGAGAAACAATGAAATAAACAGAGAGACAGAGAGATA-AGA-AGACG",
+                  "hseq": "AGAGAGAGAGTGAGATAAACAGAGAGAGAGAGAGAGAGAGAGAGACG",
+                  "midline": "||||| | | ||| ||||||||||||| ||||||| | ||| |||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 37,
+                  "query_from": 72,
+                  "query_to": 115,
+                  "query_strand": "Plus",
+                  "hit_from": 693131807,
+                  "hit_to": 693131851,
+                  "hit_strand": "Plus",
+                  "align_len": 45,
+                  "gaps": 1,
+                  "qseq": "CACCCCGATTTCCTTCCTCTT-CGGTTTCCCAAAAGGACCCCTCG",
+                  "hseq": "CACCCCGATTTCCACCCTTTTATGGTTTCCACAAAGGAGCCCTCG",
+                  "midline": "|||||||||||||  ||| ||  |||||||  |||||| ||||||"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 31,
+                  "query_from": 397,
+                  "query_to": 432,
+                  "query_strand": "Plus",
+                  "hit_from": 693819047,
+                  "hit_to": 693819082,
+                  "hit_strand": "Plus",
+                  "align_len": 36,
+                  "gaps": 0,
+                  "qseq": "AAGAGAAACAATGAAATAAACAGAGAGACAGAGAGA",
+                  "hseq": "AACAGAAACAATGAATAAAAGAGAGAGAGAGAGAGA",
+                  "midline": "|| ||||||||||||  ||| ||||||| |||||||"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "gi|663680609|emb|HG975513.1|",
+                  "accession": "HG975513",
+                  "title": "Solanum lycopersicum chromosome ch01, complete genome",
+                  "taxid": 4081,
+                  "sciname": "Solanum lycopersicum"
+                }
+              ],
+              "len": 90311507,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 34,
+                  "query_from": 398,
+                  "query_to": 437,
+                  "query_strand": "Plus",
+                  "hit_from": 44036083,
+                  "hit_to": 44036045,
+                  "hit_strand": "Minus",
+                  "align_len": 40,
+                  "gaps": 1,
+                  "qseq": "AGAGAAACAATGAAATAAACAGAGAGACAGAGAGATAAGA",
+                  "hseq": "AGAGAAACAGAGAGATAAACAGAGAGACTGACAGA-AAGA",
+                  "midline": "|||||||||  || |||||||||||||| || ||| ||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 54,
+                  "query_from": 306,
+                  "query_to": 376,
+                  "query_strand": "Plus",
+                  "hit_from": 78467286,
+                  "hit_to": 78467356,
+                  "hit_strand": "Plus",
+                  "align_len": 72,
+                  "gaps": 2,
+                  "qseq": "AAGATATGATTATTGAAT-AGATTTGAAAATAGAATAAGACGAAAATTACGAGAGAATAACGTTAATCTAGC",
+                  "hseq": "AAAATATGATTATTAAATAATAAATAAAAATAGAATGAGAAGAAAATATTAAGATAACAACG-AAATCAAGC",
+                  "midline": "|| ||||||||||| ||| | |  | |||||||||| ||| ||||||    ||| || ||||  |||| |||"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "gi|663673454|emb|HG975448.1|",
+                  "accession": "HG975448",
+                  "title": "Solanum pennellii chromosome ch09, complete genome",
+                  "taxid": 28526,
+                  "sciname": "Solanum pennellii"
+                }
+              ],
+              "len": 84057508,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 39,
+                  "query_from": 306,
+                  "query_to": 350,
+                  "query_strand": "Plus",
+                  "hit_from": 5480754,
+                  "hit_to": 5480799,
+                  "hit_strand": "Plus",
+                  "align_len": 47,
+                  "gaps": 3,
+                  "qseq": "AAGATATGATTATTGAATA--GATTTGAAAATAGAATAAGACGAAAA",
+                  "hseq": "AAGATATGATTATTAAATAATGA-TTAAAGATAAAATAAGAAGAAAA",
+                  "midline": "|||||||||||||| ||||  || || || ||| ||||||| |||||"
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "gi|663673439|emb|HG975440.1|",
+                  "accession": "HG975440",
+                  "title": "Solanum pennellii chromosome ch01, complete genome",
+                  "taxid": 28526,
+                  "sciname": "Solanum pennellii"
+                }
+              ],
+              "len": 109333515,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 36,
+                  "query_from": 407,
+                  "query_to": 448,
+                  "query_strand": "Plus",
+                  "hit_from": 10754032,
+                  "hit_to": 10753990,
+                  "hit_strand": "Minus",
+                  "align_len": 43,
+                  "gaps": 1,
+                  "qseq": "ATGAAATAAACAGAGAGACAGAGAGA-TAAGAAGACGAAATAA",
+                  "hseq": "ATGAAATAGAAAGAAAGACAGAGAGATTTAGAAGAAGAAAAAA",
+                  "midline": "|||||||| | ||| ||||||||||| | |||||| |||| ||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 37,
+                  "query_from": 406,
+                  "query_to": 449,
+                  "query_strand": "Plus",
+                  "hit_from": 11099817,
+                  "hit_to": 11099773,
+                  "hit_strand": "Minus",
+                  "align_len": 45,
+                  "gaps": 1,
+                  "qseq": "AATGAAATAAACAGAGAGACAGAGAGA-TAAGAAGACGAAATAAT",
+                  "hseq": "AAAGAACTAGAAAGAAAGACAGAGAGATTAAGAAGAAGAAAAAAT",
+                  "midline": "|| ||| || | ||| ||||||||||| |||||||| |||| |||"
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "gi|645264709|ref|XM_008239586.1|",
+                  "accession": "XM_008239586",
+                  "title": "PREDICTED: Prunus mume RNA-binding protein 38-like (LOC103336535), transcript variant X2, mRNA",
+                  "taxid": 102107,
+                  "sciname": "Prunus mume"
+                }
+              ],
+              "len": 2724,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 26,
+                  "query_from": 418,
+                  "query_to": 445,
+                  "query_strand": "Plus",
+                  "hit_from": 2476,
+                  "hit_to": 2449,
+                  "hit_strand": "Minus",
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "AGAGAGACAGAGAGATAAGAAGACGAAA",
+                  "hseq": "AGAGAGAGAGAGAGATGAGAAGACGAAA",
+                  "midline": "||||||| |||||||| |||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "gi|645264706|ref|XM_008239584.1|",
+                  "accession": "XM_008239584",
+                  "title": "PREDICTED: Prunus mume RNA-binding protein 38-like (LOC103336535), transcript variant X1, mRNA",
+                  "taxid": 102107,
+                  "sciname": "Prunus mume"
+                }
+              ],
+              "len": 2704,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 26,
+                  "query_from": 418,
+                  "query_to": 445,
+                  "query_strand": "Plus",
+                  "hit_from": 2456,
+                  "hit_to": 2429,
+                  "hit_strand": "Minus",
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "AGAGAGACAGAGAGATAAGAAGACGAAA",
+                  "hseq": "AGAGAGAGAGAGAGATGAGAAGACGAAA",
+                  "midline": "||||||| |||||||| |||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "gi|568841089|ref|XM_006474432.1|",
+                  "accession": "XM_006474432",
+                  "title": "PREDICTED: Citrus sinensis uncharacterized LOC102617951 (LOC102617951), transcript variant X2, mRNA",
+                  "taxid": 2711,
+                  "sciname": "Citrus sinensis"
+                }
+              ],
+              "len": 2142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 32,
+                  "query_from": 403,
+                  "query_to": 440,
+                  "query_strand": "Plus",
+                  "hit_from": 678,
+                  "hit_to": 715,
+                  "hit_strand": "Plus",
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "AACAATGAAATAAACAGAGAGACAGAGAGATAAGAAGA",
+                  "hseq": "AAAAAAGAAAAAGAGAGAGAGAGAGAGAGATAAGAAGA",
+                  "midline": "|| || |||| | | ||||||| |||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "gi|519762056|gb|JX622213.1|",
+                  "accession": "JX622213",
+                  "title": "Gossypium hirsutum clone NBRI_GE68889 microsatellite sequence",
+                  "taxid": 3635,
+                  "sciname": "Gossypium hirsutum"
+                }
+              ],
+              "len": 324,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 35,
+                  "query_from": 1296,
+                  "query_to": 1333,
+                  "query_strand": "Plus",
+                  "hit_from": 312,
+                  "hit_to": 273,
+                  "hit_strand": "Minus",
+                  "align_len": 40,
+                  "gaps": 2,
+                  "qseq": "TTAGGTTAG-TTACGT-AGAGTGGGTTAGGTTAGGTTAGG",
+                  "hseq": "TTAGGTTAGGTTAGGTTAGGTTGGGTTAGGTTAGGTTAGG",
+                  "midline": "||||||||| ||| || ||  |||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "gi|471178465|gb|AC254316.1|",
+                  "accession": "AC254316",
+                  "title": "Phaseolus vulgaris clone PV_GBb020-N06, complete sequence",
+                  "taxid": 3885,
+                  "sciname": "Phaseolus vulgaris"
+                }
+              ],
+              "len": 178633,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 29,
+                  "query_from": 414,
+                  "query_to": 446,
+                  "query_strand": "Plus",
+                  "hit_from": 73829,
+                  "hit_to": 73861,
+                  "hit_strand": "Plus",
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "AAACAGAGAGACAGAGAGATAAGAAGACGAAAT",
+                  "hseq": "AAACAGAGAGAGAGAGAGATAAAAAGAAGGAAT",
+                  "midline": "||||||||||| |||||||||| |||| | |||"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "gi|382927946|gb|AC236141.2|",
+                  "accession": "AC236141",
+                  "title": "Glycine max clone GM_WBb0004A16, complete sequence",
+                  "taxid": 3847,
+                  "sciname": "Glycine max"
+                }
+              ],
+              "len": 174888,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 26,
+                  "query_from": 418,
+                  "query_to": 445,
+                  "query_strand": "Plus",
+                  "hit_from": 137456,
+                  "hit_to": 137429,
+                  "hit_strand": "Minus",
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "AGAGAGACAGAGAGATAAGAAGACGAAA",
+                  "hseq": "AGAGAGAGAGAGAGATAAGAAGACAAAA",
+                  "midline": "||||||| |||||||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "gi|371913394|dbj|AB610046.1|",
+                  "accession": "AB610046",
+                  "title": "Castanea crenata mRNA, microsatellite: PEB8, complete sequence",
+                  "taxid": 103480,
+                  "sciname": "Castanea crenata"
+                }
+              ],
+              "len": 671,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 31,
+                  "query_from": 398,
+                  "query_to": 432,
+                  "query_strand": "Plus",
+                  "hit_from": 43,
+                  "hit_to": 76,
+                  "hit_strand": "Plus",
+                  "align_len": 35,
+                  "gaps": 1,
+                  "qseq": "AGAGAAACAATGAAATAAACAGAGAGACAGAGAGA",
+                  "hseq": "AGAGAAA-AATAAAAGAAACAGAGAGAGAGAGAGA",
+                  "midline": "||||||| ||| ||| ||||||||||| |||||||"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "gi|335355504|gb|JF713036.1|",
+                  "accession": "JF713036",
+                  "title": "Vernicia montana clone AG013 microsatellite sequence",
+                  "taxid": 316732,
+                  "sciname": "Vernicia montana"
+                }
+              ],
+              "len": 357,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 37,
+                  "query_from": 389,
+                  "query_to": 432,
+                  "query_strand": "Plus",
+                  "hit_from": 184,
+                  "hit_to": 224,
+                  "hit_strand": "Plus",
+                  "align_len": 44,
+                  "gaps": 3,
+                  "qseq": "ATGGCAACAAGAGAAACAATGAAATAAACAGAGAGACAGAGAGA",
+                  "hseq": "ATGGCAGCAA-AGAAAC--TGAGAGAAACAGAGAGAGAGAGAGA",
+                  "midline": "|||||| ||| ||||||  ||| | ||||||||||| |||||||"
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "gi|343195211|gb|JN045828.1|",
+                  "accession": "JN045828",
+                  "title": "Parnassia laxmannii voucher wud03031 trnH-psbA intergenic spacer, partial sequence",
+                  "taxid": 324806,
+                  "sciname": "Parnassia laxmannii"
+                }
+              ],
+              "len": 424,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 28,
+                  "query_from": 314,
+                  "query_to": 344,
+                  "query_strand": "Plus",
+                  "hit_from": 124,
+                  "hit_to": 154,
+                  "hit_strand": "Plus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "ATTATTGAATAGATTTGAAAATAGAATAAGA",
+                  "hseq": "ATTTTTGAAGAGATTTTAAAATAGAATAAGA",
+                  "midline": "||| ||||| |||||| ||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "gi|349717829|emb|FQ381032.1|",
+                  "accession": "FQ381032",
+                  "title": "Vitis vinifera clone SS0ACG1YJ23",
+                  "taxid": 29760,
+                  "sciname": "Vitis vinifera"
+                }
+              ],
+              "len": 827,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 37,
+                  "query_from": 400,
+                  "query_to": 444,
+                  "query_strand": "Plus",
+                  "hit_from": 80,
+                  "hit_to": 37,
+                  "hit_strand": "Minus",
+                  "align_len": 45,
+                  "gaps": 1,
+                  "qseq": "AGAAACAATGAAATAAACAGAGAGACAGAGAGATAAGAAGACGAA",
+                  "hseq": "AGACAGAATGACAAAAACAGAGAGAAAGAGA-AGAAGAAGAAGAA",
+                  "midline": "||| | ||||| | ||||||||||| ||||| | ||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "gi|345842612|gb|AC245792.1|",
+                  "accession": "AC245792",
+                  "title": "Solanum lycopersicum strain Heinz 1706 chromosome 1 clone sle-10d20 map 1, complete sequence",
+                  "taxid": 4081,
+                  "sciname": "Solanum lycopersicum"
+                }
+              ],
+              "len": 94309,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 34,
+                  "query_from": 398,
+                  "query_to": 437,
+                  "query_strand": "Plus",
+                  "hit_from": 21408,
+                  "hit_to": 21370,
+                  "hit_strand": "Minus",
+                  "align_len": 40,
+                  "gaps": 1,
+                  "qseq": "AGAGAAACAATGAAATAAACAGAGAGACAGAGAGATAAGA",
+                  "hseq": "AGAGAAACAGAGAGATAAACAGAGAGACTGACAGA-AAGA",
+                  "midline": "|||||||||  || |||||||||||||| || ||| ||||"
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "gi|343887266|dbj|AB573149.1|",
+                  "accession": "AB573149",
+                  "title": "Citrus unshiu genomic DNA, polyembryony locus, cultivar: Miyagawa wase",
+                  "taxid": 55188,
+                  "sciname": "Citrus unshiu"
+                }
+              ],
+              "len": 380948,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 32,
+                  "query_from": 403,
+                  "query_to": 440,
+                  "query_strand": "Plus",
+                  "hit_from": 331146,
+                  "hit_to": 331183,
+                  "hit_strand": "Plus",
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "AACAATGAAATAAACAGAGAGACAGAGAGATAAGAAGA",
+                  "hseq": "AAAAAAGAAAAAGAGAGAGAGAGAGAGAGATAAGAAGA",
+                  "midline": "|| || |||| | | ||||||| |||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "gi|332002898|gb|CP002688.1|",
+                  "accession": "CP002688",
+                  "title": "Arabidopsis thaliana chromosome 5 sequence",
+                  "taxid": 3702,
+                  "sciname": "Arabidopsis thaliana"
+                }
+              ],
+              "len": 26975502,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 37,
+                  "query_from": 406,
+                  "query_to": 450,
+                  "query_strand": "Plus",
+                  "hit_from": 14600941,
+                  "hit_to": 14600984,
+                  "hit_strand": "Plus",
+                  "align_len": 45,
+                  "gaps": 1,
+                  "qseq": "AATGAAATAAACAGAGAGACAGAGAGATAAGAAGACGAAATAATA",
+                  "hseq": "AAAGAAA-AAACAGAGAGAAAAAGAGAGAAGATGAAAAAATAATA",
+                  "midline": "|| |||| ||||||||||| | ||||| |||| ||  ||||||||"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "gi|313851166|gb|AC243490.3|",
+                  "accession": "AC243490",
+                  "title": "Solanum lycopersicum strain Heinz 1706 chromosome 1 clone slm-33j12 map 1, complete sequence",
+                  "taxid": 4081,
+                  "sciname": "Solanum lycopersicum"
+                }
+              ],
+              "len": 80970,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 34,
+                  "query_from": 398,
+                  "query_to": 437,
+                  "query_strand": "Plus",
+                  "hit_from": 77685,
+                  "hit_to": 77647,
+                  "hit_strand": "Minus",
+                  "align_len": 40,
+                  "gaps": 1,
+                  "qseq": "AGAGAAACAATGAAATAAACAGAGAGACAGAGAGATAAGA",
+                  "hseq": "AGAGAAACAGAGAGATAAACAGAGAGACTGACAGA-AAGA",
+                  "midline": "|||||||||  || |||||||||||||| || ||| ||||"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "gi|312032515|gb|AC243082.1|",
+                  "accession": "AC243082",
+                  "title": "Gossypioides kirkii clone GKH002E08-jlr, complete sequence",
+                  "taxid": 47615,
+                  "sciname": "Gossypioides kirkii"
+                }
+              ],
+              "len": 160236,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 25,
+                  "query_from": 70,
+                  "query_to": 95,
+                  "query_strand": "Plus",
+                  "hit_from": 96946,
+                  "hit_to": 96971,
+                  "hit_strand": "Plus",
+                  "align_len": 26,
+                  "gaps": 0,
+                  "qseq": "TTCACCCCGATTTCCTTCCTCTTCGG",
+                  "hseq": "TTCACCCCGATTTCCTTCCTCTTTGG",
+                  "midline": "||||||||||||||||||||||| ||"
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "gi|292789567|dbj|AK339136.1|",
+                  "accession": "AK339136",
+                  "title": "Lotus japonicus cDNA, clone: LjFL3-049-AC07, HTC",
+                  "taxid": 34305,
+                  "sciname": "Lotus japonicus"
+                }
+              ],
+              "len": 1825,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 41,
+                  "query_from": 3154,
+                  "query_to": 3202,
+                  "query_strand": "Plus",
+                  "hit_from": 1046,
+                  "hit_to": 998,
+                  "hit_strand": "Minus",
+                  "align_len": 51,
+                  "gaps": 4,
+                  "qseq": "CCAAATTCGTTTCTCA--CCAAAACTTCACTTGTAAATCACCTCTAATCCA",
+                  "hseq": "CCAAATTCTTTTTTGAAACCAAAACTTCACTTGCAAA--GGCTCTAATCCA",
+                  "midline": "|||||||| ||| | |  ||||||||||||||| |||    ||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "gi|292787197|dbj|AK338764.1|",
+                  "accession": "AK338764",
+                  "title": "Lotus japonicus cDNA, clone: LjFL3-007-BC12, HTC",
+                  "taxid": 34305,
+                  "sciname": "Lotus japonicus"
+                }
+              ],
+              "len": 2033,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 41,
+                  "query_from": 3154,
+                  "query_to": 3202,
+                  "query_strand": "Plus",
+                  "hit_from": 1274,
+                  "hit_to": 1226,
+                  "hit_strand": "Minus",
+                  "align_len": 51,
+                  "gaps": 4,
+                  "qseq": "CCAAATTCGTTTCTCA--CCAAAACTTCACTTGTAAATCACCTCTAATCCA",
+                  "hseq": "CCAAATTCTTTTTTGAAACCAAAACTTCACTTGCAAA--GGCTCTAATCCA",
+                  "midline": "|||||||| ||| | |  ||||||||||||||| |||    ||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "gi|255556204|ref|XM_002519091.1|",
+                  "accession": "XM_002519091",
+                  "title": "Ricinus communis conserved hypothetical protein, mRNA",
+                  "taxid": 3988,
+                  "sciname": "Ricinus communis"
+                }
+              ],
+              "len": 591,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 29,
+                  "query_from": 2429,
+                  "query_to": 2460,
+                  "query_strand": "Plus",
+                  "hit_from": 155,
+                  "hit_to": 126,
+                  "hit_strand": "Minus",
+                  "align_len": 32,
+                  "gaps": 2,
+                  "qseq": "TTTCTCACATAAACTTGATCGTAATCATCCTA",
+                  "hseq": "TTTCTCACA--AACTTGATCGGAATCATCCTA",
+                  "midline": "|||||||||  |||||||||| ||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "gi|195657646|gb|EU976173.1|",
+                  "accession": "EU976173",
+                  "title": "Zea mays clone 679584 mRNA sequence",
+                  "taxid": 4577,
+                  "sciname": "Zea mays"
+                }
+              ],
+              "len": 646,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 29,
+                  "query_from": 273,
+                  "query_to": 305,
+                  "query_strand": "Plus",
+                  "hit_from": 47,
+                  "hit_to": 15,
+                  "hit_strand": "Minus",
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "ACCATCAGGCGAATATGAAATAAATATCCTTAC",
+                  "hseq": "ACCACCAGTCGAATATGAAATAGATATCGTTAC",
+                  "midline": "|||| ||| ||||||||||||| ||||| ||||"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "gi|203346063|gb|FJ099755.1|",
+                  "accession": "FJ099755",
+                  "title": "Pinus taeda isolate 1286 anonymous locus 2_6350_01 genomic sequence",
+                  "taxid": 3352,
+                  "sciname": "Pinus taeda"
+                }
+              ],
+              "len": 410,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 45,
+                  "query_from": 286,
+                  "query_to": 341,
+                  "query_strand": "Plus",
+                  "hit_from": 307,
+                  "hit_to": 362,
+                  "hit_strand": "Plus",
+                  "align_len": 57,
+                  "gaps": 2,
+                  "qseq": "TATGAAATAAATATCCTTACAAGAT-ATGATTATTGAATAGATTTGAAAATAGAATA",
+                  "hseq": "TATAACATAAATGATATCACAAGATGATAATTATT-ATTAAATTTGAAAATAGAATA",
+                  "midline": "||| | ||||||    | ||||||| || |||||| | || ||||||||||||||||"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 33214894,
+            "db_len": 106427473057,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.41,
+            "lambda": 0.625,
+            "entropy": 0.78
+          }
+        }
+      }
+    }
+  }
+}
