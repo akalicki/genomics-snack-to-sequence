@@ -1,0 +1,4533 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastn",
+      "version": "BLASTN 2.2.32+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr"
+      },
+      "params": {
+        "expect": 10,
+        "sc_match": 2,
+        "sc_mismatch": -3,
+        "gap_open": 5,
+        "gap_extend": 2,
+        "filter": "L;m;",
+        "entrez_query": "txid3193 [ORGN]"
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_198553",
+          "query_title": "d1c4890e-b730-4fce-b5be-6e81fa491a73_Basecall_2D_000_complement MINION01_3_minnows_3015_1_ch476_file41_strand_complement fast5/pass/MINION01_3_minnows_3015_1_ch476_file41_strand.fast5",
+          "query_len": 5166,
+          "query_masking": [
+            {
+              "from": 359,
+              "to": 425
+            },
+            {
+              "from": 1001,
+              "to": 1114
+            },
+            {
+              "from": 1436,
+              "to": 1541
+            },
+            {
+              "from": 1775,
+              "to": 1802
+            },
+            {
+              "from": 2788,
+              "to": 2811
+            },
+            {
+              "from": 3266,
+              "to": 3320
+            },
+            {
+              "from": 3772,
+              "to": 3878
+            },
+            {
+              "from": 3953,
+              "to": 4019
+            },
+            {
+              "from": 4111,
+              "to": 4226
+            },
+            {
+              "from": 4243,
+              "to": 4294
+            }
+          ],
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gi|669026884|emb|HG670306.1|",
+                  "accession": "HG670306",
+                  "title": "Triticum aestivum chromosome 3B, genomic scaffold, cultivar Chinese Spring",
+                  "taxid": 4565,
+                  "sciname": "Triticum aestivum"
+                }
+              ],
+              "len": 774434471,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 84.2413,
+                  "score": 92,
+                  "evalue": 2.56079e-12,
+                  "identity": 119,
+                  "query_from": 1456,
+                  "query_to": 1597,
+                  "query_strand": "Plus",
+                  "hit_from": 274466452,
+                  "hit_to": 274466604,
+                  "hit_strand": "Plus",
+                  "align_len": 158,
+                  "gaps": 21,
+                  "qseq": "AGAGA-AGGGAGGGAGCGGGCAGAGAGAGAGAGAGA----AGA-AGAGAGA------AGAGAGAGA-AGAGAGAGAGAGAGAGA-AGAGAGA-AGAGAGAGAAGCCAGGGCAACAGA-AAGCTACACAAGGGGAGAGGGGCTACAGGGAGGCGCCACC",
+                  "hseq": "AGAGAGAGAGAGAGAGAGAG-AGAGAGAGAGAGAGATCTGAGAGAGAGAGAGNNNNNNGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGATCTGAGAGAGAGAGAGAAGCGAGA----GGGAGAGGGGCGACGGGGAGGCGCGACC",
+                  "midline": "||||| || ||| ||| | | |||||||||||||||    ||| |||||||       |||||||| ||||||||||||||||| ||||||| |||||||||    || |  | ||| |||| | |    ||||||||||| || ||||||||| |||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.0151356,
+                  "identity": 32,
+                  "query_from": 1786,
+                  "query_to": 1818,
+                  "query_strand": "Plus",
+                  "hit_from": 400604918,
+                  "hit_to": 400604949,
+                  "hit_strand": "Plus",
+                  "align_len": 33,
+                  "gaps": 1,
+                  "qseq": "TATATATATATATATATACTGGTATACTCTATA",
+                  "hseq": "TATATATATATATATATA-TGGTATACTCTATA",
+                  "midline": "|||||||||||||||||| ||||||||||||||"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 40,
+                  "query_from": 1749,
+                  "query_to": 1797,
+                  "query_strand": "Plus",
+                  "hit_from": 33616853,
+                  "hit_to": 33616805,
+                  "hit_strand": "Minus",
+                  "align_len": 49,
+                  "gaps": 0,
+                  "qseq": "CTCTATATAACCTGGTAGACCTCTCTCtatatatatatatatatatata",
+                  "hseq": "CTCTATATAACCAACTATATATATATATATATATATATATATATATATA",
+                  "midline": "||||||||||||   || |  | | | ||||||||||||||||||||||"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 40,
+                  "query_from": 4514,
+                  "query_to": 4555,
+                  "query_strand": "Plus",
+                  "hit_from": 542284840,
+                  "hit_to": 542284795,
+                  "hit_strand": "Minus",
+                  "align_len": 46,
+                  "gaps": 4,
+                  "qseq": "CAACAGCTCATGA-TGCGGCATAAATA-AACAATGA--TAAGCCTC",
+                  "hseq": "CAACAGCTCATGATTGCGGCATGAATATAACATTGAATTAAGCCTC",
+                  "midline": "||||||||||||| |||||||| |||| |||| |||  ||||||||"
+                },
+                {
+                  "num": 5,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 59,
+                  "query_from": 1517,
+                  "query_to": 1592,
+                  "query_strand": "Plus",
+                  "hit_from": 588709252,
+                  "hit_to": 588709322,
+                  "hit_strand": "Plus",
+                  "align_len": 77,
+                  "gaps": 7,
+                  "qseq": "GAGAGAGAGAAGAGAGAAGAGAGAGAAGCCAGGGCAACAGAAAGCTACACAAG-GGGAGAGGGGCTACAGGGAGGCG",
+                  "hseq": "GAGAGAGAGA-GAGAGA-GAGAGAGATCTGAGAG----AGAGAGAGAAACGAGAGGGAGAGGGGCGACAGGGAGGCG",
+                  "midline": "|||||||||| |||||| ||||||||    || |    ||| ||  | || || ||||||||||| |||||||||||"
+                },
+                {
+                  "num": 6,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 64,
+                  "query_from": 1513,
+                  "query_to": 1597,
+                  "query_strand": "Plus",
+                  "hit_from": 698423946,
+                  "hit_to": 698424023,
+                  "hit_strand": "Plus",
+                  "align_len": 86,
+                  "gaps": 9,
+                  "qseq": "GAGAGAGAGAGAGAAGAGAGAAGAGAGAGAAGCCAGGGCAACAGAAAGCTACACAAG-GGGAGAGGGGCTACAGGGAGGCGCCACC",
+                  "hseq": "GAGAGAGAGAGAGA-GAGAGA-GAGAGAGATCTGAG------AGAGAGTGAAGCAAGAGGGAGAGGGGCGACGGGGAGGCACGACC",
+                  "midline": "|||||||||||||| |||||| ||||||||    ||      ||| ||  |  |||| ||||||||||| || ||||||| | |||"
+                },
+                {
+                  "num": 7,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 28,
+                  "query_from": 1790,
+                  "query_to": 1818,
+                  "query_strand": "Plus",
+                  "hit_from": 223644009,
+                  "hit_to": 223643982,
+                  "hit_strand": "Minus",
+                  "align_len": 29,
+                  "gaps": 1,
+                  "qseq": "TATATATATATATACTGGTATACTCTATA",
+                  "hseq": "TATATATATATATA-TGGTATACTCTATA",
+                  "midline": "|||||||||||||| ||||||||||||||"
+                },
+                {
+                  "num": 8,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 32,
+                  "query_from": 1530,
+                  "query_to": 1565,
+                  "query_strand": "Plus",
+                  "hit_from": 451617855,
+                  "hit_to": 451617821,
+                  "hit_strand": "Minus",
+                  "align_len": 36,
+                  "gaps": 1,
+                  "qseq": "GAGAAGAGAGAGAAGCCAGGGCAACAGAAAGCTACA",
+                  "hseq": "GAGAAGAGGG-GAAGCCATGGCGACAGAAAGCTACA",
+                  "midline": "|||||||| | ||||||| ||| |||||||||||||"
+                },
+                {
+                  "num": 9,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 28,
+                  "query_from": 1790,
+                  "query_to": 1818,
+                  "query_strand": "Plus",
+                  "hit_from": 452590603,
+                  "hit_to": 452590576,
+                  "hit_strand": "Minus",
+                  "align_len": 29,
+                  "gaps": 1,
+                  "qseq": "TATATATATATATACTGGTATACTCTATA",
+                  "hseq": "TATATATATATATA-TGGTATACTCTATA",
+                  "midline": "|||||||||||||| ||||||||||||||"
+                },
+                {
+                  "num": 10,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 31,
+                  "query_from": 1530,
+                  "query_to": 1565,
+                  "query_strand": "Plus",
+                  "hit_from": 279676294,
+                  "hit_to": 279676259,
+                  "hit_strand": "Minus",
+                  "align_len": 36,
+                  "gaps": 0,
+                  "qseq": "GAGAAGAGAGAGAAGCCAGGGCAACAGAAAGCTACA",
+                  "hseq": "GAGAAGAGAGAGAAGGCATGGGCAGAGAAAGCTACA",
+                  "midline": "||||||||||||||| || ||  | |||||||||||"
+                },
+                {
+                  "num": 11,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 31,
+                  "query_from": 1530,
+                  "query_to": 1565,
+                  "query_strand": "Plus",
+                  "hit_from": 340921917,
+                  "hit_to": 340921882,
+                  "hit_strand": "Minus",
+                  "align_len": 36,
+                  "gaps": 0,
+                  "qseq": "GAGAAGAGAGAGAAGCCAGGGCAACAGAAAGCTACA",
+                  "hseq": "GAGAAGAGAGAGAAGGCAAGGGCAGAGAAAGCTACA",
+                  "midline": "||||||||||||||| || ||  | |||||||||||"
+                },
+                {
+                  "num": 12,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 31,
+                  "query_from": 1530,
+                  "query_to": 1565,
+                  "query_strand": "Plus",
+                  "hit_from": 353920556,
+                  "hit_to": 353920521,
+                  "hit_strand": "Minus",
+                  "align_len": 36,
+                  "gaps": 0,
+                  "qseq": "GAGAAGAGAGAGAAGCCAGGGCAACAGAAAGCTACA",
+                  "hseq": "GAGAAGAGAGAGAAGGCAAGGGTAGAGAAAGCTACA",
+                  "midline": "||||||||||||||| || ||  | |||||||||||"
+                },
+                {
+                  "num": 13,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 33,
+                  "query_from": 1530,
+                  "query_to": 1565,
+                  "query_strand": "Plus",
+                  "hit_from": 439202052,
+                  "hit_to": 439202087,
+                  "hit_strand": "Plus",
+                  "align_len": 37,
+                  "gaps": 2,
+                  "qseq": "GAGAAGAGAGAG-AAGCCAGGGCAACAGAAAGCTACA",
+                  "hseq": "GAGAAGAGAGAGAAAGCAAGGGC-AGAGAAAGCTACA",
+                  "midline": "|||||||||||| |||| ||||| | |||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gi|697163926|ref|XR_684407.1|",
+                  "accession": "XR_684407",
+                  "title": "PREDICTED: Nicotiana tomentosiformis uncharacterized LOC104087911 (LOC104087911), ncRNA",
+                  "taxid": 4098,
+                  "sciname": "Nicotiana tomentosiformis"
+                }
+              ],
+              "len": 3186,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 71.6177,
+                  "score": 78,
+                  "evalue": 1.61603e-08,
+                  "identity": 39,
+                  "query_from": 1765,
+                  "query_to": 1803,
+                  "query_strand": "Plus",
+                  "hit_from": 2611,
+                  "hit_to": 2573,
+                  "hit_strand": "Minus",
+                  "align_len": 39,
+                  "gaps": 0,
+                  "qseq": "AGACCTCTCTCtatatatatatatatatatatatatata",
+                  "hseq": "AGACCTCTCTCTATATATATATATATATATATATATATA",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gi|530278698|gb|KF184732.1|",
+                  "accession": "KF184732",
+                  "title": "Saccharum hybrid cultivar R570 clone BAC 170C07 complete sequence",
+                  "taxid": 131158,
+                  "sciname": "Saccharum hybrid cultivar R570"
+                }
+              ],
+              "len": 153538,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.8143,
+                  "score": 76,
+                  "evalue": 5.64051e-08,
+                  "identity": 43,
+                  "query_from": 1776,
+                  "query_to": 1820,
+                  "query_strand": "Plus",
+                  "hit_from": 67655,
+                  "hit_to": 67698,
+                  "hit_strand": "Plus",
+                  "align_len": 45,
+                  "gaps": 1,
+                  "qseq": "tatatatatatatatatatatatatataCTGGTATACTCTATAGC",
+                  "hseq": "TATATATATATATATATATATATATATA-TAGTATACTCTATAGC",
+                  "midline": "|||||||||||||||||||||||||||| | ||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gi|530279347|gb|KF184780.1|",
+                  "accession": "KF184780",
+                  "title": "Saccharum hybrid cultivar R570 clone BAC 069M12 complete sequence",
+                  "taxid": 131158,
+                  "sciname": "Saccharum hybrid cultivar R570"
+                }
+              ],
+              "len": 80054,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 64.4042,
+                  "score": 70,
+                  "evalue": 2.3984e-06,
+                  "identity": 43,
+                  "query_from": 1776,
+                  "query_to": 1821,
+                  "query_strand": "Plus",
+                  "hit_from": 67584,
+                  "hit_to": 67538,
+                  "hit_strand": "Minus",
+                  "align_len": 47,
+                  "gaps": 1,
+                  "qseq": "tatatatatatatatatatatatatataCTG-GTATACTCTATAGCA",
+                  "hseq": "TATATATATATATATATATATATATATGGAGAGTATACTCTATAGCA",
+                  "midline": "|||||||||||||||||||||||||||   | |||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gi|848859165|ref|XM_012975039.1|",
+                  "accession": "XM_012975039",
+                  "title": "PREDICTED: Erythranthe guttatus protein G1-like1 (LOC105951583), mRNA",
+                  "taxid": 4155,
+                  "sciname": "Mimulus guttatus"
+                }
+              ],
+              "len": 1462,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 62.6008,
+                  "score": 68,
+                  "evalue": 8.37125e-06,
+                  "identity": 64,
+                  "query_from": 3269,
+                  "query_to": 3342,
+                  "query_strand": "Plus",
+                  "hit_from": 79,
+                  "hit_to": 9,
+                  "hit_strand": "Minus",
+                  "align_len": 76,
+                  "gaps": 7,
+                  "qseq": "AGAGAGGGAGAGAGAGAG-GAGAGGGAGAAGCCGGGAGAAGAGAGGGAGGG-AGGCCCCCAGGCCCCACGCACAGA",
+                  "hseq": "AGAGAGAGAGAGAGAGAGAGAGAGAGAGAAG--GAGAGA-GAG-GGGAGGGCAGGCCCCCCT-CCCCACGCACAGA",
+                  "midline": "|||||| ||||||||||| ||||| ||||||  | |||| ||| ||||||| ||||||||   |||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gi|530279389|gb|KF184804.1|",
+                  "accession": "KF184804",
+                  "title": "Saccharum hybrid cultivar R570 clone BAC 022I19 complete sequence",
+                  "taxid": 131158,
+                  "sciname": "Saccharum hybrid cultivar R570"
+                }
+              ],
+              "len": 99852,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 62.6008,
+                  "score": 68,
+                  "evalue": 8.37125e-06,
+                  "identity": 43,
+                  "query_from": 1776,
+                  "query_to": 1820,
+                  "query_strand": "Plus",
+                  "hit_from": 83373,
+                  "hit_to": 83326,
+                  "hit_strand": "Minus",
+                  "align_len": 48,
+                  "gaps": 3,
+                  "qseq": "tatatatatatatatatatatatatataCTG---GTATACTCTATAGC",
+                  "hseq": "TATATATATATATATATATATATATATAGGGAGAGTATACTCTATAGC",
+                  "midline": "||||||||||||||||||||||||||||  |   ||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gi|530278740|gb|KF184756.1|",
+                  "accession": "KF184756",
+                  "title": "Saccharum hybrid cultivar R570 clone BAC 249C12 complete sequence",
+                  "taxid": 131158,
+                  "sciname": "Saccharum hybrid cultivar R570"
+                }
+              ],
+              "len": 102250,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 62.6008,
+                  "score": 68,
+                  "evalue": 8.37125e-06,
+                  "identity": 43,
+                  "query_from": 1776,
+                  "query_to": 1820,
+                  "query_strand": "Plus",
+                  "hit_from": 42507,
+                  "hit_to": 42460,
+                  "hit_strand": "Minus",
+                  "align_len": 48,
+                  "gaps": 3,
+                  "qseq": "tatatatatatatatatatatatatataCTG---GTATACTCTATAGC",
+                  "hseq": "TATATATATATATATATATATATATATAGGGAGAGTATACTCTATAGC",
+                  "midline": "||||||||||||||||||||||||||||  |   ||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gi|262411016|gb|GU080321.1|",
+                  "accession": "GU080321",
+                  "title": "Saccharum hybrid cultivar R570 clone BAC 095F04, complete sequence",
+                  "taxid": 131158,
+                  "sciname": "Saccharum hybrid cultivar R570"
+                }
+              ],
+              "len": 130606,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 62.6008,
+                  "score": 68,
+                  "evalue": 8.37125e-06,
+                  "identity": 43,
+                  "query_from": 1776,
+                  "query_to": 1820,
+                  "query_strand": "Plus",
+                  "hit_from": 126734,
+                  "hit_to": 126687,
+                  "hit_strand": "Minus",
+                  "align_len": 48,
+                  "gaps": 3,
+                  "qseq": "tatatatatatatatatatatatatataCTG---GTATACTCTATAGC",
+                  "hseq": "TATATATATATATATATATATATATATAGGGAGAGTATACTCTATAGC",
+                  "midline": "||||||||||||||||||||||||||||  |   ||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gi|262411012|gb|GU080320.1|",
+                  "accession": "GU080320",
+                  "title": "Saccharum hybrid cultivar R570 clone BAC 249C12, partial sequence",
+                  "taxid": 131158,
+                  "sciname": "Saccharum hybrid cultivar R570"
+                }
+              ],
+              "len": 75471,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 62.6008,
+                  "score": 68,
+                  "evalue": 8.37125e-06,
+                  "identity": 43,
+                  "query_from": 1776,
+                  "query_to": 1820,
+                  "query_strand": "Plus",
+                  "hit_from": 73836,
+                  "hit_to": 73883,
+                  "hit_strand": "Plus",
+                  "align_len": 48,
+                  "gaps": 3,
+                  "qseq": "tatatatatatatatatatatatatataCTG---GTATACTCTATAGC",
+                  "hseq": "TATATATATATATATATATATATATATAGGGAGAGTATACTCTATAGC",
+                  "midline": "||||||||||||||||||||||||||||  |   ||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gi|937920774|dbj|AP014962.1|",
+                  "accession": "AP014962",
+                  "title": "Oryza sativa Japonica Group DNA, chromosome 6, cultivar: Nipponbare, complete sequence",
+                  "taxid": 39947,
+                  "sciname": "Oryza sativa Japonica Group"
+                }
+              ],
+              "len": 31248787,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 60.7975,
+                  "score": 66,
+                  "evalue": 2.92185e-05,
+                  "identity": 39,
+                  "query_from": 1776,
+                  "query_to": 1818,
+                  "query_strand": "Plus",
+                  "hit_from": 2175542,
+                  "hit_to": 2175584,
+                  "hit_strand": "Plus",
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "tatatatatatatatatatatatatataCTGGTATACTCTATA",
+                  "hseq": "TATATATATATATATATATATATATATATATATATACTCTATA",
+                  "midline": "||||||||||||||||||||||||||||    |||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gi|932283019|gb|CP012614.1|",
+                  "accession": "CP012614",
+                  "title": "Oryza sativa Indica Group cultivar RP Bio-226 chromosome 6 sequence",
+                  "taxid": 39946,
+                  "sciname": "Oryza sativa Indica Group"
+                }
+              ],
+              "len": 30903862,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 60.7975,
+                  "score": 66,
+                  "evalue": 2.92185e-05,
+                  "identity": 39,
+                  "query_from": 1776,
+                  "query_to": 1818,
+                  "query_strand": "Plus",
+                  "hit_from": 2088816,
+                  "hit_to": 2088858,
+                  "hit_strand": "Plus",
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "tatatatatatatatatatatatatataCTGGTATACTCTATA",
+                  "hseq": "TATATATATATATATATATATATATATATATATATACTCTATA",
+                  "midline": "||||||||||||||||||||||||||||    |||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gi|663680699|emb|HG975514.1|",
+                  "accession": "HG975514",
+                  "title": "Solanum lycopersicum chromosome ch02, complete genome",
+                  "taxid": 4081,
+                  "sciname": "Solanum lycopersicum"
+                }
+              ],
+              "len": 49921527,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 60.7975,
+                  "score": 66,
+                  "evalue": 2.92185e-05,
+                  "identity": 39,
+                  "query_from": 1776,
+                  "query_to": 1818,
+                  "query_strand": "Plus",
+                  "hit_from": 6199895,
+                  "hit_to": 6199937,
+                  "hit_strand": "Plus",
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "tatatatatatatatatatatatatataCTGGTATACTCTATA",
+                  "hseq": "TATATATATATATATATATATATATATATACATATACTCTATA",
+                  "midline": "||||||||||||||||||||||||||||    |||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.0151356,
+                  "identity": 34,
+                  "query_from": 1764,
+                  "query_to": 1801,
+                  "query_strand": "Plus",
+                  "hit_from": 8586714,
+                  "hit_to": 8586751,
+                  "hit_strand": "Plus",
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "TAGACCTCTCTCtatatatatatatatatatatatata",
+                  "hseq": "TAGACCTCTCTATATATATATATACATATACATACATA",
+                  "midline": "||||||||||| |||||||||||| ||||| ||| |||"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 36,
+                  "query_from": 1208,
+                  "query_to": 1248,
+                  "query_strand": "Plus",
+                  "hit_from": 21207110,
+                  "hit_to": 21207070,
+                  "hit_strand": "Minus",
+                  "align_len": 42,
+                  "gaps": 2,
+                  "qseq": "GATGAGAGAGCCGACGCGAGAG-GCTCAGAAAGCGAGAGAGA",
+                  "hseq": "GAGGAGAGAGGCGA-GCGAGAGAGGTCAGAGAGCGAGAGAGA",
+                  "midline": "|| ||||||| ||| ||||||| | ||||| |||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gi|378760833|gb|JF346124.1|",
+                  "accession": "JF346124",
+                  "title": "Juniperus communis isolate Jc8 5S ribosomal RNA gene region",
+                  "taxid": 58039,
+                  "sciname": "Juniperus communis"
+                }
+              ],
+              "len": 491,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 60.7975,
+                  "score": 66,
+                  "evalue": 2.92185e-05,
+                  "identity": 80,
+                  "query_from": 4081,
+                  "query_to": 4183,
+                  "query_strand": "Plus",
+                  "hit_from": 237,
+                  "hit_to": 137,
+                  "hit_strand": "Minus",
+                  "align_len": 105,
+                  "gaps": 6,
+                  "qseq": "ATGATAATGATTAACATTACTCTCTGATGCTcttattct--ttatcaagcttattattcaaaattagtacttattattatgcttagtacttattattattattat",
+                  "hseq": "ATGATAATGATTATTATTACTAT-TAGTATTATTATTATTATTATTATGATTATTAAT-AGTATTATTA-TTATTATTATTATTATTA-TTATTATTATTATTAT",
+                  "midline": "|||||||||||||  |||||| | |  |  | ||||| |  |||| | | |||||| | |  |||| || ||||||||||  ||| || ||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gi|12704814|gb|AY021598.1|",
+                  "accession": "AY021598",
+                  "title": "Oryza sativa microsatellite MRG3923 containing (TA)X30, closest to marker R1952, genomic sequence",
+                  "taxid": 4530,
+                  "sciname": "Oryza sativa"
+                }
+              ],
+              "len": 260,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 60.7975,
+                  "score": 66,
+                  "evalue": 2.92185e-05,
+                  "identity": 39,
+                  "query_from": 1776,
+                  "query_to": 1818,
+                  "query_strand": "Plus",
+                  "hit_from": 125,
+                  "hit_to": 167,
+                  "hit_strand": "Plus",
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "tatatatatatatatatatatatatataCTGGTATACTCTATA",
+                  "hseq": "TATATATATATATATATATATATATATATATATATACTCTATA",
+                  "midline": "||||||||||||||||||||||||||||    |||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gi|5803242|dbj|AP000399.1|",
+                  "accession": "AP000399",
+                  "title": "Oryza sativa Japonica Group genomic DNA, chromosome 6, clone:P0535G04",
+                  "taxid": 39947,
+                  "sciname": "Oryza sativa Japonica Group"
+                }
+              ],
+              "len": 154180,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 60.7975,
+                  "score": 66,
+                  "evalue": 2.92185e-05,
+                  "identity": 39,
+                  "query_from": 1776,
+                  "query_to": 1818,
+                  "query_strand": "Plus",
+                  "hit_from": 33991,
+                  "hit_to": 34033,
+                  "hit_strand": "Plus",
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "tatatatatatatatatatatatatataCTGGTATACTCTATA",
+                  "hseq": "TATATATATATATATATATATATATATATATATATACTCTATA",
+                  "midline": "||||||||||||||||||||||||||||    |||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gi|663673453|emb|HG975447.1|",
+                  "accession": "HG975447",
+                  "title": "Solanum pennellii chromosome ch08, complete genome",
+                  "taxid": 28526,
+                  "sciname": "Solanum pennellii"
+                }
+              ],
+              "len": 70546659,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 58.9941,
+                  "score": 64,
+                  "evalue": 0.000101983,
+                  "identity": 49,
+                  "query_from": 1745,
+                  "query_to": 1803,
+                  "query_strand": "Plus",
+                  "hit_from": 32683879,
+                  "hit_to": 32683823,
+                  "hit_strand": "Minus",
+                  "align_len": 59,
+                  "gaps": 2,
+                  "qseq": "AGACCTCTATATAACCTGGTAGACCTCTCTCtatatatatatatatatatatatatata",
+                  "hseq": "AGACCTCTACATACACA--TAGACCTCTCTCTCTCTCTCTATATATATATATATATATA",
+                  "midline": "||||||||| |||  |   ||||||||||||| | | | ||||||||||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 53.584,
+                  "score": 58,
+                  "evalue": 0.00433642,
+                  "identity": 39,
+                  "query_from": 1764,
+                  "query_to": 1803,
+                  "query_strand": "Plus",
+                  "hit_from": 14815327,
+                  "hit_to": 14815372,
+                  "hit_strand": "Plus",
+                  "align_len": 46,
+                  "gaps": 6,
+                  "qseq": "TAGACCTCTCTCt------atatatatatatatatatatatatata",
+                  "hseq": "TAGACCTCTCTCTTACACAATATATACATATATATATATATATATA",
+                  "midline": "|||||||||||||      ||||||| |||||||||||||||||||"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 37,
+                  "query_from": 1764,
+                  "query_to": 1803,
+                  "query_strand": "Plus",
+                  "hit_from": 14125986,
+                  "hit_to": 14125947,
+                  "hit_strand": "Minus",
+                  "align_len": 41,
+                  "gaps": 2,
+                  "qseq": "TAGACCTCTCTCtatatata-tatatatatatatatatata",
+                  "hseq": "TAGACCTCTCTCT-TACACAATATATATATATATATATATA",
+                  "midline": "||||||||||||| || | | ||||||||||||||||||||"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 44,
+                  "query_from": 641,
+                  "query_to": 697,
+                  "query_strand": "Plus",
+                  "hit_from": 46952218,
+                  "hit_to": 46952162,
+                  "hit_strand": "Minus",
+                  "align_len": 57,
+                  "gaps": 0,
+                  "qseq": "TATTATCATTATACTCATTATGATCCTAACCCTTATCGGTATTATGATAAATATTAT",
+                  "hseq": "TATTATCATTATTATCATTATCATCATTATCATTATTATTATTATTATTATTATTAT",
+                  "midline": "||||||||||||  ||||||| ||| | | | ||||   |||||| || | ||||||"
+                },
+                {
+                  "num": 5,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 34,
+                  "query_from": 1776,
+                  "query_to": 1816,
+                  "query_strand": "Plus",
+                  "hit_from": 26522104,
+                  "hit_to": 26522064,
+                  "hit_strand": "Minus",
+                  "align_len": 41,
+                  "gaps": 0,
+                  "qseq": "tatatatatatatatatatatatatataCTGGTATACTCTA",
+                  "hseq": "TATATATATATACACATACATACATACATAGGTATACTCTA",
+                  "midline": "|||||||||||| | ||| ||| ||| |  |||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "gi|378760831|gb|JF346122.1|",
+                  "accession": "JF346122",
+                  "title": "Juniperus communis isolate Jc6 5S ribosomal RNA gene region",
+                  "taxid": 58039,
+                  "sciname": "Juniperus communis"
+                }
+              ],
+              "len": 464,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 58.9941,
+                  "score": 64,
+                  "evalue": 0.000101983,
+                  "identity": 78,
+                  "query_from": 4081,
+                  "query_to": 4183,
+                  "query_strand": "Plus",
+                  "hit_from": 210,
+                  "hit_to": 116,
+                  "hit_strand": "Minus",
+                  "align_len": 103,
+                  "gaps": 8,
+                  "qseq": "ATGATAATGATTAACATTACTCTCTGATGCTcttattctttatcaagcttattattcaaaattagtacttattattatgcttagtacttattattattattat",
+                  "hseq": "ATGATAATGATTATTATTACTAT----TAGTATTATT-ATTATTATGATTATTAAT-AGTATTAGTA-TTATTATTATTATTATTA-TTATTATTATTATAAT",
+                  "midline": "|||||||||||||  |||||| |    |  | |||||  |||| | | |||||| | |  ||||||| ||||||||||  ||| || ||||||||||||| ||"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gi|836813177|dbj|LC015139.1|",
+                  "accession": "LC015139",
+                  "title": "Neolitsea sericea DNA, microsatellite: NSssr038",
+                  "taxid": 128655,
+                  "sciname": "Neolitsea sericea"
+                }
+              ],
+              "len": 923,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 57.1907,
+                  "score": 62,
+                  "evalue": 0.000355955,
+                  "identity": 61,
+                  "query_from": 1500,
+                  "query_to": 1566,
+                  "query_strand": "Plus",
+                  "hit_from": 640,
+                  "hit_to": 714,
+                  "hit_strand": "Plus",
+                  "align_len": 76,
+                  "gaps": 10,
+                  "qseq": "AAGAGAGAGA-AGAGAGAGAGAGAGAGAAGAGAGA-AGAGAGAGAAGCCA-GGGCA------ACAGAAAGCTACAC",
+                  "hseq": "AAGAGAGAGGCAGAGAGAGAGAGAGAGA-GAGAGAGAGAGAGAGAGCACATGGGTATTATACACAGAAAGCTACAC",
+                  "midline": "|||||||||  ||||||||||||||||| |||||| |||||||||   || ||| |      ||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "gi|530279406|gb|KF184817.1|",
+                  "accession": "KF184817",
+                  "title": "Saccharum hybrid cultivar R570 clone BAC 019G01 complete sequence",
+                  "taxid": 131158,
+                  "sciname": "Saccharum hybrid cultivar R570"
+                }
+              ],
+              "len": 104763,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 57.1907,
+                  "score": 62,
+                  "evalue": 0.000355955,
+                  "identity": 39,
+                  "query_from": 1779,
+                  "query_to": 1820,
+                  "query_strand": "Plus",
+                  "hit_from": 53747,
+                  "hit_to": 53705,
+                  "hit_strand": "Minus",
+                  "align_len": 43,
+                  "gaps": 1,
+                  "qseq": "ATATATATATATATATATATATATACTG-GTATACTCTATAGC",
+                  "hseq": "ATATATATATATATATATATATATGGAGAGTATACTCTATAGC",
+                  "midline": "||||||||||||||||||||||||   | ||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "gi|937924750|dbj|AP014963.1|",
+                  "accession": "AP014963",
+                  "title": "Oryza sativa Japonica Group DNA, chromosome 7, cultivar: Nipponbare, complete sequence",
+                  "taxid": 39947,
+                  "sciname": "Oryza sativa Japonica Group"
+                }
+              ],
+              "len": 29697621,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 55.3874,
+                  "score": 60,
+                  "evalue": 0.0012424,
+                  "identity": 42,
+                  "query_from": 1780,
+                  "query_to": 1828,
+                  "query_strand": "Plus",
+                  "hit_from": 3698381,
+                  "hit_to": 3698422,
+                  "hit_strand": "Plus",
+                  "align_len": 49,
+                  "gaps": 7,
+                  "qseq": "TATATATATATATATATATATATACTGGTATACTCTATAGCACAGAGAG",
+                  "hseq": "TATATATATATATATATATATATA----TATA---TATAGCACAGAGAG",
+                  "midline": "||||||||||||||||||||||||    ||||   ||||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 23,
+                  "query_from": 2916,
+                  "query_to": 2938,
+                  "query_strand": "Plus",
+                  "hit_from": 19030437,
+                  "hit_to": 19030415,
+                  "hit_strand": "Minus",
+                  "align_len": 23,
+                  "gaps": 0,
+                  "qseq": "CTCGGCTCGGCTCGGCTCGGCAT",
+                  "hseq": "CTCGGCTCGGCTCGGCTCGGCAT",
+                  "midline": "|||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "gi|663680989|emb|HG975517.1|",
+                  "accession": "HG975517",
+                  "title": "Solanum lycopersicum chromosome ch05, complete genome",
+                  "taxid": 4081,
+                  "sciname": "Solanum lycopersicum"
+                }
+              ],
+              "len": 65026213,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 55.3874,
+                  "score": 60,
+                  "evalue": 0.0012424,
+                  "identity": 36,
+                  "query_from": 1764,
+                  "query_to": 1803,
+                  "query_strand": "Plus",
+                  "hit_from": 30063174,
+                  "hit_to": 30063213,
+                  "hit_strand": "Plus",
+                  "align_len": 40,
+                  "gaps": 0,
+                  "qseq": "TAGACCTCTCTCtatatatatatatatatatatatatata",
+                  "hseq": "TAGACCTCTCTCTTACAATATATATATATATATATATATA",
+                  "midline": "|||||||||||||    |||||||||||||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 43,
+                  "query_from": 643,
+                  "query_to": 697,
+                  "query_strand": "Plus",
+                  "hit_from": 24680089,
+                  "hit_to": 24680143,
+                  "hit_strand": "Plus",
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TTATCATTATACTCATTATGATCCTAACCCTTATCGGTATTATGATAAATATTAT",
+                  "hseq": "TTATCATTATAATTATTATTATCATTACTATTATTGTTATTATTATTATTATTAT",
+                  "midline": "||||||||||| | ||||| ||| | ||  |||| | |||||| || | ||||||"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "gi|663680609|emb|HG975513.1|",
+                  "accession": "HG975513",
+                  "title": "Solanum lycopersicum chromosome ch01, complete genome",
+                  "taxid": 4081,
+                  "sciname": "Solanum lycopersicum"
+                }
+              ],
+              "len": 90311507,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 55.3874,
+                  "score": 60,
+                  "evalue": 0.0012424,
+                  "identity": 36,
+                  "query_from": 1764,
+                  "query_to": 1803,
+                  "query_strand": "Plus",
+                  "hit_from": 47082860,
+                  "hit_to": 47082899,
+                  "hit_strand": "Plus",
+                  "align_len": 40,
+                  "gaps": 0,
+                  "qseq": "TAGACCTCTCTCtatatatatatatatatatatatatata",
+                  "hseq": "TAGACCTCTCTCTCTCTCTCTATATATATATATATATATA",
+                  "midline": "||||||||||||| | | | ||||||||||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 38,
+                  "query_from": 1776,
+                  "query_to": 1818,
+                  "query_strand": "Plus",
+                  "hit_from": 72944242,
+                  "hit_to": 72944199,
+                  "hit_strand": "Minus",
+                  "align_len": 44,
+                  "gaps": 1,
+                  "qseq": "tatatatatatatatatatatatatataCTGGTATACT-CTATA",
+                  "hseq": "TATATATATATATATATAATAAAATAAACTGGTATACTCCTATA",
+                  "midline": "||||||||||||||||||   | ||| ||||||||||| |||||"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "gi|149790507|gb|EF625419.1|",
+                  "accession": "EF625419",
+                  "title": "Catharanthus roseus microsatellite CrSSR 68 sequence",
+                  "taxid": 4058,
+                  "sciname": "Catharanthus roseus"
+                }
+              ],
+              "len": 705,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 55.3874,
+                  "score": 60,
+                  "evalue": 0.0012424,
+                  "identity": 89,
+                  "query_from": 1461,
+                  "query_to": 1581,
+                  "query_strand": "Plus",
+                  "hit_from": 409,
+                  "hit_to": 293,
+                  "hit_strand": "Minus",
+                  "align_len": 122,
+                  "gaps": 6,
+                  "qseq": "AGGGAGGGAGCGGGCAGAGAGAGAGAGAGAAGAAGAGAGAAGAGAGAGAAGAGAGAGAGAGAGAGAAGAGAGAAGAGAGAGAAGCCAGGGCAACAGAAAGCTACACA-AGGGGAGAGGGGCT",
+                  "hseq": "AGCGAGCGAGAGGG-AGAGAGAGAGAGAGAGAGAGAGAGA-GAGAGAGAAAGTCGAGAAA-AGAAAAGAAAAAGAAGAAAAAAGAAAGAACAA--GAAAGTGGGAGAGAGGGGAGAGGGGCT",
+                  "midline": "|| ||| ||| ||| |||||||||||||||   ||||||| |||||||||    |||| | ||| |||| | |  ||| | |||  ||  |||  |||||    | | ||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "gi|380446854|gb|AC246776.2|",
+                  "accession": "AC246776",
+                  "title": "Solanum lycopersicum strain Heinz 1706 chromosome 1 clone slm-69g8 map 1, complete sequence",
+                  "taxid": 4081,
+                  "sciname": "Solanum lycopersicum"
+                }
+              ],
+              "len": 113819,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 55.3874,
+                  "score": 60,
+                  "evalue": 0.0012424,
+                  "identity": 36,
+                  "query_from": 1764,
+                  "query_to": 1803,
+                  "query_strand": "Plus",
+                  "hit_from": 32246,
+                  "hit_to": 32207,
+                  "hit_strand": "Minus",
+                  "align_len": 40,
+                  "gaps": 0,
+                  "qseq": "TAGACCTCTCTCtatatatatatatatatatatatatata",
+                  "hseq": "TAGACCTCTCTCTCTCTCTCTATATATATATATATATATA",
+                  "midline": "||||||||||||| | | | ||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "gi|376319309|gb|AC246631.4|",
+                  "accession": "AC246631",
+                  "title": "Solanum lycopersicum strain Heinz 1706 chromosome 1 clone slm-49e20 map 1, complete sequence",
+                  "taxid": 4081,
+                  "sciname": "Solanum lycopersicum"
+                }
+              ],
+              "len": 88080,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 55.3874,
+                  "score": 60,
+                  "evalue": 0.0012424,
+                  "identity": 36,
+                  "query_from": 1764,
+                  "query_to": 1803,
+                  "query_strand": "Plus",
+                  "hit_from": 9766,
+                  "hit_to": 9805,
+                  "hit_strand": "Plus",
+                  "align_len": 40,
+                  "gaps": 0,
+                  "qseq": "TAGACCTCTCTCtatatatatatatatatatatatatata",
+                  "hseq": "TAGACCTCTCTCTCTCTCTCTATATATATATATATATATA",
+                  "midline": "||||||||||||| | | | ||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "gi|50509720|dbj|AP005840.4|",
+                  "accession": "AP005840",
+                  "title": "Oryza sativa Japonica Group genomic DNA, chromosome 7, BAC clone:OSJNBa0050F10",
+                  "taxid": 39947,
+                  "sciname": "Oryza sativa Japonica Group"
+                }
+              ],
+              "len": 151986,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 55.3874,
+                  "score": 60,
+                  "evalue": 0.0012424,
+                  "identity": 42,
+                  "query_from": 1780,
+                  "query_to": 1828,
+                  "query_strand": "Plus",
+                  "hit_from": 74884,
+                  "hit_to": 74925,
+                  "hit_strand": "Plus",
+                  "align_len": 49,
+                  "gaps": 7,
+                  "qseq": "TATATATATATATATATATATATACTGGTATACTCTATAGCACAGAGAG",
+                  "hseq": "TATATATATATATATATATATATA----TATA---TATAGCACAGAGAG",
+                  "midline": "||||||||||||||||||||||||    ||||   ||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "gi|821594482|emb|LN846350.1|",
+                  "accession": "LN846350",
+                  "title": "Trifolium pratense genome assembly redclover, chromosome : chr2",
+                  "taxid": 57577,
+                  "sciname": "Trifolium pratense"
+                }
+              ],
+              "len": 32560536,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 53.584,
+                  "score": 58,
+                  "evalue": 0.00433642,
+                  "identity": 39,
+                  "query_from": 1776,
+                  "query_to": 1818,
+                  "query_strand": "Plus",
+                  "hit_from": 14881789,
+                  "hit_to": 14881746,
+                  "hit_strand": "Minus",
+                  "align_len": 44,
+                  "gaps": 1,
+                  "qseq": "tatatatatatatatat-atatatatataCTGGTATACTCTATA",
+                  "hseq": "TATATATATATATATATTATATATATATATATATATACTCTATA",
+                  "midline": "||||||||||||||||| |||||||||||    |||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "gi|378760830|gb|JF346121.1|",
+                  "accession": "JF346121",
+                  "title": "Juniperus communis isolate Jc5 5S ribosomal RNA gene region",
+                  "taxid": 58039,
+                  "sciname": "Juniperus communis"
+                }
+              ],
+              "len": 485,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 53.584,
+                  "score": 58,
+                  "evalue": 0.00433642,
+                  "identity": 78,
+                  "query_from": 4081,
+                  "query_to": 4183,
+                  "query_strand": "Plus",
+                  "hit_from": 231,
+                  "hit_to": 134,
+                  "hit_strand": "Minus",
+                  "align_len": 105,
+                  "gaps": 9,
+                  "qseq": "ATGATAATGATTAACATTACTCTCTGATGCTcttattctttatcaagcttattattcaaaattagtacttattattatgcttagtact--tattattattattat",
+                  "hseq": "ATGATAATGATTATTATTACTAT----TAGTATTATT-ATTATTATTATTATTATT-ATTATTATTA-TTATTATTATGATTATTAATAGTATTAGTATTATTAT",
+                  "midline": "|||||||||||||  |||||| |    |  | |||||  |||| |   |||||||| |  |||| || ||||||||||| ||| || |  ||||| |||||||||"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "gi|378760828|gb|JF346119.1|",
+                  "accession": "JF346119",
+                  "title": "Juniperus communis isolate Jc3 5S ribosomal RNA gene region",
+                  "taxid": 58039,
+                  "sciname": "Juniperus communis"
+                }
+              ],
+              "len": 461,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 53.584,
+                  "score": 58,
+                  "evalue": 0.00433642,
+                  "identity": 75,
+                  "query_from": 4081,
+                  "query_to": 4180,
+                  "query_strand": "Plus",
+                  "hit_from": 207,
+                  "hit_to": 116,
+                  "hit_strand": "Minus",
+                  "align_len": 100,
+                  "gaps": 8,
+                  "qseq": "ATGATAATGATTAACATTACTCTCTGATGCTcttattctttatcaagcttattattcaaaattagtacttattattatgcttagtacttattattattat",
+                  "hseq": "ATGATAATGATTATTATTACTAT----TAGTATTATT-ATTATTATGATTATTAAT-AGTATTAGTA-TTATTATTATTATTATTA-TTATTATTATAAT",
+                  "midline": "|||||||||||||  |||||| |    |  | |||||  |||| | | |||||| | |  ||||||| ||||||||||  ||| || |||||||||| ||"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "gi|378760827|gb|JF346118.1|",
+                  "accession": "JF346118",
+                  "title": "Juniperus communis isolate Jc2 5S ribosomal RNA gene region",
+                  "taxid": 58039,
+                  "sciname": "Juniperus communis"
+                }
+              ],
+              "len": 470,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 53.584,
+                  "score": 58,
+                  "evalue": 0.00433642,
+                  "identity": 77,
+                  "query_from": 4081,
+                  "query_to": 4183,
+                  "query_strand": "Plus",
+                  "hit_from": 216,
+                  "hit_to": 122,
+                  "hit_strand": "Minus",
+                  "align_len": 103,
+                  "gaps": 8,
+                  "qseq": "ATGATAATGATTAACATTACTCTCTGATGCTcttattctttatcaagcttattattcaaaattagtacttattattatgcttagtacttattattattattat",
+                  "hseq": "ATGATAATGATTATTATTACTAT----TAGTATTATT-ATTATTATTATTATTATT-ATTATTATTA-TTATTATTATTAATAGTA-TTAGTATTATTATTAT",
+                  "midline": "|||||||||||||  |||||| |    |  | |||||  |||| |   |||||||| |  |||| || ||||||||||   ||||| ||| ||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "gi|733597896|emb|LN690451.1|",
+                  "accession": "LN690451",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence37908",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 610,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.0151356,
+                  "identity": 30,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 313,
+                  "hit_to": 283,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| |||||||||||||||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 27,
+                  "query_from": 2908,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 306,
+                  "hit_to": 278,
+                  "hit_strand": "Minus",
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "GGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "GGCCTCGGCTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| | |||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "gi|733597845|emb|LN706327.1|",
+                  "accession": "LN706327",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence53907",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.0151356,
+                  "identity": 33,
+                  "query_from": 2905,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 53,
+                  "hit_to": 88,
+                  "hit_strand": "Plus",
+                  "align_len": 36,
+                  "gaps": 0,
+                  "qseq": "TTCGGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "TTCGGCTTGGACTCGGCTCGGCTCGGCTCGGCTTAA",
+                  "midline": "|||||| ||| ||||||||||||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "gi|733594735|emb|LN689760.1|",
+                  "accession": "LN689760",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence37185",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 652,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.0151356,
+                  "identity": 30,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 514,
+                  "hit_to": 544,
+                  "hit_strand": "Plus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| |||||||||||||||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 26,
+                  "query_from": 2908,
+                  "query_to": 2935,
+                  "query_strand": "Plus",
+                  "hit_from": 521,
+                  "hit_to": 548,
+                  "hit_strand": "Plus",
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "GGCCTGGCCTCGGCTCGGCTCGGCTCGG",
+                  "hseq": "GGCCTCGGCTCGGCTCGGCTCGGCTCGG",
+                  "midline": "||||| | ||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "gi|733592221|emb|LN702842.1|",
+                  "accession": "LN702842",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence50278",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 235,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.0151356,
+                  "identity": 30,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 214,
+                  "hit_to": 184,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| |||||||||||||||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 30,
+                  "query_from": 2908,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 207,
+                  "hit_to": 175,
+                  "hit_strand": "Minus",
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "GGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "GGCCTCGGCTCGGCTCGGCTCGGCTCGGCTTAA",
+                  "midline": "||||| | ||||||||||||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "gi|733590937|emb|LN688153.1|",
+                  "accession": "LN688153",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence35627",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 769,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.0151356,
+                  "identity": 30,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 723,
+                  "hit_to": 753,
+                  "hit_strand": "Plus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| |||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "gi|733583273|emb|LN700068.1|",
+                  "accession": "LN700068",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence47518",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 288,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.0151356,
+                  "identity": 30,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 142,
+                  "hit_to": 112,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| |||||||||||||||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 30,
+                  "query_from": 2908,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 135,
+                  "hit_to": 103,
+                  "hit_strand": "Minus",
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "GGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "GGCCTCGGCTCGGCTCGGCTCGGCTCGGCTTAA",
+                  "midline": "||||| | ||||||||||||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "gi|733583183|emb|LN686920.1|",
+                  "accession": "LN686920",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence34389",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 895,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.0151356,
+                  "identity": 30,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 704,
+                  "hit_to": 734,
+                  "hit_strand": "Plus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| |||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "gi|733582180|emb|LN699939.1|",
+                  "accession": "LN699939",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence47324",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 290,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.0151356,
+                  "identity": 30,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 54,
+                  "hit_to": 84,
+                  "hit_strand": "Plus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| |||||||||||||||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 27,
+                  "query_from": 2908,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 61,
+                  "hit_to": 89,
+                  "hit_strand": "Plus",
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "GGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "GGCCTCGGCTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| | |||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "gi|733579854|emb|LN685533.1|",
+                  "accession": "LN685533",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence33003",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 1121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.0151356,
+                  "identity": 30,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 279,
+                  "hit_to": 249,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| |||||||||||||||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 26,
+                  "query_from": 2908,
+                  "query_to": 2935,
+                  "query_strand": "Plus",
+                  "hit_from": 272,
+                  "hit_to": 245,
+                  "hit_strand": "Minus",
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "GGCCTGGCCTCGGCTCGGCTCGGCTCGG",
+                  "hseq": "GGCCTCGGCTCGGCTCGGCTCGGCTCGG",
+                  "midline": "||||| | ||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "gi|733575383|emb|LN696274.1|",
+                  "accession": "LN696274",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence43710",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 381,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.0151356,
+                  "identity": 30,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 362,
+                  "hit_to": 332,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| |||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "gi|733578762|emb|LN713258.1|",
+                  "accession": "LN713258",
+                  "title": "Cucumis melo genomic chromosome, chr_4",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 33123230,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.0151356,
+                  "identity": 34,
+                  "query_from": 1765,
+                  "query_to": 1802,
+                  "query_strand": "Plus",
+                  "hit_from": 32028015,
+                  "hit_to": 32028052,
+                  "hit_strand": "Plus",
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "AGACCTCTCTCtatatatatatatatatatatatatat",
+                  "hseq": "AGACCTCTCTCTCTCTCTCTATATATATATATATATAT",
+                  "midline": "|||||||||||| | | | |||||||||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 32,
+                  "query_from": 2906,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 6689401,
+                  "hit_to": 6689435,
+                  "hit_strand": "Plus",
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "TCGGCTTGGACTCGGCTCGGCTCGGCTCGGCTTAA",
+                  "midline": "||||| ||| ||||||||||||||||||||| |||"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 19195053,
+                  "hit_to": 19195083,
+                  "hit_strand": "Plus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGACTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| ||| |||||||||||||||||||||"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 27,
+                  "query_from": 2906,
+                  "query_to": 2933,
+                  "query_strand": "Plus",
+                  "hit_from": 6230198,
+                  "hit_to": 6230171,
+                  "hit_strand": "Minus",
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGGCTCGGCTC",
+                  "midline": "||||| ||||||||||||||||||||||"
+                },
+                {
+                  "num": 5,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 32,
+                  "query_from": 2906,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 12379134,
+                  "hit_to": 12379101,
+                  "hit_strand": "Minus",
+                  "align_len": 35,
+                  "gaps": 1,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "TCGGCTTGGC-TCGGCTCGGCTCGGCTCGGCTTAA",
+                  "midline": "||||| |||| |||||||||||||||||||| |||"
+                },
+                {
+                  "num": 6,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 6169023,
+                  "hit_to": 6169052,
+                  "hit_strand": "Plus",
+                  "align_len": 31,
+                  "gaps": 1,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGC-TCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| |||| ||||||||||||||||||||"
+                },
+                {
+                  "num": 7,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 26,
+                  "query_from": 2906,
+                  "query_to": 2932,
+                  "query_strand": "Plus",
+                  "hit_from": 6866060,
+                  "hit_to": 6866034,
+                  "hit_strand": "Minus",
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCT",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGGCTCGGCT",
+                  "midline": "||||| |||||||||||||||||||||"
+                },
+                {
+                  "num": 8,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 31,
+                  "query_from": 2906,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 19195064,
+                  "hit_to": 19195097,
+                  "hit_strand": "Plus",
+                  "align_len": 35,
+                  "gaps": 1,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "TCGGCTCGGC-TCGGCTCGGCTCGGCTCGGCTTAA",
+                  "midline": "|||||  ||| |||||||||||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "gi|733594526|emb|LN681841.1|",
+                  "accession": "LN681841",
+                  "title": "Cucumis melo genomic scaffold, anchoredscaffold00011",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 6909323,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.0151356,
+                  "identity": 34,
+                  "query_from": 1765,
+                  "query_to": 1802,
+                  "query_strand": "Plus",
+                  "hit_from": 1095216,
+                  "hit_to": 1095179,
+                  "hit_strand": "Minus",
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "AGACCTCTCTCtatatatatatatatatatatatatat",
+                  "hseq": "AGACCTCTCTCTCTCTCTCTATATATATATATATATAT",
+                  "midline": "|||||||||||| | | | |||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "gi|378760832|gb|JF346123.1|",
+                  "accession": "JF346123",
+                  "title": "Juniperus communis isolate Jc7 5S ribosomal RNA gene region",
+                  "taxid": 58039,
+                  "sciname": "Juniperus communis"
+                }
+              ],
+              "len": 479,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.0151356,
+                  "identity": 78,
+                  "query_from": 4081,
+                  "query_to": 4183,
+                  "query_strand": "Plus",
+                  "hit_from": 225,
+                  "hit_to": 125,
+                  "hit_strand": "Minus",
+                  "align_len": 105,
+                  "gaps": 6,
+                  "qseq": "ATGATAATGATTAACATTACTCTCTGATGCTcttattct--ttatcaagcttattattcaaaattagtacttattattatgcttagtacttattattattattat",
+                  "hseq": "ATGATAATGATTATTATTACTAT-TAGTATTATTATTATTATTATTATTATTATTATT-ATTATTA-TGATTATTAATAGTATTAGTA-TTATTATTATTATTAT",
+                  "midline": "|||||||||||||  |||||| | |  |  | ||||| |  |||| |   |||||||| |  |||| |  |||||| ||   |||||| ||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "gi|378760829|gb|JF346120.1|",
+                  "accession": "JF346120",
+                  "title": "Juniperus communis isolate Jc4 5S ribosomal RNA gene region",
+                  "taxid": 58039,
+                  "sciname": "Juniperus communis"
+                }
+              ],
+              "len": 473,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.0151356,
+                  "identity": 78,
+                  "query_from": 4081,
+                  "query_to": 4183,
+                  "query_strand": "Plus",
+                  "hit_from": 219,
+                  "hit_to": 119,
+                  "hit_strand": "Minus",
+                  "align_len": 105,
+                  "gaps": 6,
+                  "qseq": "ATGATAATGATTAACATTACTCTCTGATGCTcttattctttatcaagcttattat--tcaaaattagtacttattattatgcttagtacttattattattattat",
+                  "hseq": "ATGATAATGATTATTATTACTAT-TAGTATTATTATT-ATTATTATGATTATTATGATTATTAATAGTA-TCAGTATTATTATTATTA-TTATTATTATTATTAT",
+                  "midline": "|||||||||||||  |||||| | |  |  | |||||  |||| | | |||||||  | |  | ||||| | | ||||||  ||| || ||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "gi|303306581|gb|GU982714.1|",
+                  "accession": "GU982714",
+                  "title": "Hirtella physophora microsatellite Hphy-G108 sequence",
+                  "taxid": 715485,
+                  "sciname": "Hirtella physophora"
+                }
+              ],
+              "len": 149,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.0151356,
+                  "identity": 36,
+                  "query_from": 3252,
+                  "query_to": 3290,
+                  "query_strand": "Plus",
+                  "hit_from": 143,
+                  "hit_to": 104,
+                  "hit_strand": "Minus",
+                  "align_len": 40,
+                  "gaps": 1,
+                  "qseq": "CAACATAGCCAGCCCggagagagggagagagagag-gaga",
+                  "hseq": "CAACATAGCCAGCCTGCAGAGAGAGAGAGAGAGAGAGAGA",
+                  "midline": "|||||||||||||| | |||||| ||||||||||| ||||"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "gi|189163421|dbj|AP010789.1|",
+                  "accession": "AP010789",
+                  "title": "Lotus japonicus genomic DNA, chromosome 2, clone: LjT40A14, TM0543a, complete sequence",
+                  "taxid": 34305,
+                  "sciname": "Lotus japonicus"
+                }
+              ],
+              "len": 72284,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.0151356,
+                  "identity": 58,
+                  "query_from": 1732,
+                  "query_to": 1803,
+                  "query_strand": "Plus",
+                  "hit_from": 39648,
+                  "hit_to": 39577,
+                  "hit_strand": "Minus",
+                  "align_len": 74,
+                  "gaps": 4,
+                  "qseq": "GTTAACAGCCCCCAGACCTCTATATA-ACCTGGTA-GACCTCTCTCtatatatatatatatatatatatatata",
+                  "hseq": "GTTAACAGCCCCCATATATATATATATATATATCATGA--TTTCCCCATATATATATATATATATATATATATA",
+                  "midline": "|||||||||||||| |  | |||||| |  |   | ||  | || | |||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "gi|189163042|dbj|AP010276.1|",
+                  "accession": "AP010276",
+                  "title": "Lotus japonicus genomic DNA, chromosome 2, clone: LjT09A07a, TM5181, complete sequence",
+                  "taxid": 34305,
+                  "sciname": "Lotus japonicus"
+                }
+              ],
+              "len": 86636,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.0151356,
+                  "identity": 58,
+                  "query_from": 1732,
+                  "query_to": 1803,
+                  "query_strand": "Plus",
+                  "hit_from": 86348,
+                  "hit_to": 86277,
+                  "hit_strand": "Minus",
+                  "align_len": 74,
+                  "gaps": 4,
+                  "qseq": "GTTAACAGCCCCCAGACCTCTATATA-ACCTGGTA-GACCTCTCTCtatatatatatatatatatatatatata",
+                  "hseq": "GTTAACAGCCCCCATATATATATATATATATATCATGA--TTTCCCCATATATATATATATATATATATATATA",
+                  "midline": "|||||||||||||| |  | |||||| |  |   | ||  | || | |||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "gi|932282494|gb|CP012609.1|",
+                  "accession": "CP012609",
+                  "title": "Oryza sativa Indica Group cultivar RP Bio-226 chromosome 1 sequence",
+                  "taxid": 39946,
+                  "sciname": "Oryza sativa Indica Group"
+                }
+              ],
+              "len": 44526634,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 32,
+                  "query_from": 2907,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 8395107,
+                  "hit_to": 8395139,
+                  "hit_strand": "Plus",
+                  "align_len": 34,
+                  "gaps": 1,
+                  "qseq": "CGGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "CGGCCTGGC-TCGGCTCGGCTCGGCTCGGCACAA",
+                  "midline": "||||||||| ||||||||||||||||||||| ||"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "gi|733331430|gb|KJ049430.1|",
+                  "accession": "KJ049430",
+                  "title": "Sesamum indicum clone TilSSR_20631 microsatellite Sesame_20631 sequence",
+                  "taxid": 4182,
+                  "sciname": "Sesamum indicum"
+                }
+              ],
+              "len": 124,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 36,
+                  "query_from": 1776,
+                  "query_to": 1817,
+                  "query_strand": "Plus",
+                  "hit_from": 56,
+                  "hit_to": 97,
+                  "hit_strand": "Plus",
+                  "align_len": 42,
+                  "gaps": 0,
+                  "qseq": "tatatatatatatatatatatatatataCTGGTATACTCTAT",
+                  "hseq": "TATATATATATATATATATTAATAATTTGTGGTATACTCTAT",
+                  "midline": "|||||||||||||||||||  |||  |  |||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "gi|733603324|emb|LN693059.1|",
+                  "accession": "LN693059",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence40529",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 485,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 45,
+                  "query_from": 641,
+                  "query_to": 697,
+                  "query_strand": "Plus",
+                  "hit_from": 411,
+                  "hit_to": 355,
+                  "hit_strand": "Minus",
+                  "align_len": 57,
+                  "gaps": 0,
+                  "qseq": "TATTATCATTATACTCATTATGATCCTAACCCTTATCGGTATTATGATAAATATTAT",
+                  "hseq": "TATTATCATTATTATCATTATCATCATCATCATTATTATTATTATTATAATTATTAT",
+                  "midline": "||||||||||||  ||||||| ||| | | | ||||   |||||| |||| ||||||"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "gi|733601461|emb|LN707226.1|",
+                  "accession": "LN707226",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence54623",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 32,
+                  "query_from": 2906,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 45,
+                  "hit_to": 79,
+                  "hit_strand": "Plus",
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "TCGGCTTGGACTCGGCTCGGCTCGGCTCGGCTTAA",
+                  "midline": "||||| ||| ||||||||||||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "gi|733597185|emb|LN705557.1|",
+                  "accession": "LN705557",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence53027",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 187,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 32,
+                  "query_from": 2906,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 174,
+                  "hit_to": 140,
+                  "hit_strand": "Minus",
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "TCGGCTTGGACTCGGCTCGGCTCGGCTCGGCTTAA",
+                  "midline": "||||| ||| ||||||||||||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "gi|733596500|emb|LN690008.1|",
+                  "accession": "LN690008",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence37472",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 635,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2935,
+                  "query_strand": "Plus",
+                  "hit_from": 15,
+                  "hit_to": 44,
+                  "hit_strand": "Plus",
+                  "align_len": 30,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGG",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGGCTCGGCTCGG",
+                  "midline": "||||| ||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "gi|733596213|emb|LN704369.1|",
+                  "accession": "LN704369",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence51783",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 207,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 32,
+                  "query_from": 2906,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 143,
+                  "hit_to": 109,
+                  "hit_strand": "Minus",
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "TCGGCTTGGACTCGGCTCGGCTCGGCTCGGCTTAA",
+                  "midline": "||||| ||| ||||||||||||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "gi|733595061|emb|LN688572.1|",
+                  "accession": "LN688572",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence36026",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 733,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 32,
+                  "query_from": 2906,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 556,
+                  "hit_to": 590,
+                  "hit_strand": "Plus",
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "TCGGCTTGGACTCGGCTCGGCTCGGCTCGGCTTAA",
+                  "midline": "||||| ||| ||||||||||||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "gi|733591290|emb|LN688299.1|",
+                  "accession": "LN688299",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence35758",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 755,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 32,
+                  "query_from": 2906,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 460,
+                  "hit_to": 426,
+                  "hit_strand": "Minus",
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "TCGGCTTGGCCTCGGCTCAGCTCGGCTCGGCTTAA",
+                  "midline": "||||| |||||||||||| |||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "gi|733582830|emb|LN699530.1|",
+                  "accession": "LN699530",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence46982",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 300,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 32,
+                  "query_from": 2906,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 43,
+                  "hit_to": 77,
+                  "hit_strand": "Plus",
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "TCGGCTTGGACTCGGCTCGGCTCGGCTCGGCTTAA",
+                  "midline": "||||| ||| ||||||||||||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "gi|733580248|emb|LN685912.1|",
+                  "accession": "LN685912",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence33376",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 1047,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 32,
+                  "query_from": 2906,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 638,
+                  "hit_to": 672,
+                  "hit_strand": "Plus",
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "TCGGCTTGGACTCGGCTCGGCTCGGCTCGGCTTAA",
+                  "midline": "||||| ||| ||||||||||||||||||||| |||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 32,
+                  "query_from": 2906,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 707,
+                  "hit_to": 741,
+                  "hit_strand": "Plus",
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "TCGGCTTGGACTCGGCTCGGCTCGGCTCGGCTTAA",
+                  "midline": "||||| ||| ||||||||||||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "gi|733575771|emb|LN684244.1|",
+                  "accession": "LN684244",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence31737",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 1500,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 32,
+                  "query_from": 2906,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 573,
+                  "hit_to": 539,
+                  "hit_strand": "Minus",
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "TCGGCTTGGGCTCGGCTCGGCTCGGCTCGGCTTAA",
+                  "midline": "||||| ||| ||||||||||||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "gi|733575586|emb|LN712642.1|",
+                  "accession": "LN712642",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence60086",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 105,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 30,
+                  "query_from": 2905,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 25,
+                  "hit_to": 56,
+                  "hit_strand": "Plus",
+                  "align_len": 32,
+                  "gaps": 0,
+                  "qseq": "TTCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TTCGGCTTGGCCTCGGCTCGGCTCGACTCGGC",
+                  "midline": "|||||| |||||||||||||||||| ||||||"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "gi|733574685|emb|LN695205.1|",
+                  "accession": "LN695205",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence42640",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 412,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2935,
+                  "query_strand": "Plus",
+                  "hit_from": 103,
+                  "hit_to": 74,
+                  "hit_strand": "Minus",
+                  "align_len": 30,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGG",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGGCTCGGCTCGG",
+                  "midline": "||||| ||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "gi|733578763|emb|LN713259.1|",
+                  "accession": "LN713259",
+                  "title": "Cucumis melo genomic chromosome, chr_5",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 28337775,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 32,
+                  "query_from": 2906,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 21101079,
+                  "hit_to": 21101045,
+                  "hit_strand": "Minus",
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "TCGGCTTGGCCTCGGCTCAGCTCGGCTCGGCTTAA",
+                  "midline": "||||| |||||||||||| |||||||||||| |||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 27,
+                  "query_from": 2906,
+                  "query_to": 2933,
+                  "query_strand": "Plus",
+                  "hit_from": 18364480,
+                  "hit_to": 18364453,
+                  "hit_strand": "Minus",
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGGCTCGGCTC",
+                  "midline": "||||| ||||||||||||||||||||||"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 28,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 7795770,
+                  "hit_to": 7795740,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCAGCTCGACTCGGC",
+                  "midline": "||||| |||||||||||| ||||| ||||||"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 26,
+                  "query_from": 2906,
+                  "query_to": 2933,
+                  "query_strand": "Plus",
+                  "hit_from": 15466321,
+                  "hit_to": 15466348,
+                  "hit_strand": "Plus",
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTC",
+                  "hseq": "TCGGCTTGGCCTCAGCTCGGCTCGGCTC",
+                  "midline": "||||| ||||||| ||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "gi|733594276|emb|LN681847.1|",
+                  "accession": "LN681847",
+                  "title": "Cucumis melo genomic scaffold, anchoredscaffold00003",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 9058246,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 32,
+                  "query_from": 2906,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 1821550,
+                  "hit_to": 1821516,
+                  "hit_strand": "Minus",
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "TCGGCTTGGCCTCGGCTCAGCTCGGCTCGGCTTAA",
+                  "midline": "||||| |||||||||||| |||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "gi|733593823|emb|LN681825.1|",
+                  "accession": "LN681825",
+                  "title": "Cucumis melo genomic scaffold, anchoredscaffold00095",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 744498,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 32,
+                  "query_from": 2906,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 124907,
+                  "hit_to": 124941,
+                  "hit_strand": "Plus",
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "TCGGCTTGGACTCGGCTCGGCTCGGCTCGGCTTAA",
+                  "midline": "||||| ||| ||||||||||||||||||||| |||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 26,
+                  "query_from": 2906,
+                  "query_to": 2932,
+                  "query_strand": "Plus",
+                  "hit_from": 301566,
+                  "hit_to": 301540,
+                  "hit_strand": "Minus",
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCT",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGGCTCGGCT",
+                  "midline": "||||| |||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "gi|663681072|emb|HG975518.1|",
+                  "accession": "HG975518",
+                  "title": "Solanum lycopersicum chromosome ch06, complete genome",
+                  "taxid": 4081,
+                  "sciname": "Solanum lycopersicum"
+                }
+              ],
+              "len": 46045610,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 35,
+                  "query_from": 1764,
+                  "query_to": 1803,
+                  "query_strand": "Plus",
+                  "hit_from": 6506674,
+                  "hit_to": 6506635,
+                  "hit_strand": "Minus",
+                  "align_len": 40,
+                  "gaps": 0,
+                  "qseq": "TAGACCTCTCTCtatatatatatatatatatatatatata",
+                  "hseq": "TAGACCTCTCTCTCTCTCTCTCTATATATATATATATATA",
+                  "midline": "||||||||||||| | | | | ||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "gi|663673457|emb|HG975451.1|",
+                  "accession": "HG975451",
+                  "title": "Solanum pennellii chromosome ch12, complete genome",
+                  "taxid": 28526,
+                  "sciname": "Solanum pennellii"
+                }
+              ],
+              "len": 83305730,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 45,
+                  "query_from": 641,
+                  "query_to": 697,
+                  "query_strand": "Plus",
+                  "hit_from": 53969282,
+                  "hit_to": 53969338,
+                  "hit_strand": "Plus",
+                  "align_len": 57,
+                  "gaps": 0,
+                  "qseq": "TATTATCATTATACTCATTATGATCCTAACCCTTATCGGTATTATGATAAATATTAT",
+                  "hseq": "TATTATCATTATGATCATTATGATCATTATCATTATCATTATTATTATTATTATCAT",
+                  "midline": "||||||||||||  ||||||||||| | | | |||||  |||||| || | ||| ||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 54,
+                  "query_from": 626,
+                  "query_to": 697,
+                  "query_strand": "Plus",
+                  "hit_from": 42092623,
+                  "hit_to": 42092693,
+                  "hit_strand": "Plus",
+                  "align_len": 72,
+                  "gaps": 1,
+                  "qseq": "ATTTTCTTTAGCGAGTATTATCATTATACTCATTATGATCCTAACCCTTATCGGTATTATGATAAATATTAT",
+                  "hseq": "ATTTTCATTATCAA-TATTATCATTATTATCATTATTATCATTATTATTATTATTATTATCATTATTATTAT",
+                  "midline": "|||||| ||| | | ||||||||||||  ||||||| ||| | |   ||||   |||||| || | ||||||"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 45,
+                  "query_from": 641,
+                  "query_to": 697,
+                  "query_strand": "Plus",
+                  "hit_from": 49561838,
+                  "hit_to": 49561788,
+                  "hit_strand": "Minus",
+                  "align_len": 57,
+                  "gaps": 6,
+                  "qseq": "TATTATCATTATACTCATTATGATCCTAACCCTTATCGGTATTATGATAAATATTAT",
+                  "hseq": "TATTATCATTAT---CATTATTATCATTATTATTAT---TATTATGATAAATATTAT",
+                  "midline": "||||||||||||   |||||| ||| | |   ||||   ||||||||||||||||||"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 43,
+                  "query_from": 642,
+                  "query_to": 697,
+                  "query_strand": "Plus",
+                  "hit_from": 53969313,
+                  "hit_to": 53969368,
+                  "hit_strand": "Plus",
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "ATTATCATTATACTCATTATGATCCTAACCCTTATCGGTATTATGATAAATATTAT",
+                  "hseq": "ATTATCATTATTATTATTATTATCATTATCATTATCATTATTATTATTATTATTAT",
+                  "midline": "|||||||||||  | ||||| ||| | | | |||||  |||||| || | ||||||"
+                },
+                {
+                  "num": 5,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 44,
+                  "query_from": 641,
+                  "query_to": 697,
+                  "query_strand": "Plus",
+                  "hit_from": 53983550,
+                  "hit_to": 53983603,
+                  "hit_strand": "Plus",
+                  "align_len": 57,
+                  "gaps": 3,
+                  "qseq": "TATTATCATTATACTCATTATGATCCTAACCCTTATCGGTATTATGATAAATATTAT",
+                  "hseq": "TATTATCATTGTTATCATTATGATCATTATCATTAT---TATTATCATTATTATTAT",
+                  "midline": "|||||||||| |  ||||||||||| | | | ||||   |||||| || | ||||||"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "gi|663673455|emb|HG975449.1|",
+                  "accession": "HG975449",
+                  "title": "Solanum pennellii chromosome ch10, complete genome",
+                  "taxid": 28526,
+                  "sciname": "Solanum pennellii"
+                }
+              ],
+              "len": 82529941,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 37,
+                  "query_from": 1764,
+                  "query_to": 1803,
+                  "query_strand": "Plus",
+                  "hit_from": 24921196,
+                  "hit_to": 24921157,
+                  "hit_strand": "Minus",
+                  "align_len": 41,
+                  "gaps": 2,
+                  "qseq": "TAGACCTCTCTCtatatatat-atatatatatatatatata",
+                  "hseq": "TAGACCTCTCTCT-TACACATTATATATATATATATATATA",
+                  "midline": "||||||||||||| || | || |||||||||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 34,
+                  "query_from": 1764,
+                  "query_to": 1803,
+                  "query_strand": "Plus",
+                  "hit_from": 21103044,
+                  "hit_to": 21103083,
+                  "hit_strand": "Plus",
+                  "align_len": 40,
+                  "gaps": 0,
+                  "qseq": "TAGACCTCTCTCtatatatatatatatatatatatatata",
+                  "hseq": "TAGACCTCTCTCTCTCTCTCTCTCTATATATATATATATA",
+                  "midline": "||||||||||||| | | | | | ||||||||||||||||"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 46,
+                  "query_from": 1750,
+                  "query_to": 1803,
+                  "query_strand": "Plus",
+                  "hit_from": 34751234,
+                  "hit_to": 34751174,
+                  "hit_strand": "Minus",
+                  "align_len": 61,
+                  "gaps": 7,
+                  "qseq": "TCTATATAACCTGGTAGACCTCTCTCtatatatatatatat-------atatatatatata",
+                  "hseq": "TCTATATAACCTCATATATATATATATATATATATATATATAACACACATATATATATATA",
+                  "midline": "||||||||||||  || |  | | | |||||||||||||||       |||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "gi|663673445|emb|HG975446.1|",
+                  "accession": "HG975446",
+                  "title": "Solanum pennellii chromosome ch07, complete genome",
+                  "taxid": 28526,
+                  "sciname": "Solanum pennellii"
+                }
+              ],
+              "len": 79292169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 37,
+                  "query_from": 1764,
+                  "query_to": 1803,
+                  "query_strand": "Plus",
+                  "hit_from": 14427453,
+                  "hit_to": 14427414,
+                  "hit_strand": "Minus",
+                  "align_len": 41,
+                  "gaps": 2,
+                  "qseq": "TAGACCTCTCTCtatatatat-atatatatatatatatata",
+                  "hseq": "TAGACCTCTCTCT-TACACATTATATATATATATATATATA",
+                  "midline": "||||||||||||| || | || |||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "gi|663673441|emb|HG975442.1|",
+                  "accession": "HG975442",
+                  "title": "Solanum pennellii chromosome ch03, complete genome",
+                  "taxid": 28526,
+                  "sciname": "Solanum pennellii"
+                }
+              ],
+              "len": 75414019,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 37,
+                  "query_from": 1764,
+                  "query_to": 1803,
+                  "query_strand": "Plus",
+                  "hit_from": 12674660,
+                  "hit_to": 12674621,
+                  "hit_strand": "Minus",
+                  "align_len": 41,
+                  "gaps": 2,
+                  "qseq": "TAGACCTCTCTCtatatatat-atatatatatatatatata",
+                  "hseq": "TAGACCTCTCTCT-TACACATTATATATATATATATATATA",
+                  "midline": "||||||||||||| || | || |||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "gi|530279372|gb|KF184796.1|",
+                  "accession": "KF184796",
+                  "title": "Saccharum hybrid cultivar R570 clone BAC 102P01 complete sequence",
+                  "taxid": 131158,
+                  "sciname": "Saccharum hybrid cultivar R570"
+                }
+              ],
+              "len": 122308,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 35,
+                  "query_from": 1783,
+                  "query_to": 1820,
+                  "query_strand": "Plus",
+                  "hit_from": 33843,
+                  "hit_to": 33881,
+                  "hit_strand": "Plus",
+                  "align_len": 39,
+                  "gaps": 1,
+                  "qseq": "ATATATATATATATATATATACTG-GTATACTCTATAGC",
+                  "hseq": "ATATATATATATATATATATGGAGAGTATACTCTATAGC",
+                  "midline": "||||||||||||||||||||   | ||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "gi|593795613|ref|XM_007160783.1|",
+                  "accession": "XM_007160783",
+                  "title": "Phaseolus vulgaris hypothetical protein (PHAVU_001G021600g) mRNA, complete cds",
+                  "taxid": 3885,
+                  "sciname": "Phaseolus vulgaris"
+                }
+              ],
+              "len": 666,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 33,
+                  "query_from": 1782,
+                  "query_to": 1818,
+                  "query_strand": "Plus",
+                  "hit_from": 479,
+                  "hit_to": 515,
+                  "hit_strand": "Plus",
+                  "align_len": 37,
+                  "gaps": 0,
+                  "qseq": "TATATATATATATATATATATACTGGTATACTCTATA",
+                  "hseq": "TATATATATATATATATATATATATATATACTCTATA",
+                  "midline": "||||||||||||||||||||||    |||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "gi|733603929|emb|LN709302.1|",
+                  "accession": "LN709302",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence56727",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 138,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 49,
+                  "hit_to": 19,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGACTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| ||| |||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "gi|733603411|emb|LN693146.1|",
+                  "accession": "LN693146",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence40617",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 482,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 296,
+                  "hit_to": 266,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCAGCTCGGCTCGGC",
+                  "midline": "||||| |||||||||||| ||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "gi|733603063|emb|LN708798.1|",
+                  "accession": "LN708798",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence56291",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 144,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 31,
+                  "query_from": 2906,
+                  "query_to": 2939,
+                  "query_strand": "Plus",
+                  "hit_from": 94,
+                  "hit_to": 61,
+                  "hit_strand": "Minus",
+                  "align_len": 34,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGCATA",
+                  "hseq": "TCGGCTTGGACTCGGCTCGGCTCGGCTCGGCTTA",
+                  "midline": "||||| ||| ||||||||||||||||||||| ||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 129,
+                  "hit_to": 100,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 1,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGC-TCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| |||| ||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "gi|733602363|emb|LN692983.1|",
+                  "accession": "LN692983",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence40505",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 488,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 25,
+                  "hit_to": 55,
+                  "hit_strand": "Plus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGTCTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| ||| |||||||||||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 28,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 51,
+                  "hit_to": 81,
+                  "hit_strand": "Plus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGTCTCGGCTCGGCTCGGCTTGGC",
+                  "midline": "||||| ||| ||||||||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "gi|733601879|emb|LN692885.1|",
+                  "accession": "LN692885",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence40301",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 492,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 244,
+                  "hit_to": 214,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCAGCTCGGCTCGGC",
+                  "midline": "||||| |||||||||||| ||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 275,
+                  "hit_to": 245,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCAGCTCGGCTCGGC",
+                  "midline": "||||| |||||||||||| ||||||||||||"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 306,
+                  "hit_to": 276,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCAGCTCGGCTCGGC",
+                  "midline": "||||| |||||||||||| ||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "gi|733601827|emb|LN692833.1|",
+                  "accession": "LN692833",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence40265",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 494,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 379,
+                  "hit_to": 349,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGGCTCAGCTCGGC",
+                  "midline": "||||| ||||||||||||||||| |||||||"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "gi|733601727|emb|LN691747.1|",
+                  "accession": "LN691747",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence39195",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 540,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 98,
+                  "hit_to": 68,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGACTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| ||| |||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "gi|733601542|emb|LN708227.1|",
+                  "accession": "LN708227",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence55627",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 151,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 38,
+                  "hit_to": 8,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGACTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| ||| |||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "gi|733601406|emb|LN707171.1|",
+                  "accession": "LN707171",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence54644",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 134,
+                  "hit_to": 104,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGACTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| ||| |||||||||||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 30,
+                  "query_from": 2906,
+                  "query_to": 2939,
+                  "query_strand": "Plus",
+                  "hit_from": 58,
+                  "hit_to": 25,
+                  "hit_strand": "Minus",
+                  "align_len": 34,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGCATA",
+                  "hseq": "TCGGCTTGGACTTGGCTCGGCTCGGCTCGGCTTA",
+                  "midline": "||||| ||| || |||||||||||||||||| ||"
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "gi|733600786|emb|LN707971.1|",
+                  "accession": "LN707971",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence55417",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 93,
+                  "hit_to": 63,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGGCTCGGCTTGGC",
+                  "midline": "||||| ||||||||||||||||||||| |||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 26,
+                  "query_from": 2906,
+                  "query_to": 2932,
+                  "query_strand": "Plus",
+                  "hit_from": 72,
+                  "hit_to": 46,
+                  "hit_strand": "Minus",
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCT",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGGCTCGGCT",
+                  "midline": "||||| |||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "gi|733600447|emb|LN707432.1|",
+                  "accession": "LN707432",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence54846",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 161,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 52,
+                  "hit_to": 22,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGACTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| ||| |||||||||||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 29,
+                  "query_from": 2908,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 45,
+                  "hit_to": 13,
+                  "hit_strand": "Minus",
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "GGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "GGACTCGGCTCGGCTCGGCTCGGCTCGGCTTAA",
+                  "midline": "|| || | ||||||||||||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "gi|733600367|emb|LN692131.1|",
+                  "accession": "LN692131",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence39580",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 524,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 146,
+                  "hit_to": 116,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCAGCTCGGCTCGGC",
+                  "midline": "||||| |||||||||||| ||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "gi|733600298|emb|LN692062.1|",
+                  "accession": "LN692062",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence39648",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 527,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 489,
+                  "hit_to": 459,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCAGCTCGGCTCGGC",
+                  "midline": "||||| |||||||||||| ||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 29,
+                  "query_from": 2908,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 482,
+                  "hit_to": 450,
+                  "hit_strand": "Minus",
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "GGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "GGCCTCGGCTCAGCTCGGCTCGGCTCGGCTTAA",
+                  "midline": "||||| | ||| ||||||||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "gi|733599952|emb|LN691931.1|",
+                  "accession": "LN691931",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence39375",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 532,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 464,
+                  "hit_to": 434,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGGCTCGGCTTGGC",
+                  "midline": "||||| ||||||||||||||||||||| |||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 485,
+                  "hit_to": 455,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGGCTCGGCTTGGC",
+                  "midline": "||||| ||||||||||||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "gi|733599515|emb|LN691495.1|",
+                  "accession": "LN691495",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence38963",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 552,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 381,
+                  "hit_to": 411,
+                  "hit_strand": "Plus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCAGCTCGGCTCGGC",
+                  "midline": "||||| |||||||||||| ||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 444,
+                  "hit_to": 473,
+                  "hit_strand": "Plus",
+                  "align_len": 31,
+                  "gaps": 1,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGC-TCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| |||| ||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "gi|733598943|emb|LN690927.1|",
+                  "accession": "LN690927",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence38377",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 582,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 131,
+                  "hit_to": 101,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGGCTCGGCTTGGC",
+                  "midline": "||||| ||||||||||||||||||||| |||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 26,
+                  "query_from": 2906,
+                  "query_to": 2932,
+                  "query_strand": "Plus",
+                  "hit_from": 110,
+                  "hit_to": 84,
+                  "hit_strand": "Minus",
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCT",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGGCTCGGCT",
+                  "midline": "||||| |||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "gi|733598562|emb|LN691351.1|",
+                  "accession": "LN691351",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence38796",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 560,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 502,
+                  "hit_to": 532,
+                  "hit_strand": "Plus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGACTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| ||| |||||||||||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 31,
+                  "query_from": 2906,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 513,
+                  "hit_to": 546,
+                  "hit_strand": "Plus",
+                  "align_len": 35,
+                  "gaps": 1,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "TCGGCTCGGC-TCGGCTCGGCTCGGCTCGGCTTAA",
+                  "midline": "|||||  ||| |||||||||||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "gi|733598455|emb|LN691244.1|",
+                  "accession": "LN691244",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence38709",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 565,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 429,
+                  "hit_to": 459,
+                  "hit_strand": "Plus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGACTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| ||| |||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "gi|733598234|emb|LN705406.1|",
+                  "accession": "LN705406",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence52780",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 190,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 176,
+                  "hit_to": 146,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGGCTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| ||| |||||||||||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 29,
+                  "query_from": 2908,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 169,
+                  "hit_to": 137,
+                  "hit_strand": "Minus",
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "GGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "GGGCTCGGCTCGGCTCGGCTCGGCTCGGCTTAA",
+                  "midline": "|| || | ||||||||||||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "gi|733598171|emb|LN705343.1|",
+                  "accession": "LN705343",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence52715",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 191,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 31,
+                  "query_from": 2906,
+                  "query_to": 2939,
+                  "query_strand": "Plus",
+                  "hit_from": 26,
+                  "hit_to": 59,
+                  "hit_strand": "Plus",
+                  "align_len": 34,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGCATA",
+                  "hseq": "TCGGCTTGGACTCGGCTCGGCTCGGCTCGGCTTA",
+                  "midline": "||||| ||| ||||||||||||||||||||| ||"
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "gi|733597971|emb|LN690526.1|",
+                  "accession": "LN690526",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence37984",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 605,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 375,
+                  "hit_to": 345,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGGCTCGGCTTGGC",
+                  "midline": "||||| ||||||||||||||||||||| |||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 407,
+                  "hit_to": 377,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGGCTCGGCTTGGC",
+                  "midline": "||||| ||||||||||||||||||||| |||"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 28,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 428,
+                  "hit_to": 398,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGCCTCGGCTCGACTCGGCTTGGC",
+                  "midline": "||||| ||||||||||||| ||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "gi|733597310|emb|LN690820.1|",
+                  "accession": "LN690820",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence38232",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 589,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 79,
+                  "hit_to": 49,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGTCTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| ||| |||||||||||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 120,
+                  "hit_to": 90,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGACTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| ||| |||||||||||||||||||||"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 29,
+                  "query_from": 2908,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 113,
+                  "hit_to": 81,
+                  "hit_strand": "Minus",
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "GGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "GGACTCGGCTCGGCTCGGCTCGGCTCGGCTTAA",
+                  "midline": "|| || | ||||||||||||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "gi|733597103|emb|LN705475.1|",
+                  "accession": "LN705475",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence52937",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 189,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 23,
+                  "hit_to": 53,
+                  "hit_strand": "Plus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGTCTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| ||| |||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "gi|733596986|emb|LN690735.1|",
+                  "accession": "LN690735",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence38181",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 594,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 504,
+                  "hit_to": 534,
+                  "hit_strand": "Plus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGACTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| ||| |||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "gi|733596394|emb|LN689902.1|",
+                  "accession": "LN689902",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence37377",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 642,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 279,
+                  "hit_to": 309,
+                  "hit_strand": "Plus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGACTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| ||| |||||||||||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 29,
+                  "query_from": 2908,
+                  "query_to": 2940,
+                  "query_strand": "Plus",
+                  "hit_from": 286,
+                  "hit_to": 318,
+                  "hit_strand": "Plus",
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "GGCCTGGCCTCGGCTCGGCTCGGCTCGGCATAA",
+                  "hseq": "GGACTCGGCTCGGCTCGGCTCGGCTCGGCTTAA",
+                  "midline": "|| || | ||||||||||||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "gi|733596342|emb|LN689850.1|",
+                  "accession": "LN689850",
+                  "title": "Cucumis melo genomic scaffold, unassembled_sequence37328",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 646,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1739,
+                  "score": 52,
+                  "evalue": 0.184389,
+                  "identity": 29,
+                  "query_from": 2906,
+                  "query_to": 2936,
+                  "query_strand": "Plus",
+                  "hit_from": 353,
+                  "hit_to": 323,
+                  "hit_strand": "Minus",
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "TCGGCCTGGCCTCGGCTCGGCTCGGCTCGGC",
+                  "hseq": "TCGGCTTGGACTCGGCTCGGCTCGGCTCGGC",
+                  "midline": "||||| ||| |||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "gi|937931852|dbj|AP014965.1|",
+                  "accession": "AP014965",
+                  "title": "Oryza sativa Japonica Group DNA, chromosome 9, cultivar: Nipponbare, complete sequence",
+                  "taxid": 39947,
+                  "sciname": "Oryza sativa Japonica Group"
+                }
+              ],
+              "len": 23012720,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 59,
+                  "query_from": 1411,
+                  "query_to": 1489,
+                  "query_strand": "Plus",
+                  "hit_from": 11830644,
+                  "hit_to": 11830719,
+                  "hit_strand": "Plus",
+                  "align_len": 79,
+                  "gaps": 3,
+                  "qseq": "CTGGAGAGGAGAGGTAGCACCGATCCgggaaaggagaggaaacgaagagaagggagggagcgggcagagagagagagag",
+                  "hseq": "CTGGAGAGGAGAGG-AGAGGAGAGTCAGTGAGGGAGAGGAGACTGAG-TCAGTGAGGGAGAGGG-AGAGAGAGAGAGAG",
+                  "midline": "|||||||||||||| ||    ||  | |  | |||||||| ||  ||   || ||||||| ||| ||||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 31,
+                  "query_from": 1783,
+                  "query_to": 1818,
+                  "query_strand": "Plus",
+                  "hit_from": 12257277,
+                  "hit_to": 12257242,
+                  "hit_strand": "Minus",
+                  "align_len": 36,
+                  "gaps": 0,
+                  "qseq": "ATATATATATATATATATATACTGGTATACTCTATA",
+                  "hseq": "ATAGATATATATATATATATATATATATACTCTATA",
+                  "midline": "||| |||||||||||||||||    |||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "gi|49388773|dbj|AP005580.3|",
+                  "accession": "AP005580",
+                  "title": "Oryza sativa Japonica Group genomic DNA, chromosome 9, BAC clone:OJ1759_F09",
+                  "taxid": 39947,
+                  "sciname": "Oryza sativa Japonica Group"
+                }
+              ],
+              "len": 149501,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 31,
+                  "query_from": 1783,
+                  "query_to": 1818,
+                  "query_strand": "Plus",
+                  "hit_from": 114985,
+                  "hit_to": 114950,
+                  "hit_strand": "Minus",
+                  "align_len": 36,
+                  "gaps": 0,
+                  "qseq": "ATATATATATATATATATATACTGGTATACTCTATA",
+                  "hseq": "ATAGATATATATATATATATATATATATACTCTATA",
+                  "midline": "||| |||||||||||||||||    |||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "gi|39725620|dbj|AP005525.2|",
+                  "accession": "AP005525",
+                  "title": "Oryza sativa Japonica Group genomic DNA, chromosome 9, PAC clone:P0564H06",
+                  "taxid": 39947,
+                  "sciname": "Oryza sativa Japonica Group"
+                }
+              ],
+              "len": 146823,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.7638,
+                  "score": 46,
+                  "evalue": 7.84042,
+                  "identity": 31,
+                  "query_from": 1783,
+                  "query_to": 1818,
+                  "query_strand": "Plus",
+                  "hit_from": 137905,
+                  "hit_to": 137870,
+                  "hit_strand": "Minus",
+                  "align_len": 36,
+                  "gaps": 0,
+                  "qseq": "ATATATATATATATATATATACTGGTATACTCTATA",
+                  "hseq": "ATAGATATATATATATATATATATATATACTCTATA",
+                  "midline": "||| |||||||||||||||||    |||||||||||"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 33214894,
+            "db_len": 106427473057,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.41,
+            "lambda": 0.625,
+            "entropy": 0.78
+          }
+        }
+      }
+    }
+  }
+}

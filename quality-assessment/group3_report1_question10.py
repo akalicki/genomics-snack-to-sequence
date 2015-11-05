@@ -3,6 +3,7 @@ Problem 10
 
 places files in 'pass' folder in new folder called '2D' inside 'pass'
 places files in 'fail' folder in new folder called '2D' inside 'fail'
+
 runs poretools nucdist on each 2D folder using os module, saves result to nucdist.txt
 parses percent and prints
 

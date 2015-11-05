@@ -5,6 +5,7 @@ finds number of reads in each channel by parsing file names
 places channel numbers in dict associated with their number of reads
 divides total number of reads with total number of channels for average 
 reads per channel
+
 finds channel with greatest number of reads
 """
 
@@ -52,5 +53,3 @@ avgReadsPerChannel = numReads / numChannels
 print("Average reads per channel: " + str(avgReadsPerChannel))
 print("Channel with most reads:  " + str(maxChannelNo))
 print("Most number of reads: " + str(maxChannelCount))
-
-    

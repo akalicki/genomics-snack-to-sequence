@@ -1,0 +1,1032 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastn",
+      "version": "BLASTN 2.2.32+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr"
+      },
+      "params": {
+        "expect": 10,
+        "sc_match": 2,
+        "sc_mismatch": -3,
+        "gap_open": 5,
+        "gap_extend": 2,
+        "filter": "L;m;",
+        "entrez_query": "txid3193 [ORGN]"
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_198552",
+          "query_title": "d1c4890e-b730-4fce-b5be-6e81fa491a73_Basecall_2D_000_2d MINION01_3_minnows_3015_1_ch476_file41_strand_twodirections fast5/pass/MINION01_3_minnows_3015_1_ch476_file41_strand.fast5",
+          "query_len": 6221,
+          "query_masking": [
+            {
+              "from": 1166,
+              "to": 1234
+            },
+            {
+              "from": 1362,
+              "to": 1440
+            },
+            {
+              "from": 2207,
+              "to": 2311
+            },
+            {
+              "from": 4081,
+              "to": 4139
+            },
+            {
+              "from": 4394,
+              "to": 4480
+            },
+            {
+              "from": 4912,
+              "to": 5035
+            },
+            {
+              "from": 5716,
+              "to": 5786
+            }
+          ],
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gi|694994542|ref|XM_009407738.1|",
+                  "accession": "XM_009407738",
+                  "title": "PREDICTED: Musa acuminata subsp. malaccensis probable galacturonosyltransferase-like 3 (LOC103988733), mRNA",
+                  "taxid": 214687,
+                  "sciname": "Musa acuminata subsp. malaccensis"
+                }
+              ],
+              "len": 1771,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 62.6008,
+                  "score": 68,
+                  "evalue": 8.37125e-06,
+                  "identity": 63,
+                  "query_from": 4997,
+                  "query_to": 5073,
+                  "query_strand": "Plus",
+                  "hit_from": 1567,
+                  "hit_to": 1492,
+                  "hit_strand": "Minus",
+                  "align_len": 78,
+                  "gaps": 3,
+                  "qseq": "CCTCCCTCTCTCTCTCTCTCTCTCTCTCCCTCTCTCTCTC-CACGCATGCAAACAAGCAGAGTTACACAAGAACAACA",
+                  "hseq": "CCTCCCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCACTCGCGCTCGCGCTCGCGC-GCGC-ACACAAGAACAACA",
+                  "midline": "|||||||||||||||||||||||||||| ||||||||| | | |||  ||   |  || | |  ||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gi|669026884|emb|HG670306.1|",
+                  "accession": "HG670306",
+                  "title": "Triticum aestivum chromosome 3B, genomic scaffold, cultivar Chinese Spring",
+                  "taxid": 4565,
+                  "sciname": "Triticum aestivum"
+                }
+              ],
+              "len": 774434471,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 58.9941,
+                  "score": 64,
+                  "evalue": 0.000101983,
+                  "identity": 54,
+                  "query_from": 4090,
+                  "query_to": 4151,
+                  "query_strand": "Plus",
+                  "hit_from": 619641173,
+                  "hit_to": 619641232,
+                  "hit_strand": "Plus",
+                  "align_len": 63,
+                  "gaps": 4,
+                  "qseq": "GGAGA-GAGGAGGAGAGAGGAGAGAGAGAGAGGAGAGGAGAGGAGGAAGGAGTCGACTCGCTG",
+                  "hseq": "GGAGAAGAGGAGGAG-GAGGAGAGCGAG-GAGGA-AGACGAGGAGGAAGAGGTCGACTCGCTG",
+                  "midline": "||||| ||||||||| |||||||| ||| ||||| ||  ||||||||||  ||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 55.3874,
+                  "score": 60,
+                  "evalue": 0.0012424,
+                  "identity": 53,
+                  "query_from": 4091,
+                  "query_to": 4151,
+                  "query_strand": "Plus",
+                  "hit_from": 296458089,
+                  "hit_to": 296458149,
+                  "hit_strand": "Plus",
+                  "align_len": 63,
+                  "gaps": 4,
+                  "qseq": "GAGAGAGGAGGAGAGAGGAGAGAGAGAGAGGAGA-GGA-GAGGAGGAAGGAGTCGACTCGCTG",
+                  "hseq": "GAAAGGGGAGGAG-GAGGAG-GAGAGCGAGGAGTCGGACGAGGAGGAAGAGGTCGACTCGCTG",
+                  "midline": "|| || ||||||| |||||| ||||| ||||||  ||| ||||||||||  ||||||||||||"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 54,
+                  "query_from": 4089,
+                  "query_to": 4151,
+                  "query_strand": "Plus",
+                  "hit_from": 492696714,
+                  "hit_to": 492696775,
+                  "hit_strand": "Plus",
+                  "align_len": 65,
+                  "gaps": 5,
+                  "qseq": "AGGAGAGAGGAGGAGAGAGGAGAGAGAGAGAGGAGA-GGA-GAGGAGGAAGGAGTCGACTCGCTG",
+                  "hseq": "AGGAG-GAGGAGGAG-GAGGA-AGAGAGCAAGGAGTCGGACGAGGAGGTTGAAGTCGACTCGCTG",
+                  "midline": "||||| ||||||||| ||||| ||||||  |||||  ||| |||||||  | |||||||||||||"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 49,
+                  "query_from": 4093,
+                  "query_to": 4151,
+                  "query_strand": "Plus",
+                  "hit_from": 192144796,
+                  "hit_to": 192144738,
+                  "hit_strand": "Minus",
+                  "align_len": 61,
+                  "gaps": 4,
+                  "qseq": "GAGAGGAGGAGAGAGGAGAGAGAGAGAGGAG--AGGAGAGGAGGAAGGAGTCGACTCGCTG",
+                  "hseq": "GAGACGACGAG-GAGGAG-GAGAGCGAGGAATCAGATGAGGAGGAGGAAGTCGACTCGCTG",
+                  "midline": "|||| || ||| |||||| ||||| |||||   ||  |||||||| | |||||||||||||"
+                },
+                {
+                  "num": 5,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 48,
+                  "query_from": 4094,
+                  "query_to": 4151,
+                  "query_strand": "Plus",
+                  "hit_from": 202002622,
+                  "hit_to": 202002568,
+                  "hit_strand": "Minus",
+                  "align_len": 59,
+                  "gaps": 5,
+                  "qseq": "AGAGGAGGAGAGAGGAGAGAGAGAGAGG-AGAGGAGAGGAGGAAGGAGTCGACTCGCTG",
+                  "hseq": "AGACGAGGAG-GAGGAGAGCGAG-GAGTCAGACGACA--AGGAAGAAGTCGACTCGCTG",
+                  "midline": "||| |||||| |||||||| ||| |||  ||| || |  |||||| |||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gi|811579030|gb|KM666341.1|",
+                  "accession": "KM666341",
+                  "title": "Ananas bracteatus clone 51628b microsatellite sequence",
+                  "taxid": 296719,
+                  "sciname": "Ananas bracteatus"
+                }
+              ],
+              "len": 599,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0528284,
+                  "identity": 85,
+                  "query_from": 4962,
+                  "query_to": 5073,
+                  "query_strand": "Plus",
+                  "hit_from": 344,
+                  "hit_to": 234,
+                  "hit_strand": "Minus",
+                  "align_len": 117,
+                  "gaps": 11,
+                  "qseq": "TCTCCTCTTCTCCCCCTCCCTCTCTCTCTCTCTCTCCTCCCTCTCTCTCTCTCTCTCTCTCTCCCTCTCTCTCTCCACGCAT--GCAAACAAGCAGAGTTA---CACAAGAACAACA",
+                  "hseq": "TCACCTTTTCTCGCTCTTCCTC-CTC-CTCT-TCGCCCTCCTCTTACGCTCTCTCTCTCTCT---TTTCTCTCTCCAACCAATAGAAGAGAAGAAGAGGAAGAACACAAGAACAACA",
+                  "midline": "|| ||| ||||| | || |||| ||| |||| || ||  |||||  | ||||||||||||||   | ||||||||||  ||   | | | ||| ||||  |   |||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gi|388890263|gb|AC235915.2|",
+                  "accession": "AC235915",
+                  "title": "Glycine max clone GM_WBc0232C06, complete sequence",
+                  "taxid": 3847,
+                  "sciname": "Glycine max"
+                }
+              ],
+              "len": 106138,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 30,
+                  "query_from": 2084,
+                  "query_to": 2113,
+                  "query_strand": "Plus",
+                  "hit_from": 73565,
+                  "hit_to": 73596,
+                  "hit_strand": "Plus",
+                  "align_len": 32,
+                  "gaps": 2,
+                  "qseq": "TAGTAGTGAT--TTAATCATATTGGATGTGTT",
+                  "hseq": "TAGTAGTGATAATTAATCATATTGGATGTGTT",
+                  "midline": "||||||||||  ||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gi|226342999|gb|AC235738.1|",
+                  "accession": "AC235738",
+                  "title": "Glycine max strain Williams 82 clone GM_WBa0076A06, complete sequence",
+                  "taxid": 3847,
+                  "sciname": "Glycine max"
+                }
+              ],
+              "len": 132428,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 30,
+                  "query_from": 2084,
+                  "query_to": 2113,
+                  "query_strand": "Plus",
+                  "hit_from": 67722,
+                  "hit_to": 67691,
+                  "hit_strand": "Minus",
+                  "align_len": 32,
+                  "gaps": 2,
+                  "qseq": "TAGTAGTGAT--TTAATCATATTGGATGTGTT",
+                  "hseq": "TAGTAGTGATAATTAATCATATTGGATGTGTT",
+                  "midline": "||||||||||  ||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gi|224923071|gb|AC235307.1|",
+                  "accession": "AC235307",
+                  "title": "Glycine max strain Williams 82 clone GM_WBb0068O17, complete sequence",
+                  "taxid": 3847,
+                  "sciname": "Glycine max"
+                }
+              ],
+              "len": 186496,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 48,
+                  "query_from": 2292,
+                  "query_to": 2353,
+                  "query_strand": "Plus",
+                  "hit_from": 42163,
+                  "hit_to": 42223,
+                  "hit_strand": "Plus",
+                  "align_len": 62,
+                  "gaps": 1,
+                  "qseq": "CTTCTCTCTTCTTCTTCTTCTGTGATCTATGACTTATGCTTGGGCTATGACTGCTTATTGTC",
+                  "hseq": "CTTTTCTCATCT-CTGATTCTATTTTCGATGACTTATGCTTTGCCTATGACTCCTTCTTTTC",
+                  "midline": "||| |||| ||| ||  |||| |  || ||||||||||||| | |||||||| ||| || ||"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gi|224923035|gb|AC235271.1|",
+                  "accession": "AC235271",
+                  "title": "Glycine max strain Williams 82 clone GM_WBb0046B18, complete sequence",
+                  "taxid": 3847,
+                  "sciname": "Glycine max"
+                }
+              ],
+              "len": 150303,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 30,
+                  "query_from": 2084,
+                  "query_to": 2113,
+                  "query_strand": "Plus",
+                  "hit_from": 110009,
+                  "hit_to": 110040,
+                  "hit_strand": "Plus",
+                  "align_len": 32,
+                  "gaps": 2,
+                  "qseq": "TAGTAGTGAT--TTAATCATATTGGATGTGTT",
+                  "hseq": "TAGTAGTGATAATTAATCATATTGGATGTGTT",
+                  "midline": "||||||||||  ||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gi|224922913|gb|AC235149.1|",
+                  "accession": "AC235149",
+                  "title": "Glycine max strain Williams 82 clone GM_WBa0082G15, complete sequence",
+                  "taxid": 3847,
+                  "sciname": "Glycine max"
+                }
+              ],
+              "len": 131173,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 30,
+                  "query_from": 2084,
+                  "query_to": 2113,
+                  "query_strand": "Plus",
+                  "hit_from": 70048,
+                  "hit_to": 70017,
+                  "hit_strand": "Minus",
+                  "align_len": 32,
+                  "gaps": 2,
+                  "qseq": "TAGTAGTGAT--TTAATCATATTGGATGTGTT",
+                  "hseq": "TAGTAGTGATAATTAATCATATTGGATGTGTT",
+                  "midline": "||||||||||  ||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gi|224922892|gb|AC235128.1|",
+                  "accession": "AC235128",
+                  "title": "Glycine max strain Williams 82 clone GM_WBa0048K09, complete sequence",
+                  "taxid": 3847,
+                  "sciname": "Glycine max"
+                }
+              ],
+              "len": 112750,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 30,
+                  "query_from": 2084,
+                  "query_to": 2113,
+                  "query_strand": "Plus",
+                  "hit_from": 11783,
+                  "hit_to": 11814,
+                  "hit_strand": "Plus",
+                  "align_len": 32,
+                  "gaps": 2,
+                  "qseq": "TAGTAGTGAT--TTAATCATATTGGATGTGTT",
+                  "hseq": "TAGTAGTGATAATTAATCATATTGGATGTGTT",
+                  "midline": "||||||||||  ||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gi|224922886|gb|AC235122.1|",
+                  "accession": "AC235122",
+                  "title": "Glycine max strain Williams 82 clone GM_WBa0036O20, complete sequence",
+                  "taxid": 3847,
+                  "sciname": "Glycine max"
+                }
+              ],
+              "len": 119276,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 30,
+                  "query_from": 2084,
+                  "query_to": 2113,
+                  "query_strand": "Plus",
+                  "hit_from": 43843,
+                  "hit_to": 43874,
+                  "hit_strand": "Plus",
+                  "align_len": 32,
+                  "gaps": 2,
+                  "qseq": "TAGTAGTGAT--TTAATCATATTGGATGTGTT",
+                  "hseq": "TAGTAGTGATAATTAATCATATTGGATGTGTT",
+                  "midline": "||||||||||  ||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gi|224922881|gb|AC235117.1|",
+                  "accession": "AC235117",
+                  "title": "Glycine max strain Williams 82 clone GM_WBa0027O01, complete sequence",
+                  "taxid": 3847,
+                  "sciname": "Glycine max"
+                }
+              ],
+              "len": 198948,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 30,
+                  "query_from": 2084,
+                  "query_to": 2113,
+                  "query_strand": "Plus",
+                  "hit_from": 188711,
+                  "hit_to": 188680,
+                  "hit_strand": "Minus",
+                  "align_len": 32,
+                  "gaps": 2,
+                  "qseq": "TAGTAGTGAT--TTAATCATATTGGATGTGTT",
+                  "hseq": "TAGTAGTGATAATTAATCATATTGGATGTGTT",
+                  "midline": "||||||||||  ||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gi|224922870|gb|AC235106.1|",
+                  "accession": "AC235106",
+                  "title": "Glycine max strain Williams 82 clone GM_WBa0011H10, complete sequence",
+                  "taxid": 3847,
+                  "sciname": "Glycine max"
+                }
+              ],
+              "len": 110719,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 30,
+                  "query_from": 2084,
+                  "query_to": 2113,
+                  "query_strand": "Plus",
+                  "hit_from": 21259,
+                  "hit_to": 21228,
+                  "hit_strand": "Minus",
+                  "align_len": 32,
+                  "gaps": 2,
+                  "qseq": "TAGTAGTGAT--TTAATCATATTGGATGTGTT",
+                  "hseq": "TAGTAGTGATAATTAATCATATTGGATGTGTT",
+                  "midline": "||||||||||  ||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gi|224922867|gb|AC235103.1|",
+                  "accession": "AC235103",
+                  "title": "Glycine max strain Williams 82 clone GM_WBa0007H20, complete sequence",
+                  "taxid": 3847,
+                  "sciname": "Glycine max"
+                }
+              ],
+              "len": 198950,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 30,
+                  "query_from": 2084,
+                  "query_to": 2113,
+                  "query_strand": "Plus",
+                  "hit_from": 188713,
+                  "hit_to": 188682,
+                  "hit_strand": "Minus",
+                  "align_len": 32,
+                  "gaps": 2,
+                  "qseq": "TAGTAGTGAT--TTAATCATATTGGATGTGTT",
+                  "hseq": "TAGTAGTGATAATTAATCATATTGGATGTGTT",
+                  "midline": "||||||||||  ||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gi|224922864|gb|AC235100.1|",
+                  "accession": "AC235100",
+                  "title": "Glycine max strain Williams 82 clone GM_WBa0002J15, complete sequence",
+                  "taxid": 3847,
+                  "sciname": "Glycine max"
+                }
+              ],
+              "len": 198616,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.3705,
+                  "score": 50,
+                  "evalue": 0.643581,
+                  "identity": 30,
+                  "query_from": 2084,
+                  "query_to": 2113,
+                  "query_strand": "Plus",
+                  "hit_from": 188379,
+                  "hit_to": 188348,
+                  "hit_strand": "Minus",
+                  "align_len": 32,
+                  "gaps": 2,
+                  "qseq": "TAGTAGTGAT--TTAATCATATTGGATGTGTT",
+                  "hseq": "TAGTAGTGATAATTAATCATATTGGATGTGTT",
+                  "midline": "||||||||||  ||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gi|937901440|dbj|AP014958.1|",
+                  "accession": "AP014958",
+                  "title": "Oryza sativa Japonica Group DNA, chromosome 2, cultivar: Nipponbare, complete sequence",
+                  "taxid": 39947,
+                  "sciname": "Oryza sativa Japonica Group"
+                }
+              ],
+              "len": 35937250,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 76,
+                  "query_from": 4044,
+                  "query_to": 4137,
+                  "query_strand": "Plus",
+                  "hit_from": 10879887,
+                  "hit_to": 10879987,
+                  "hit_strand": "Plus",
+                  "align_len": 102,
+                  "gaps": 9,
+                  "qseq": "TCGCCTGCCGCTCGTCCCT---CTGT-ATCTCTGTG-GTGTGGggagaggag-gagagag-gaggagagaggagagagagagaggagag-gagaggaggaag",
+                  "hseq": "TCGCCGACCGCTCGTCCCTGCGCTGTCCTCGCCATGCGTGTTGTGCGAGCCGCGAGAGAGAAAAGAGCGA-GAGAGAGAGAGAATAGAGAGAGAGGAAGAAG",
+                  "midline": "|||||  ||||||||||||   ||||  || |  || |||| | | |||  | |||||||  | ||| || ||||||||||||  |||| ||||||| ||||"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gi|932282624|gb|CP012610.1|",
+                  "accession": "CP012610",
+                  "title": "Oryza sativa Indica Group cultivar RP Bio-226 chromosome 2 sequence",
+                  "taxid": 39946,
+                  "sciname": "Oryza sativa Indica Group"
+                }
+              ],
+              "len": 36385228,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 76,
+                  "query_from": 4044,
+                  "query_to": 4137,
+                  "query_strand": "Plus",
+                  "hit_from": 11116481,
+                  "hit_to": 11116581,
+                  "hit_strand": "Plus",
+                  "align_len": 102,
+                  "gaps": 9,
+                  "qseq": "TCGCCTGCCGCTCGTCCCT---CTGT-ATCTCTGTG-GTGTGGggagaggag-gagagag-gaggagagaggagagagagagaggagag-gagaggaggaag",
+                  "hseq": "TCGCCGACCGCTCGTCCCTGCGCTGTCCTCGCCATGCGTGTTGTGCGAGCCGCGAGAGAGAAAAGAGCGA-GAGAGAGAGAGAATAGAGAGAGAGGAAGAAG",
+                  "midline": "|||||  ||||||||||||   ||||  || |  || |||| | | |||  | |||||||  | ||| || ||||||||||||  |||| ||||||| ||||"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "gi|821594481|emb|LN846349.1|",
+                  "accession": "LN846349",
+                  "title": "Trifolium pratense genome assembly redclover, chromosome : chr1",
+                  "taxid": 57577,
+                  "sciname": "Trifolium pratense"
+                }
+              ],
+              "len": 28142018,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 36,
+                  "query_from": 5366,
+                  "query_to": 5409,
+                  "query_strand": "Plus",
+                  "hit_from": 27199141,
+                  "hit_to": 27199098,
+                  "hit_strand": "Minus",
+                  "align_len": 44,
+                  "gaps": 0,
+                  "qseq": "TAAGTAAGTACCGGAGTAAGCCACTAGGGTTACATAATATTAGA",
+                  "hseq": "TAAGATAATACCAAAGGAGGCAACTAGGGTTACATAATATTAGA",
+                  "midline": "||||  | ||||  || | || ||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gi|778677575|ref|XM_011652514.1|",
+                  "accession": "XM_011652514",
+                  "title": "PREDICTED: Cucumis sativus replication factor C subunit 3-like (LOC105434823), mRNA",
+                  "taxid": 3659,
+                  "sciname": "Cucumis sativus"
+                }
+              ],
+              "len": 1908,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 55,
+                  "query_from": 5004,
+                  "query_to": 5078,
+                  "query_strand": "Plus",
+                  "hit_from": 1,
+                  "hit_to": 66,
+                  "hit_strand": "Plus",
+                  "align_len": 75,
+                  "gaps": 9,
+                  "qseq": "CTCTCTCTCTCTCTCTCTCTCCCTCTCTCTCTCCACGCATGCAAACAAGCAGAGTTACACAAGAACAACACCCAT",
+                  "hseq": "CTCCCTCTCTATCTCTCTCTCTCTCTCTCTCTCTTTTCATGGCCACA--CA-------ACAAGAACAACAACCAT",
+                  "midline": "||| |||||| |||||||||| |||||||||||    ||||   |||  ||       |||||||||||| ||||"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "gi|733577135|emb|LN713257.1|",
+                  "accession": "LN713257",
+                  "title": "Cucumis melo genomic chromosome, chr_3",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 29387469,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 40,
+                  "query_from": 2281,
+                  "query_to": 2327,
+                  "query_strand": "Plus",
+                  "hit_from": 982327,
+                  "hit_to": 982281,
+                  "hit_strand": "Minus",
+                  "align_len": 48,
+                  "gaps": 2,
+                  "qseq": "TCTCTTCTTCTCTTCTCT-CTTCTTCTTCTTCTGTGATCTATGACTTA",
+                  "hseq": "TCTCTT-TTCTCTTTTCTTCTTCGTTTAATTCTGTGTTCTATGACTTA",
+                  "midline": "|||||| ||||||| ||| |||| | |  ||||||| |||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "gi|733591491|emb|LN681815.1|",
+                  "accession": "LN681815",
+                  "title": "Cucumis melo genomic scaffold, anchoredscaffold00008",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 7388319,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 40,
+                  "query_from": 2281,
+                  "query_to": 2327,
+                  "query_strand": "Plus",
+                  "hit_from": 982327,
+                  "hit_to": 982281,
+                  "hit_strand": "Minus",
+                  "align_len": 48,
+                  "gaps": 2,
+                  "qseq": "TCTCTTCTTCTCTTCTCT-CTTCTTCTTCTTCTGTGATCTATGACTTA",
+                  "hseq": "TCTCTT-TTCTCTTTTCTTCTTCGTTTAATTCTGTGTTCTATGACTTA",
+                  "midline": "|||||| ||||||| ||| |||| | |  ||||||| |||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "gi|729405230|ref|XM_010556738.1|",
+                  "accession": "XM_010556738",
+                  "title": "PREDICTED: Tarenaya hassleriana mediator of RNA polymerase II transcription subunit 19a-like (LOC104824628), transcript variant X2, mRNA",
+                  "taxid": 28532,
+                  "sciname": "Cleome hassleriana"
+                }
+              ],
+              "len": 1984,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 43,
+                  "query_from": 5566,
+                  "query_to": 5618,
+                  "query_strand": "Plus",
+                  "hit_from": 783,
+                  "hit_to": 831,
+                  "hit_strand": "Plus",
+                  "align_len": 54,
+                  "gaps": 6,
+                  "qseq": "AGTACATAAGA-GCATAAGCACCACCATAATAATAAGATAAGAGCACACATAAG",
+                  "hseq": "AGAACATAAGAAGCATAAGCACAAGCATA-----AAGATAAGAGCAAAGATAAG",
+                  "midline": "|| |||||||| |||||||||| | ||||     |||||||||||| | |||||"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "gi|729405228|ref|XR_773455.1|",
+                  "accession": "XR_773455",
+                  "title": "PREDICTED: Tarenaya hassleriana mediator of RNA polymerase II transcription subunit 19a-like (LOC104824628), transcript variant X1, misc_RNA",
+                  "taxid": 28532,
+                  "sciname": "Cleome hassleriana"
+                }
+              ],
+              "len": 1369,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 43,
+                  "query_from": 5566,
+                  "query_to": 5618,
+                  "query_strand": "Plus",
+                  "hit_from": 783,
+                  "hit_to": 831,
+                  "hit_strand": "Plus",
+                  "align_len": 54,
+                  "gaps": 6,
+                  "qseq": "AGTACATAAGA-GCATAAGCACCACCATAATAATAAGATAAGAGCACACATAAG",
+                  "hseq": "AGAACATAAGAAGCATAAGCACAAGCATA-----AAGATAAGAGCAAAGATAAG",
+                  "midline": "|| |||||||| |||||||||| | ||||     |||||||||||| | |||||"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "gi|663680989|emb|HG975517.1|",
+                  "accession": "HG975517",
+                  "title": "Solanum lycopersicum chromosome ch05, complete genome",
+                  "taxid": 4081,
+                  "sciname": "Solanum lycopersicum"
+                }
+              ],
+              "len": 65026213,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 32,
+                  "query_from": 5950,
+                  "query_to": 5984,
+                  "query_strand": "Plus",
+                  "hit_from": 60886003,
+                  "hit_to": 60886038,
+                  "hit_strand": "Plus",
+                  "align_len": 36,
+                  "gaps": 1,
+                  "qseq": "AAATACCC-AAGACACTAATAAAAAACAATAGACTA",
+                  "hseq": "AAATACTCTAAGACACTAATTAAAAACAATAGATTA",
+                  "midline": "|||||| | ||||||||||| |||||||||||| ||"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "gi|659075751|ref|XM_008440089.1|",
+                  "accession": "XM_008440089",
+                  "title": "PREDICTED: Cucumis melo nucleolin (LOC103483455), mRNA",
+                  "taxid": 3656,
+                  "sciname": "Cucumis melo"
+                }
+              ],
+              "len": 2856,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 43,
+                  "query_from": 410,
+                  "query_to": 458,
+                  "query_strand": "Plus",
+                  "hit_from": 1904,
+                  "hit_to": 1954,
+                  "hit_strand": "Plus",
+                  "align_len": 52,
+                  "gaps": 4,
+                  "qseq": "GACCTGTTGCTGCCAGCAG-AAGGCCATATAA--GGGGTCCTCCTGTTGCTT",
+                  "hseq": "GACCTGTTGCTGCT-GTAGCAAGGTCTTATGACAGGGGTCCTCCTGTTGCTT",
+                  "midline": "|||||||||||||  | || |||| | ||| |  ||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "gi|148470310|gb|EF463018.1|",
+                  "accession": "EF463018",
+                  "title": "Chamaedorea elegans clone AG5 microsatellite sequence",
+                  "taxid": 348465,
+                  "sciname": "Chamaedorea elegans"
+                }
+              ],
+              "len": 494,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 50,
+                  "query_from": 4058,
+                  "query_to": 4119,
+                  "query_strand": "Plus",
+                  "hit_from": 384,
+                  "hit_to": 328,
+                  "hit_strand": "Minus",
+                  "align_len": 63,
+                  "gaps": 7,
+                  "qseq": "TCCCTCTGTATCTCTGTGGTGTG-Gggagaggaggagagaggaggagagaggagagagagaga",
+                  "hseq": "TCCCTCTGTATGTGTGT-GTGTGAGTGGGAGTAAGAGAGA----GAGAGA-GAGAGAGAGAGA",
+                  "midline": "||||||||||| | ||| ||||| | | ||| | ||||||    |||||| ||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "gi|110744004|gb|AC189219.1|",
+                  "accession": "AC189219",
+                  "title": "Brassica rapa subsp. pekinensis clone KBrB010F19, complete sequence",
+                  "taxid": 51351,
+                  "sciname": "Brassica rapa subsp. pekinensis"
+                }
+              ],
+              "len": 133217,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 38,
+                  "query_from": 5464,
+                  "query_to": 5508,
+                  "query_strand": "Plus",
+                  "hit_from": 101719,
+                  "hit_to": 101674,
+                  "hit_strand": "Minus",
+                  "align_len": 46,
+                  "gaps": 1,
+                  "qseq": "TTCGGGAAGAAAACACTCGGCCATCACCACA-AGACCTACATAACA",
+                  "hseq": "TTTGGGAGGAAAATACTCGGCCTTCATTTCAGAGACCTACATAACA",
+                  "midline": "|| |||| ||||| |||||||| |||   || ||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "gi|47847914|dbj|AP004168.3|",
+                  "accession": "AP004168",
+                  "title": "Oryza sativa Japonica Group genomic DNA, chromosome 2, BAC clone:OJ1756_H07",
+                  "taxid": 39947,
+                  "sciname": "Oryza sativa Japonica Group"
+                }
+              ],
+              "len": 217205,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.5672,
+                  "score": 48,
+                  "evalue": 2.24632,
+                  "identity": 76,
+                  "query_from": 4044,
+                  "query_to": 4137,
+                  "query_strand": "Plus",
+                  "hit_from": 85184,
+                  "hit_to": 85284,
+                  "hit_strand": "Plus",
+                  "align_len": 102,
+                  "gaps": 9,
+                  "qseq": "TCGCCTGCCGCTCGTCCCT---CTGT-ATCTCTGTG-GTGTGGggagaggag-gagagag-gaggagagaggagagagagagaggagag-gagaggaggaag",
+                  "hseq": "TCGCCGACCGCTCGTCCCTGCGCTGTCCTCGCCATGCGTGTTGTGCGAGCCGCGAGAGAGAAAAGAGCGA-GAGAGAGAGAGAATAGAGAGAGAGGAAGAAG",
+                  "midline": "|||||  ||||||||||||   ||||  || |  || |||| | | |||  | |||||||  | ||| || ||||||||||||  |||| ||||||| ||||"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 33214894,
+            "db_len": 106427473057,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.41,
+            "lambda": 0.625,
+            "entropy": 0.78
+          }
+        }
+      }
+    }
+  }
+}
