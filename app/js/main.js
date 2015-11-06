@@ -7,7 +7,7 @@ function handleDragOver(e) {
 function handleFileSelect(e, is_dropzone, chart) {
     e.stopPropagation();
     e.preventDefault();
-
+    $('#loading').css("display", "inline");
     var files = is_dropzone ? e.dataTransfer.files : e.target.files;
     for (var i = 0, f; f = files[i]; i++) {
         var reader = new FileReader();

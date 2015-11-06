@@ -46,6 +46,7 @@ function addMapToChart(map, chart) {
 }
 
 function processDataForChart(name, data, chart) {
+    $('#loading').css("display", "none");
     console.log("Adding to chart: " + name + "(" + data[0] + ")");
     if (chartData[name]) {
         // Update the count for the genus with the new map
