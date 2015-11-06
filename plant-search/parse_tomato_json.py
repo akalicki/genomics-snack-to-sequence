@@ -11,6 +11,8 @@ import json
 from collections import defaultdict
 import matplotlib.pyplot as plt
 import numpy as np
+import re
+import pylab as pl
 
 TOMATO_SCI_1 = "Solanum lycopersicum"
 TOMATO_SCI_2 = "Solanum pennellii"
@@ -63,6 +65,52 @@ def create_barchart(values, counts, title, col):
     ax.set_xticklabels(values)
     plt.show()
 
+def sizeLength(seq, lengths):
+    x = [m.start() for m in re.finditer('-', seq)]
+    if len(x)>1:
+        length = 0
+        for i in range(0, len(x)):
+            if (i==len(x)-1 or x[i]!=x[i+1]-1):
+                length += 1
+                if lengths.has_key(length):
+                    lengths[length] += 1
+                else:
+                    lengths[length] = 1
+                length = 0
+            else:
+                length += 1
+    else:
+        if lengths.has_key(1):
+            lengths[1] += 1
+        else:
+            lengths[1] = 1
+    return lengths
+
+def createHistogram(data, title, q, col):
+    X = np.arange(len(data))
+    pl.bar(X, data.values(), align='center', width=0.5, color=col)
+    pl.xticks(X, data.keys())
+    ymax = max(data.values()) + 1
+    pl.ylim(0, ymax)
+    pl.title(title + " (" + q + ")")
+    pl.ylabel("Frequency")
+    pl.xlabel("Lengths of Insertions/Deletions")
+    pl.savefig(title + "-" + q)
+    pl.clf()
+
+def makeLengthDistribution(sequence):
+    insertions = {}
+    deletions = {}
+    for i in sequence:
+        insertions = sizeLength(i[1], insertions) # - in hseq
+        deletions = sizeLength(i[0], deletions) # - in qseq
+    print "insertion length dictionary distribution"
+    print insertions
+    print "deletion length dictionary distribution"
+    print deletions
+    createHistogram(deletions, "Length Distribution", "Deletions", 'r')
+    createHistogram(insertions, "Length Distribution", "Insertions", 'g')
+
 if __name__ == '__main__':
     seqs = []
     with open(sys.argv[1]) as f:
@@ -75,3 +123,4 @@ if __name__ == '__main__':
             print b1 + " " + b2 + " " + str(confusiondict[(b1, b2)])
     confusion = seqs_to_confusion(seqs)
     confusion_to_nucleotides(confusion)
+    makeLengthDistribution(seqs)
