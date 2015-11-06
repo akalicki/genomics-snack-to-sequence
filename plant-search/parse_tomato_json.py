@@ -67,23 +67,17 @@ def create_barchart(values, counts, title, col):
 
 def sizeLength(seq, lengths):
     x = [m.start() for m in re.finditer('-', seq)]
-    if len(x)>1:
-        length = 0
-        for i in range(0, len(x)):
-            if (i==len(x)-1 or x[i]!=x[i+1]-1):
-                length += 1
-                if lengths.has_key(length):
-                    lengths[length] += 1
-                else:
-                    lengths[length] = 1
-                length = 0
+    length = 0
+    for i in range(0, len(x)):
+        if (i==len(x)-1 or x[i]!=x[i+1]-1):
+            length += 1
+            if lengths.has_key(length):
+                lengths[length] += 1
             else:
-                length += 1
-    else:
-        if lengths.has_key(1):
-            lengths[1] += 1
+                lengths[length] = 1
+            length = 0
         else:
-            lengths[1] = 1
+            length += 1
     return lengths
 
 def createHistogram(data, title, q, col):
@@ -94,7 +88,7 @@ def createHistogram(data, title, q, col):
     pl.ylim(0, ymax)
     pl.title(title + " (" + q + ")")
     pl.ylabel("Frequency")
-    pl.xlabel("Lengths of Insertions/Deletions")
+    pl.xlabel("Lengths")
     pl.savefig(title + "-" + q)
     pl.clf()
 
