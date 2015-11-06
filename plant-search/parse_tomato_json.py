@@ -47,8 +47,8 @@ bases = ['A','C','G','T','-']
 def confusion_to_nucleotides(confusion):
     """Takes a confusion array, and prints histogram of nucleotide composition
        for insertions and deletions"""
-    insertions = [ confusion[('-', c)] for c in BASES ]
-    deletions = [ confusion[(c, '-')] for c in BASES ]
+    insertions = [ confusion[(c, '-')] for c in BASES ]
+    deletions = [ confusion[('-', c)] for c in BASES ]
     create_barchart(BASES, insertions, "Nucleotide composition of insertions", 'g')
     create_barchart(BASES, deletions, "Nucleotide composition of deletions", 'r')
 
