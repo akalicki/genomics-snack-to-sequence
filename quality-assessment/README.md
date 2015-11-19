@@ -39,11 +39,11 @@ of the graph by 2 (as each base pair consists of 2 nucleotides).
 
 Cumulative "passed" nucleotides:
 
-![cumulative passed nucleotides](quality-assessment/images/question3_pass.png)
+![cumulative passed nucleotides](images/question3_pass.png)
 
 Cumulative "failed" nucleotides:
 
-![cumulative failed nucleotides](quality-assessment/images/question3_fail.png)
+![cumulative failed nucleotides](images/question3_fail.png)
 
 ### Question 4
 
@@ -98,15 +98,15 @@ the failed and passed folders.
 
 1D Reads
 
-![seq length vs time](quality-assessment/images/1D-Pass.png)
+![seq length vs time](images/1D-Pass.png)
 
-![seq length vs time](quality-assessment/images/1D-Fail.png)
+![seq length vs time](images/1D-Fail.png)
 
 2D Reads
 
-![seq length vs time](quality-assessment/images/2D-Pass.png)
+![seq length vs time](images/2D-Pass.png)
 
-![seq length vs time](quality-assessment/images/2D-Fail.png)
+![seq length vs time](images/2D-Fail.png)
 
 ### Question 7
 
@@ -124,7 +124,7 @@ folder.
 The obtained sequence length over time for 2D reads is plotted below for both
 "passed" and "failed" reads.
 
-![seq length vs time](quality-assessment/images/q8_plot.png)
+![seq length vs time](images/q8_plot.png)
 
 The linear regression had a coefficient of 0.02, an intercept of -29574731.57,
 and an R value of 0.025. There thus appears to be little correlation between
@@ -140,11 +140,11 @@ the plotted graphs significantly skewed the predicted linear fit for the
 
 Pacing for "passed" reads:
 
-![passed read pacing](quality-assessment/images/question9_pass.png)
+![passed read pacing](images/question9_pass.png)
 
 Pacing for "failed" reads:
 
-![failed read pacing](quality-assessment/images/question9_fail.png)
+![failed read pacing](images/question9_fail.png)
 
 ### Question 10
 
